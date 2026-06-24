@@ -1,1 +1,43 @@
+name: Asset Radar - Scan Diário
 
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependências Python
+        run: |
+          pip install -r requirements.txt
+
+      - name: Instalar browser Playwright (Chromium apenas, otimiza tempo/espaço)
+        run: |
+          playwright install --with-deps chromium
+
+      - name: Correr o scan completo
+        run: |
+          python run_scan.py
+        env:
+          OUTPUT_PATH: data/opportunities.json
+
+      - name: Fazer commit dos resultados
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Asset Radar Bot"
+          git add data/opportunities.json
+          git diff --staged --quiet || git commit -m "Scan diário automático — $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
