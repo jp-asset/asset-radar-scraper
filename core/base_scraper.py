@@ -3,8 +3,11 @@ from abc import ABC, abstractmethod
 from core.models import Listing
 from core.http_client import HttpClient, BrowserClient, fetch_with_fallback
 import logging
+import os
 
 log = logging.getLogger("asset_radar")
+
+DEBUG_HTML_DIR = os.environ.get("DEBUG_HTML_DIR")  # se definido, grava HTML bruto para calibração
 
 
 class BaseScraper(ABC):
@@ -26,6 +29,21 @@ class BaseScraper(ABC):
         """Extrai anúncios do HTML devolvido."""
         ...
 
+    def _save_debug_html(self, html: str, url: str):
+        if not DEBUG_HTML_DIR:
+            return
+        try:
+            os.makedirs(DEBUG_HTML_DIR, exist_ok=True)
+            safe_name = self.portal_name.lower().replace(" ", "_").replace(".", "")
+            path = os.path.join(DEBUG_HTML_DIR, f"{safe_name}.html")
+            if not os.path.exists(path):
+                with open(path, "w", encoding="utf-8") as f:
+                    f.write(f"<!-- URL: {url} -->\n")
+                    f.write(html[:500000])
+                log.info(f"[DEBUG] HTML de {self.portal_name} gravado em {path}")
+        except Exception as e:
+            log.warning(f"[DEBUG] falha ao gravar HTML de {self.portal_name}: {e}")
+
     def run(self, zones: list[str]) -> list[Listing]:
         all_listings: list[Listing] = []
         urls = self.build_search_urls(zones)
@@ -34,6 +52,7 @@ class BaseScraper(ABC):
             if not result.success:
                 log.warning(f"[{self.portal_name}] falhou em {url}: {result.blocked_reason}")
                 continue
+            self._save_debug_html(result.html, url)
             try:
                 listings = self.parse_listings(result.html, url)
                 for l in listings:
