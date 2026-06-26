@@ -1,1 +1,78 @@
-{"scanned_at": null, "duration_seconds": 0, "total_opportunities": 0, "source_stats": [], "opportunities": []}
+{
+  "scanned_at": "2026-06-26T15:24:25.131974+00:00",
+  "duration_seconds": 356.1,
+  "total_opportunities": 0,
+  "source_stats": [
+    {
+      "portal": "Mitula",
+      "found": 0,
+      "method": "http"
+    },
+    {
+      "portal": "AutoUncle",
+      "found": 0,
+      "method": "http"
+    },
+    {
+      "portal": "JoliCloset",
+      "found": 0,
+      "method": "http"
+    },
+    {
+      "portal": "Imovirtual",
+      "found": 0,
+      "method": "browser"
+    },
+    {
+      "portal": "Casa Sapo",
+      "found": 0,
+      "method": "browser"
+    },
+    {
+      "portal": "Idealista",
+      "found": 0,
+      "method": "browser"
+    },
+    {
+      "portal": "Custo Justo",
+      "found": 0,
+      "method": "browser"
+    },
+    {
+      "portal": "Properstar",
+      "found": 0,
+      "method": "browser"
+    },
+    {
+      "portal": "OLX",
+      "found": 0,
+      "method": "browser"
+    },
+    {
+      "portal": "AutoScout24",
+      "found": 0,
+      "method": "browser"
+    },
+    {
+      "portal": "Mobile.de",
+      "found": 0,
+      "method": "browser"
+    },
+    {
+      "portal": "Chrono24",
+      "found": 0,
+      "method": "browser"
+    },
+    {
+      "portal": "Watchfinder",
+      "found": 0,
+      "method": "browser"
+    },
+    {
+      "portal": "Catawiki",
+      "found": 0,
+      "method": "browser"
+    }
+  ],
+  "opportunities": []
+}
