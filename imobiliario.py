@@ -3,7 +3,19 @@ from bs4 import BeautifulSoup
 from core.base_scraper import BaseScraper
 from core.models import Listing
 from core.normalize import parse_price, parse_area, clean_text
-from core.config import ZONE_SLUGS
+
+ZONE_SLUGS = {
+    "Lisboa Centro": "lisboa",
+    "Parque das Nações": "lisboa/parque-das-nacoes",
+    "Alvalade": "lisboa/alvalade",
+    "Alcântara": "lisboa/alcantara",
+    "Cascais": "cascais",
+    "Estoril": "cascais/estoril",
+    "Porto Centro": "porto",
+    "Almada": "almada",
+    "Oeiras": "oeiras",
+    "Sintra": "sintra",
+}
 
 
 class ImovirtualScraper(BaseScraper):
@@ -12,31 +24,24 @@ class ImovirtualScraper(BaseScraper):
     needs_browser = True
     BASE_URL = "https://www.imovirtual.com"
 
-    def build_search_urls(self, zones: list[str]) -> list[str]:
-        urls = []
-        for zone in zones:
-            slug = ZONE_SLUGS.get(zone, {}).get("imovirtual", zone.lower().replace(" ", "-"))
-            urls.append(f"{self.BASE_URL}/comprar/apartamento/{slug}/")
-        return urls
+    def build_search_urls(self, zones):
+        return [f"{self.BASE_URL}/comprar/apartamento/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}/" for z in zones]
 
-    def parse_listings(self, html: str, source_url: str) -> list[Listing]:
+    def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
         cards = soup.select("article[data-cy='listing-item']") or soup.select("article")
         zone_guess = source_url.split("/")[-2] if "/" in source_url else None
-
         for card in cards:
             title_el = card.select_one("p[data-cy='listing-item-title']") or card.select_one("h2") or card.select_one("a")
             link_el = card.select_one("a[href]")
             price_el = card.select_one("span[data-cy='listing-item-price']") or card.select_one("[class*='price']")
             area_el = card.select_one("[aria-label*='area']") or card.select_one("[class*='area']")
-
             title = clean_text(title_el.get_text()) if title_el else ""
             href = link_el["href"] if link_el and link_el.get("href") else ""
             url = href if href.startswith("http") else f"{self.BASE_URL}{href}"
             price = parse_price(price_el.get_text()) if price_el else None
             area = parse_area(area_el.get_text()) if area_el else None
-
             if not title or not url:
                 continue
             listings.append(Listing(
@@ -53,10 +58,10 @@ class CasaSapoScraper(BaseScraper):
     needs_browser = True
     BASE_URL = "https://casa.sapo.pt"
 
-    def build_search_urls(self, zones: list[str]) -> list[str]:
-        return [f"{self.BASE_URL}/comprar-apartamentos/{z.lower().replace(' ', '-')}/" for z in zones]
+    def build_search_urls(self, zones):
+        return [f"{self.BASE_URL}/comprar-apartamentos/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}/" for z in zones]
 
-    def parse_listings(self, html: str, source_url: str) -> list[Listing]:
+    def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
         for card in soup.select("div.property-list-item") or soup.select("article"):
@@ -85,10 +90,10 @@ class IdealistaScraper(BaseScraper):
     needs_browser = True
     BASE_URL = "https://www.idealista.pt"
 
-    def build_search_urls(self, zones: list[str]) -> list[str]:
-        return [f"{self.BASE_URL}/comprar-casas/{z.lower().replace(' ', '-')}/" for z in zones]
+    def build_search_urls(self, zones):
+        return [f"{self.BASE_URL}/comprar-casas/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}/" for z in zones]
 
-    def parse_listings(self, html: str, source_url: str) -> list[Listing]:
+    def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
         for card in soup.select("article.item") or soup.select("article"):
@@ -116,10 +121,10 @@ class CustoJustoScraper(BaseScraper):
     needs_browser = True
     BASE_URL = "https://www.custojusto.pt"
 
-    def build_search_urls(self, zones: list[str]) -> list[str]:
-        return [f"{self.BASE_URL}/{z.lower().replace(' ', '-')}/imobiliario" for z in zones]
+    def build_search_urls(self, zones):
+        return [f"{self.BASE_URL}/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}/imobiliario" for z in zones]
 
-    def parse_listings(self, html: str, source_url: str) -> list[Listing]:
+    def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
         for card in soup.select("article") or soup.select(".item-ad"):
@@ -146,10 +151,10 @@ class ProperstarScraper(BaseScraper):
     needs_browser = True
     BASE_URL = "https://www.properstar.pt"
 
-    def build_search_urls(self, zones: list[str]) -> list[str]:
+    def build_search_urls(self, zones):
         return [f"{self.BASE_URL}/portugal/comprar/apartamento"]
 
-    def parse_listings(self, html: str, source_url: str) -> list[Listing]:
+    def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
         for card in soup.select("[data-test='listing-card']") or soup.select("article"):
@@ -178,10 +183,10 @@ class MitulaScraper(BaseScraper):
     needs_browser = True
     BASE_URL = "https://www.mitula.pt"
 
-    def build_search_urls(self, zones: list[str]) -> list[str]:
-        return [f"{self.BASE_URL}/imoveis/{z.lower().replace(' ', '-')}" for z in zones]
+    def build_search_urls(self, zones):
+        return [f"{self.BASE_URL}/imoveis/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}" for z in zones]
 
-    def parse_listings(self, html: str, source_url: str) -> list[Listing]:
+    def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
         for card in soup.select("article") or soup.select(".item"):
