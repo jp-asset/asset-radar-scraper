@@ -1,136 +1,101 @@
-"""
-Asset Radar — Orquestrador principal do scan diário.
-"""
-import json
-import logging
-import os
-import sys
-from datetime import datetime, timezone
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-from core.http_client import HttpClient, BrowserClient
-from core.config import ZONE_PRICES_DEFAULT
+"""Scrapers de imobiliário: Imovirtual, Casa Sapo, Idealista, Custo Justo, Properstar, Mitula."""
+from bs4 import BeautifulSoup
+from core.base_scraper import BaseScraper
 from core.models import Listing
+from core.normalize import parse_price, parse_area, clean_text
 
-from scrapers.imobiliario import (
-    ImovirtualScraper, CasaSapoScraper, IdealistaScraper,
-    CustoJustoScraper, ProperstarScraper, MitulaScraper,
-)
-from scrapers.diversos import (
-    OLXScraper, AutoScout24Scraper, MobileDeScraper, AutoUncleScraper,
-    Chrono24Scraper, WatchfinderScraper, JoliClosetScraper, CatawikiScraper,
-)
-
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-log = logging.getLogger("asset_radar")
-
-ZONES = list(ZONE_PRICES_DEFAULT.keys())
-
-ALL_SCRAPER_CLASSES = [
-    ImovirtualScraper, CasaSapoScraper, IdealistaScraper,
-    CustoJustoScraper, ProperstarScraper, MitulaScraper,
-    OLXScraper, AutoScout24Scraper, MobileDeScraper, AutoUncleScraper,
-    Chrono24Scraper, WatchfinderScraper, JoliClosetScraper, CatawikiScraper,
-]
-
-OUTPUT_PATH = os.environ.get("OUTPUT_PATH", "data/opportunities.json")
+ZONE_SLUGS = {
+    "Lisboa Centro": "lisboa",
+    "Parque das Nações": "lisboa/parque-das-nacoes",
+    "Alvalade": "lisboa/alvalade",
+    "Alcântara": "lisboa/alcantara",
+    "Cascais": "cascais",
+    "Estoril": "cascais/estoril",
+    "Porto Centro": "porto",
+    "Almada": "almada",
+    "Oeiras": "oeiras",
+    "Sintra": "sintra",
+}
 
 
-def compute_market_estimate(listing: Listing) -> None:
-    if listing.category == "imovel" and listing.zone and listing.area_m2:
-        ppm2 = ZONE_PRICES_DEFAULT.get(listing.zone)
-        if ppm2:
-            listing.market_estimate = ppm2 * listing.area_m2
-    elif listing.price and not listing.market_estimate:
-        listing.market_estimate = listing.price * 1.15
+class ImovirtualScraper(BaseScraper):
+    portal_name = "Imovirtual"
+    category = "imovel"
+    needs_browser = True
+    BASE_URL = "https://www.imovirtual.com"
+
+    def build_search_urls(self, zones: list[str]) -> list[str]:
+        return [f"{self.BASE_URL}/comprar/apartamento/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}/" for z in zones]
+
+    def parse_listings(self, html: str, source_url: str) -> list[Listing]:
+        soup = BeautifulSoup(html, "html.parser")
+        listings = []
+        cards = soup.select("article[data-cy='listing-item']") or soup.select("article")
+        zone_guess = source_url.split("/")[-2] if "/" in source_url else None
+        for card in cards:
+            title_el = card.select_one("p[data-cy='listing-item-title']") or card.select_one("h2") or card.select_one("a")
+            link_el = card.select_one("a[href]")
+            price_el = card.select_one("span[data-cy='listing-item-price']") or card.select_one("[class*='price']")
+            area_el = card.select_one("[aria-label*='area']") or card.select_one("[class*='area']")
+            title = clean_text(title_el.get_text()) if title_el else ""
+            href = link_el["href"] if link_el and link_el.get("href") else ""
+            url = href if href.startswith("http") else f"{self.BASE_URL}{href}"
+            price = parse_price(price_el.get_text()) if price_el else None
+            area = parse_area(area_el.get_text()) if area_el else None
+            if not title or not url:
+                continue
+            listings.append(Listing(
+                portal=self.portal_name, category=self.category, external_id=url,
+                title=title, price=price, market_estimate=None, currency="EUR",
+                url=url, zone=zone_guess, area_m2=area, details={"fonte_raw": "imovirtual"},
+            ))
+        return listings
 
 
-def run_full_scan() -> dict:
-    started_at = datetime.now(timezone.utc)
-    http_client = HttpClient()
-    all_listings: list[Listing] = []
-    source_stats = []
+class CasaSapoScraper(BaseScraper):
+    portal_name = "Casa Sapo"
+    category = "imovel"
+    needs_browser = True
+    BASE_URL = "https://casa.sapo.pt"
 
-    needs_browser_classes = [c for c in ALL_SCRAPER_CLASSES if c.needs_browser]
-    no_browser_classes = [c for c in ALL_SCRAPER_CLASSES if not c.needs_browser]
+    def build_search_urls(self, zones: list[str]) -> list[str]:
+        return [f"{self.BASE_URL}/comprar-apartamentos/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}/" for z in zones]
 
-    log.info("=== FASE 1: scrapers HTTP simples ===")
-    for cls in no_browser_classes:
-        scraper = cls(http_client=http_client, browser=None)
-        try:
-            results = scraper.run(ZONES)
-            for l in results:
-                compute_market_estimate(l)
-                l.compute_score()
-            all_listings.extend(results)
-            source_stats.append({"portal": cls.portal_name, "found": len(results), "method": "http"})
-            log.info(f"[{cls.portal_name}] {len(results)} anúncios (HTTP simples)")
-        except Exception as e:
-            log.error(f"[{cls.portal_name}] falhou: {e}")
-            source_stats.append({"portal": cls.portal_name, "found": 0, "method": "http", "error": str(e)})
-
-    log.info("=== FASE 2: scrapers com browser (Playwright) ===")
-    if needs_browser_classes:
-        try:
-            with BrowserClient(headless=True) as browser:
-                for cls in needs_browser_classes:
-                    scraper = cls(http_client=http_client, browser=browser)
-                    try:
-                        results = scraper.run(ZONES)
-                        for l in results:
-                            compute_market_estimate(l)
-                            l.compute_score()
-                        all_listings.extend(results)
-                        source_stats.append({"portal": cls.portal_name, "found": len(results), "method": "browser"})
-                        log.info(f"[{cls.portal_name}] {len(results)} anúncios (browser)")
-                    except Exception as e:
-                        log.error(f"[{cls.portal_name}] falhou: {e}")
-                        source_stats.append({"portal": cls.portal_name, "found": 0, "method": "browser", "error": str(e)})
-        except Exception as e:
-            log.error(f"Não foi possível iniciar o browser Playwright: {e}")
-            for cls in needs_browser_classes:
-                source_stats.append({"portal": cls.portal_name, "found": 0, "method": "browser", "error": "browser_unavailable"})
-
-    finished_at = datetime.now(timezone.utc)
-    duration_s = (finished_at - started_at).total_seconds()
-
-    seen_urls = set()
-    unique_listings = []
-    for l in sorted(all_listings, key=lambda x: x.score, reverse=True):
-        if l.url in seen_urls:
-            continue
-        seen_urls.add(l.url)
-        unique_listings.append(l)
-
-    output = {
-        "scanned_at": started_at.isoformat(),
-        "duration_seconds": round(duration_s, 1),
-        "total_opportunities": len(unique_listings),
-        "source_stats": source_stats,
-        "opportunities": [l.to_dict() for l in unique_listings],
-    }
-
-    log.info(f"=== SCAN COMPLETO: {len(unique_listings)} oportunidades únicas em {duration_s:.1f}s ===")
-    return output
+    def parse_listings(self, html: str, source_url: str) -> list[Listing]:
+        soup = BeautifulSoup(html, "html.parser")
+        listings = []
+        for card in soup.select("div.property-list-item") or soup.select("article"):
+            title_el = card.select_one(".property-title") or card.select_one("h2")
+            link_el = card.select_one("a[href]")
+            price_el = card.select_one(".property-price") or card.select_one("[class*='price']")
+            area_el = card.select_one("[class*='area']")
+            title = clean_text(title_el.get_text()) if title_el else ""
+            href = link_el["href"] if link_el and link_el.get("href") else ""
+            url = href if href.startswith("http") else f"{self.BASE_URL}{href}"
+            price = parse_price(price_el.get_text()) if price_el else None
+            area = parse_area(area_el.get_text()) if area_el else None
+            if not title or not url:
+                continue
+            listings.append(Listing(
+                portal=self.portal_name, category=self.category, external_id=url,
+                title=title, price=price, market_estimate=None, currency="EUR",
+                url=url, area_m2=area, details={"fonte_raw": "casasapo"},
+            ))
+        return listings
 
 
-def main():
-    result = run_full_scan()
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
-    log.info(f"Resultado gravado em {OUTPUT_PATH}")
+class IdealistaScraper(BaseScraper):
+    portal_name = "Idealista"
+    category = "imovel"
+    needs_browser = True
+    BASE_URL = "https://www.idealista.pt"
 
-    print("\n" + "=" * 60)
-    print(f"SCAN DIÁRIO — {result['scanned_at']}")
-    print(f"Total: {result['total_opportunities']} oportunidades")
-    print("=" * 60)
-    for s in result["source_stats"]:
-        status = f"erro: {s['error']}" if s.get("error") else f"{s['found']} anúncios"
-        print(f"  {s['portal']:25s} [{s['method']:7s}] {status}")
-    print("=" * 60)
+    def build_search_urls(self, zones: list[str]) -> list[str]:
+        return [f"{self.BASE_URL}/comprar-casas/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}/" for z in zones]
 
-
-if __name__ == "__main__":
-    main()
+    def parse_listings(self, html: str, source_url: str) -> list[Listing]:
+        soup = BeautifulSoup(html, "html.parser")
+        listings = []
+        for card in soup.select("article.item") or soup.select("article"):
+            title_el = card.select_one("a.item-link")
+            price_el =
