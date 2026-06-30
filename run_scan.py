@@ -1,15 +1,5 @@
 """
 Asset Radar — Orquestrador principal do scan diário.
-
-Estratégia de otimização de custo/recursos:
-1. Corre primeiro TODOS os scrapers só com HttpClient (rápido, sem browser).
-2. Só abre UM browser Playwright (reutilizado entre fontes) para as fontes que
-   falharam com 'js_challenge' — em vez de abrir/fechar browser por fonte.
-3. Fecha o browser assim que todas as fontes-fallback terminam.
-4. Grava o resultado final num único ficheiro JSON, versionado no git.
-
-Isto significa: o custo computacional caro (browser Chromium) só é pago
-pelas fontes que realmente precisam, e só uma vez por scan (não por scraper).
 """
 import json
 import logging
@@ -17,21 +7,20 @@ import os
 import sys
 from datetime import datetime, timezone
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from core.http_client import HttpClient, BrowserClient, fetch_with_fallback
+from core.http_client import HttpClient, BrowserClient
 from core.config import ZONE_PRICES_DEFAULT
 from core.models import Listing
 
-from scrapers.imovirtual import ImovirtualScraper
-from scrapers.casasapo import CasaSapoScraper
-from scrapers.idealista import IdealistaScraper
-from scrapers.autoscout24 import AutoScout24Scraper
-from scrapers.chrono24 import Chrono24Scraper
-from scrapers.catawiki import CatawikiScraper
-from scrapers.jolicloset import JoliClosetScraper
-from scrapers.imobiliario_secundario import CustoJustoScraper, ProperstarScraper, MitulaScraper
-from scrapers.diversos import OLXScraper, WatchfinderScraper, MobileDeScraper, AutoUncleScraper
+from scrapers.imobiliario import (
+    ImovirtualScraper, CasaSapoScraper, IdealistaScraper,
+    CustoJustoScraper, ProperstarScraper, MitulaScraper,
+)
+from scrapers.diversos import (
+    OLXScraper, AutoScout24Scraper, MobileDeScraper, AutoUncleScraper,
+    Chrono24Scraper, WatchfinderScraper, JoliClosetScraper, CatawikiScraper,
+)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger("asset_radar")
@@ -42,21 +31,18 @@ ALL_SCRAPER_CLASSES = [
     ImovirtualScraper, CasaSapoScraper, IdealistaScraper,
     CustoJustoScraper, ProperstarScraper, MitulaScraper,
     OLXScraper, AutoScout24Scraper, MobileDeScraper, AutoUncleScraper,
-    Chrono24Scraper, WatchfinderScraper,
-    JoliClosetScraper, CatawikiScraper,
+    Chrono24Scraper, WatchfinderScraper, JoliClosetScraper, CatawikiScraper,
 ]
 
 OUTPUT_PATH = os.environ.get("OUTPUT_PATH", "data/opportunities.json")
 
 
 def compute_market_estimate(listing: Listing) -> None:
-    """Preenche market_estimate para imóveis usando preço/m² de referência por zona."""
     if listing.category == "imovel" and listing.zone and listing.area_m2:
         ppm2 = ZONE_PRICES_DEFAULT.get(listing.zone)
         if ppm2:
             listing.market_estimate = ppm2 * listing.area_m2
     elif listing.price and not listing.market_estimate:
-        # Para categorias sem zona (relógios, carros, arte, moda): estimativa conservadora
         listing.market_estimate = listing.price * 1.15
 
 
@@ -66,13 +52,11 @@ def run_full_scan() -> dict:
     all_listings: list[Listing] = []
     source_stats = []
 
-    # FASE 1 — todos os scrapers que NÃO precisam de browser (rápido, barato)
+    needs_browser_classes = [c for c in ALL_SCRAPER_CLASSES if c.needs_browser]
+    no_browser_classes = [c for c in ALL_SCRAPER_CLASSES if not c.needs_browser]
+
     log.info("=== FASE 1: scrapers HTTP simples ===")
-    needs_browser_classes = []
-    for cls in ALL_SCRAPER_CLASSES:
-        if cls.needs_browser:
-            needs_browser_classes.append(cls)
-            continue
+    for cls in no_browser_classes:
         scraper = cls(http_client=http_client, browser=None)
         try:
             results = scraper.run(ZONES)
@@ -86,7 +70,6 @@ def run_full_scan() -> dict:
             log.error(f"[{cls.portal_name}] falhou: {e}")
             source_stats.append({"portal": cls.portal_name, "found": 0, "method": "http", "error": str(e)})
 
-    # FASE 2 — scrapers que precisam de browser (mais caro — um browser só, reutilizado)
     log.info("=== FASE 2: scrapers com browser (Playwright) ===")
     if needs_browser_classes:
         try:
@@ -112,7 +95,6 @@ def run_full_scan() -> dict:
     finished_at = datetime.now(timezone.utc)
     duration_s = (finished_at - started_at).total_seconds()
 
-    # Remove duplicados (mesma URL = mesmo anúncio)
     seen_urls = set()
     unique_listings = []
     for l in sorted(all_listings, key=lambda x: x.score, reverse=True):
@@ -140,7 +122,6 @@ def main():
         json.dump(result, f, ensure_ascii=False, indent=2)
     log.info(f"Resultado gravado em {OUTPUT_PATH}")
 
-    # Resumo legível para os logs do GitHub Actions
     print("\n" + "=" * 60)
     print(f"SCAN DIÁRIO — {result['scanned_at']}")
     print(f"Total: {result['total_opportunities']} oportunidades")
