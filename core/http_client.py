@@ -1,15 +1,18 @@
 """
 Core HTTP/Browser client para o Asset Radar Scraper Engine.
 
-Estratégia de custo zero:
-- Tenta sempre primeiro `requests` simples (mais rápido, sem custo de recursos)
-- Sobe para Playwright + stealth apenas quando o site exige JS (challenge detetado)
-- Nunca usa serviços pagos — playwright-stealth é open source e gratuito
+CORREÇÃO IMPORTANTE (encoding):
+O `requests` por vezes adivinha mal o encoding de texto (ex: assume ISO-8859-1
+em vez de UTF-8) em respostas que não declaram charset explícito no header
+Content-Type. Isto causa perda IRREVERSÍVEL de bytes ao converter para string.
+
+A correção: forçar sempre response.encoding = response.apparent_encoding
+(deteção real do encoding pelo conteúdo) antes de aceder a response.text.
 """
 import time
 import random
 import logging
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Optional
 
 import requests
@@ -39,10 +42,25 @@ class FetchResult:
     url: str
     status: int
     html: str = ""
-    method: str = "http"  # "http" ou "browser"
+    method: str = "http"
     success: bool = False
     blocked_reason: Optional[str] = None
     elapsed_ms: int = 0
+
+
+def safe_decode_response(resp: requests.Response) -> str:
+    """
+    Decodifica a resposta HTTP de forma segura, evitando corrupção de bytes.
+    """
+    if resp.encoding is None or resp.encoding.lower() in ("iso-8859-1", "ascii"):
+        detected = resp.apparent_encoding
+        if detected:
+            resp.encoding = detected
+    try:
+        return resp.text
+    except (UnicodeDecodeError, LookupError):
+        log.warning(f"[ENCODING] fallback forçado para utf-8 em {resp.url}")
+        return resp.content.decode("utf-8", errors="replace")
 
 
 class HttpClient:
@@ -63,16 +81,20 @@ class HttpClient:
         try:
             resp = self.session.get(url, timeout=20, allow_redirects=True)
             elapsed = int((time.time() - start) * 1000)
-            html_lower = resp.text.lower()
+            html = safe_decode_response(resp)
+            html_lower = html.lower()
             has_challenge = any(sig in html_lower for sig in CHALLENGE_SIGNALS)
 
             if resp.status_code in (403, 429):
-                return FetchResult(url, resp.status_code, resp.text, "http", False,
+                return FetchResult(url, resp.status_code, html, "http", False,
                                     f"http_{resp.status_code}", elapsed)
             if has_challenge:
-                return FetchResult(url, resp.status_code, resp.text, "http", False,
+                return FetchResult(url, resp.status_code, html, "http", False,
                                     "js_challenge", elapsed)
-            return FetchResult(url, resp.status_code, resp.text, "http", True, None, elapsed)
+            if len(html) < 500:
+                return FetchResult(url, resp.status_code, html, "http", False,
+                                    "resposta_demasiado_curta", elapsed)
+            return FetchResult(url, resp.status_code, html, "http", True, None, elapsed)
         except Exception as e:
             elapsed = int((time.time() - start) * 1000)
             return FetchResult(url, 0, "", "http", False, f"erro:{e}", elapsed)
@@ -81,8 +103,7 @@ class HttpClient:
 class BrowserClient:
     """
     Fallback com Playwright + stealth — só usado quando HttpClient falha
-    com 'js_challenge'. Mais lento e mais pesado, por isso é a segunda opção,
-    nunca a primeira (otimização de custo/tempo de execução).
+    com 'js_challenge' ou resposta demasiado curta.
     """
 
     def __init__(self, headless=True):
@@ -100,7 +121,6 @@ class BrowserClient:
             locale="pt-PT",
             viewport={"width": 1366, "height": 850},
         )
-        # Stealth patches básicos (gratuitos, sem dependência paga)
         self._context.add_init_script("""
             Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
             Object.defineProperty(navigator, 'languages', { get: () => ['pt-PT', 'pt', 'en'] });
@@ -122,7 +142,6 @@ class BrowserClient:
         page = self._context.new_page()
         try:
             resp = page.goto(url, timeout=25000, wait_until="domcontentloaded")
-            # Pacing humano + tempo para challenge JS resolver (Cloudflare等 auto-passa em alguns casos)
             page.wait_for_timeout(wait_ms + random.randint(-500, 1500))
             if wait_selector:
                 try:
@@ -139,6 +158,8 @@ class BrowserClient:
                 return FetchResult(url, status, html, "browser", False, "js_challenge_persistente", elapsed)
             if status in (403, 429):
                 return FetchResult(url, status, html, "browser", False, f"http_{status}", elapsed)
+            if len(html) < 500:
+                return FetchResult(url, status, html, "browser", False, "resposta_demasiado_curta", elapsed)
             return FetchResult(url, status, html, "browser", True, None, elapsed)
         except Exception as e:
             elapsed = int((time.time() - start) * 1000)
@@ -149,21 +170,17 @@ class BrowserClient:
 
 def fetch_with_fallback(url: str, http_client: HttpClient, browser: Optional[BrowserClient] = None,
                           wait_selector: Optional[str] = None) -> FetchResult:
-    """
-    Estratégia de custo otimizado:
-    1. Tenta HTTP simples (rápido, ~0.5-2s, sem overhead de browser)
-    2. Só sobe para Playwright se houver challenge JS (lento, ~5-10s, mais recursos)
-    """
     result = http_client.fetch(url)
     if result.success:
-        log.info(f"✓ {url} — HTTP simples bastou ({result.elapsed_ms}ms)")
+        log.info(f"✓ {url} — HTTP simples bastou ({result.elapsed_ms}ms, {len(result.html)} bytes)")
         return result
 
-    if result.blocked_reason == "js_challenge" and browser is not None:
-        log.info(f"⚠ {url} — JS challenge detetado, a tentar com browser...")
+    needs_browser_fallback = result.blocked_reason in ("js_challenge", "resposta_demasiado_curta")
+    if needs_browser_fallback and browser is not None:
+        log.info(f"⚠ {url} — {result.blocked_reason}, a tentar com browser...")
         browser_result = browser.fetch(url, wait_selector=wait_selector)
         if browser_result.success:
-            log.info(f"✓ {url} — resolvido via browser ({browser_result.elapsed_ms}ms)")
+            log.info(f"✓ {url} — resolvido via browser ({browser_result.elapsed_ms}ms, {len(browser_result.html)} bytes)")
         else:
             log.warning(f"✕ {url} — falhou mesmo com browser: {browser_result.blocked_reason}")
         return browser_result
