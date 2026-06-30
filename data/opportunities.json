@@ -1,23 +1,8 @@
 {
-  "scanned_at": "2026-06-30T16:23:03.881724+00:00",
-  "duration_seconds": 354.9,
+  "scanned_at": "2026-06-30T19:10:09.468102+00:00",
+  "duration_seconds": 404.8,
   "total_opportunities": 0,
   "source_stats": [
-    {
-      "portal": "Mitula",
-      "found": 0,
-      "method": "http"
-    },
-    {
-      "portal": "AutoUncle",
-      "found": 0,
-      "method": "http"
-    },
-    {
-      "portal": "JoliCloset",
-      "found": 0,
-      "method": "http"
-    },
     {
       "portal": "Imovirtual",
       "found": 0,
@@ -44,6 +29,11 @@
       "method": "browser"
     },
     {
+      "portal": "Mitula",
+      "found": 0,
+      "method": "browser"
+    },
+    {
       "portal": "OLX",
       "found": 0,
       "method": "browser"
@@ -59,12 +49,22 @@
       "method": "browser"
     },
     {
+      "portal": "AutoUncle",
+      "found": 0,
+      "method": "browser"
+    },
+    {
       "portal": "Chrono24",
       "found": 0,
       "method": "browser"
     },
     {
       "portal": "Watchfinder",
+      "found": 0,
+      "method": "browser"
+    },
+    {
+      "portal": "JoliCloset",
       "found": 0,
       "method": "browser"
     },
