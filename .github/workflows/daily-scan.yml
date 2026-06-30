@@ -50,4 +50,10 @@ jobs:
           git config --local user.name "Asset Radar Bot"
           git add data/opportunities.json
           git diff --staged --quiet || git commit -m "Scan diário automático — $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+
+          # Retry com pull --rebase para evitar falha por conflito com outra execução
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && break
+            echo "Tentativa $i falhou, a repetir..."
+            sleep 5
+          done
