@@ -24,16 +24,13 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Instalar browser Playwright (Chromium apenas, otimiza tempo/espaço)
-        run: |
-          playwright install --with-deps chromium
-
       - name: Correr o scan completo
         run: |
           python run_scan.py
         env:
           OUTPUT_PATH: data/opportunities.json
           DEBUG_HTML_DIR: debug_html
+          SCRAPFLY_API_KEY: ${{ secrets.SCRAPFLY_API_KEY }}
 
       - name: Guardar amostras de HTML para calibração (artifact temporário)
         if: always()
@@ -50,8 +47,6 @@ jobs:
           git config --local user.name "Asset Radar Bot"
           git add data/opportunities.json
           git diff --staged --quiet || git commit -m "Scan diário automático — $(date -u +'%Y-%m-%d %H:%M UTC')"
-
-          # Retry com pull --rebase para evitar falha por conflito com outra execução
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin main && break
             echo "Tentativa $i falhou, a repetir..."
