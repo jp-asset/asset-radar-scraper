@@ -1,189 +1,120 @@
 """
-Core HTTP/Browser client para o Asset Radar Scraper Engine.
-
-CORREÇÃO IMPORTANTE (encoding):
-O `requests` por vezes adivinha mal o encoding de texto (ex: assume ISO-8859-1
-em vez de UTF-8) em respostas que não declaram charset explícito no header
-Content-Type. Isto causa perda IRREVERSÍVEL de bytes ao converter para string.
-
-A correção: forçar sempre response.encoding = response.apparent_encoding
-(deteção real do encoding pelo conteúdo) antes de aceder a response.text.
+Core HTTP client para o Asset Radar Scraper Engine.
+ 
+Usa o Scrapfly como camada de transporte — resolve automaticamente:
+- Proxies residenciais rotativos (IPs limpos, não de datacenter)
+- Anti-bot bypass (DataDome, Cloudflare, Akamai)
+- JavaScript rendering quando necessário
+- TLS fingerprinting correto
+ 
+A API key é lida da variável de ambiente SCRAPFLY_API_KEY.
 """
 import time
-import random
 import logging
+import os
 from dataclasses import dataclass
 from typing import Optional
-
-import requests
-
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+ 
 log = logging.getLogger("asset_radar")
-
-DEFAULT_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "pt-PT,pt;q=0.9,en;q=0.8",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-}
-
+ 
 CHALLENGE_SIGNALS = [
     "datadome", "cf-challenge", "cloudflare", "are you human",
     "captcha", "unusual traffic", "access denied",
     "verifying you are human", "checking your browser", "just a moment",
 ]
-
-
+ 
+ 
 @dataclass
 class FetchResult:
     url: str
     status: int
     html: str = ""
-    method: str = "http"
+    method: str = "scrapfly"
     success: bool = False
     blocked_reason: Optional[str] = None
     elapsed_ms: int = 0
-
-
-def safe_decode_response(resp: requests.Response) -> str:
+ 
+ 
+class ScrapflyClient:
     """
-    Decodifica a resposta HTTP de forma segura, evitando corrupção de bytes.
+    Cliente Scrapfly — substitui HttpClient + BrowserClient.
+    Um único cliente lida com todos os sites, com ou sem JS rendering.
     """
-    if resp.encoding is None or resp.encoding.lower() in ("iso-8859-1", "ascii"):
-        detected = resp.apparent_encoding
-        if detected:
-            resp.encoding = detected
-    try:
-        return resp.text
-    except (UnicodeDecodeError, LookupError):
-        log.warning(f"[ENCODING] fallback forçado para utf-8 em {resp.url}")
-        return resp.content.decode("utf-8", errors="replace")
-
-
-class HttpClient:
-    """Pedido HTTP simples — primeira tentativa, mais barata."""
-
-    def __init__(self, min_delay=1.5, max_delay=4.0):
-        self.session = requests.Session()
-        self.session.headers.update(DEFAULT_HEADERS)
-        self.min_delay = min_delay
-        self.max_delay = max_delay
-
-    def _pace(self):
-        time.sleep(random.uniform(self.min_delay, self.max_delay))
-
-    def fetch(self, url: str) -> FetchResult:
+ 
+    def __init__(self, api_key: Optional[str] = None):
+        self.api_key = api_key or os.environ.get("SCRAPFLY_API_KEY", "")
+        if not self.api_key:
+            raise ValueError("SCRAPFLY_API_KEY não definida. Configura nas variáveis de ambiente do GitHub Actions.")
+        from scrapfly import ScrapflyClient as _Client
+        self._client = _Client(key=self.api_key)
+ 
+    def fetch(self, url: str, render_js: bool = True, country: str = "PT") -> FetchResult:
         start = time.time()
-        self._pace()
         try:
-            resp = self.session.get(url, timeout=20, allow_redirects=True)
+            from scrapfly import ScrapeConfig
+            result = self._client.scrape(ScrapeConfig(
+                url=url,
+                asp=True,           # Anti-Scraping Protection bypass
+                render_js=render_js,
+                country=country,
+                retry=False,
+            ))
             elapsed = int((time.time() - start) * 1000)
-            html = safe_decode_response(resp)
+            html = result.scrape_result.get("content", "")
+            status = result.result.get("status_code", 0)
             html_lower = html.lower()
             has_challenge = any(sig in html_lower for sig in CHALLENGE_SIGNALS)
-
-            if resp.status_code in (403, 429):
-                return FetchResult(url, resp.status_code, html, "http", False,
-                                    f"http_{resp.status_code}", elapsed)
+ 
             if has_challenge:
-                return FetchResult(url, resp.status_code, html, "http", False,
-                                    "js_challenge", elapsed)
+                log.warning(f"[Scrapfly] challenge detetado em {url}")
+                return FetchResult(url, status, html, "scrapfly", False, "challenge", elapsed)
+            if status in (403, 429):
+                return FetchResult(url, status, html, "scrapfly", False, f"http_{status}", elapsed)
             if len(html) < 500:
-                return FetchResult(url, resp.status_code, html, "http", False,
-                                    "resposta_demasiado_curta", elapsed)
-            return FetchResult(url, resp.status_code, html, "http", True, None, elapsed)
+                return FetchResult(url, status, html, "scrapfly", False, "resposta_curta", elapsed)
+ 
+            log.info(f"✓ Scrapfly {url} — {status}, {len(html)} bytes, {elapsed}ms")
+            return FetchResult(url, status, html, "scrapfly", True, None, elapsed)
+ 
         except Exception as e:
             elapsed = int((time.time() - start) * 1000)
-            return FetchResult(url, 0, "", "http", False, f"erro:{e}", elapsed)
-
-
+            log.error(f"[Scrapfly] erro em {url}: {e}")
+            return FetchResult(url, 0, "", "scrapfly", False, f"erro:{e}", elapsed)
+ 
+    def close(self):
+        try:
+            self._client.close()
+        except Exception:
+            pass
+ 
+ 
+# Alias para compatibilidade com base_scraper.py
+HttpClient = ScrapflyClient
+ 
+ 
 class BrowserClient:
     """
-    Fallback com Playwright + stealth — só usado quando HttpClient falha
-    com 'js_challenge' ou resposta demasiado curta.
+    Stub de compatibilidade — com Scrapfly não precisamos de browser separado.
+    O ScrapflyClient já lida com JS rendering internamente.
     """
-
     def __init__(self, headless=True):
-        self.headless = headless
-        self._playwright = None
-        self._browser = None
-        self._context = None
-
+        pass
+ 
     def __enter__(self):
-        from playwright.sync_api import sync_playwright
-        self._playwright = sync_playwright().start()
-        self._browser = self._playwright.chromium.launch(headless=self.headless)
-        self._context = self._browser.new_context(
-            user_agent=DEFAULT_HEADERS["User-Agent"],
-            locale="pt-PT",
-            viewport={"width": 1366, "height": 850},
-        )
-        self._context.add_init_script("""
-            Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-            Object.defineProperty(navigator, 'languages', { get: () => ['pt-PT', 'pt', 'en'] });
-            Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3] });
-            window.chrome = { runtime: {} };
-        """)
         return self
-
+ 
     def __exit__(self, *args):
-        if self._context:
-            self._context.close()
-        if self._browser:
-            self._browser.close()
-        if self._playwright:
-            self._playwright.stop()
-
-    def fetch(self, url: str, wait_selector: Optional[str] = None, wait_ms: int = 3500) -> FetchResult:
-        start = time.time()
-        page = self._context.new_page()
-        try:
-            resp = page.goto(url, timeout=25000, wait_until="domcontentloaded")
-            page.wait_for_timeout(wait_ms + random.randint(-500, 1500))
-            if wait_selector:
-                try:
-                    page.wait_for_selector(wait_selector, timeout=8000)
-                except Exception:
-                    pass
-            html = page.content()
-            elapsed = int((time.time() - start) * 1000)
-            html_lower = html.lower()
-            has_challenge = any(sig in html_lower for sig in CHALLENGE_SIGNALS)
-            status = resp.status if resp else 0
-
-            if has_challenge:
-                return FetchResult(url, status, html, "browser", False, "js_challenge_persistente", elapsed)
-            if status in (403, 429):
-                return FetchResult(url, status, html, "browser", False, f"http_{status}", elapsed)
-            if len(html) < 500:
-                return FetchResult(url, status, html, "browser", False, "resposta_demasiado_curta", elapsed)
-            return FetchResult(url, status, html, "browser", True, None, elapsed)
-        except Exception as e:
-            elapsed = int((time.time() - start) * 1000)
-            return FetchResult(url, 0, "", "browser", False, f"erro:{e}", elapsed)
-        finally:
-            page.close()
-
-
-def fetch_with_fallback(url: str, http_client: HttpClient, browser: Optional[BrowserClient] = None,
-                          wait_selector: Optional[str] = None) -> FetchResult:
-    result = http_client.fetch(url)
-    if result.success:
-        log.info(f"✓ {url} — HTTP simples bastou ({result.elapsed_ms}ms, {len(result.html)} bytes)")
-        return result
-
-    needs_browser_fallback = result.blocked_reason in ("js_challenge", "resposta_demasiado_curta")
-    if needs_browser_fallback and browser is not None:
-        log.info(f"⚠ {url} — {result.blocked_reason}, a tentar com browser...")
-        browser_result = browser.fetch(url, wait_selector=wait_selector)
-        if browser_result.success:
-            log.info(f"✓ {url} — resolvido via browser ({browser_result.elapsed_ms}ms, {len(browser_result.html)} bytes)")
-        else:
-            log.warning(f"✕ {url} — falhou mesmo com browser: {browser_result.blocked_reason}")
-        return browser_result
-
-    log.warning(f"✕ {url} — bloqueado: {result.blocked_reason}")
-    return result
+        pass
+ 
+ 
+def fetch_with_fallback(
+    url: str,
+    http_client,
+    browser=None,
+    wait_selector: Optional[str] = None,
+) -> FetchResult:
+    """
+    Com Scrapfly, um único pedido resolve tudo.
+    O parâmetro `browser` é ignorado — mantido para compatibilidade.
+    """
+    return http_client.fetch(url, render_js=True)
