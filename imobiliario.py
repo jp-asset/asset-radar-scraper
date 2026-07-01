@@ -1,9 +1,9 @@
-"""Scrapers de imobiliário: Imovirtual, Casa Sapo, Idealista, Custo Justo, Properstar, Mitula."""
+"""Scrapers de imobiliário."""
 from bs4 import BeautifulSoup
 from core.base_scraper import BaseScraper
 from core.models import Listing
 from core.normalize import parse_price, parse_area, clean_text
-
+ 
 ZONE_SLUGS = {
     "Lisboa Centro": "lisboa",
     "Parque das Nações": "lisboa/parque-das-nacoes",
@@ -16,17 +16,16 @@ ZONE_SLUGS = {
     "Oeiras": "oeiras",
     "Sintra": "sintra",
 }
-
-
+ 
+ 
 class ImovirtualScraper(BaseScraper):
     portal_name = "Imovirtual"
     category = "imovel"
-    needs_browser = True
-    BASE_URL = "https://www.imovirtual.com"
-
+    render_js = True  # React/Next.js
+ 
     def build_search_urls(self, zones):
-        return [f"{self.BASE_URL}/comprar/apartamento/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}/" for z in zones]
-
+        return [f"https://www.imovirtual.com/comprar/apartamento/{ZONE_SLUGS.get(z, z.lower().replace(' ','-'))}/" for z in zones]
+ 
     def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
@@ -39,7 +38,7 @@ class ImovirtualScraper(BaseScraper):
             area_el = card.select_one("[aria-label*='area']") or card.select_one("[class*='area']")
             title = clean_text(title_el.get_text()) if title_el else ""
             href = link_el["href"] if link_el and link_el.get("href") else ""
-            url = href if href.startswith("http") else f"{self.BASE_URL}{href}"
+            url = href if href.startswith("http") else f"https://www.imovirtual.com{href}"
             price = parse_price(price_el.get_text()) if price_el else None
             area = parse_area(area_el.get_text()) if area_el else None
             if not title or not url:
@@ -50,17 +49,16 @@ class ImovirtualScraper(BaseScraper):
                 url=url, zone=zone_guess, area_m2=area, details={"fonte_raw": "imovirtual"},
             ))
         return listings
-
-
+ 
+ 
 class CasaSapoScraper(BaseScraper):
     portal_name = "Casa Sapo"
     category = "imovel"
-    needs_browser = True
-    BASE_URL = "https://casa.sapo.pt"
-
+    render_js = True  # Angular
+ 
     def build_search_urls(self, zones):
-        return [f"{self.BASE_URL}/comprar-apartamentos/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}/" for z in zones]
-
+        return [f"https://casa.sapo.pt/comprar-apartamentos/{ZONE_SLUGS.get(z, z.lower().replace(' ','-'))}/" for z in zones]
+ 
     def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
@@ -71,7 +69,7 @@ class CasaSapoScraper(BaseScraper):
             area_el = card.select_one("[class*='area']")
             title = clean_text(title_el.get_text()) if title_el else ""
             href = link_el["href"] if link_el and link_el.get("href") else ""
-            url = href if href.startswith("http") else f"{self.BASE_URL}{href}"
+            url = href if href.startswith("http") else f"https://casa.sapo.pt{href}"
             price = parse_price(price_el.get_text()) if price_el else None
             area = parse_area(area_el.get_text()) if area_el else None
             if not title or not url:
@@ -82,17 +80,16 @@ class CasaSapoScraper(BaseScraper):
                 url=url, area_m2=area, details={"fonte_raw": "casasapo"},
             ))
         return listings
-
-
+ 
+ 
 class IdealistaScraper(BaseScraper):
     portal_name = "Idealista"
     category = "imovel"
-    needs_browser = True
-    BASE_URL = "https://www.idealista.pt"
-
+    render_js = True  # JS pesado + DataDome
+ 
     def build_search_urls(self, zones):
-        return [f"{self.BASE_URL}/comprar-casas/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}/" for z in zones]
-
+        return [f"https://www.idealista.pt/comprar-casas/{ZONE_SLUGS.get(z, z.lower().replace(' ','-'))}/" for z in zones]
+ 
     def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
@@ -102,7 +99,7 @@ class IdealistaScraper(BaseScraper):
             details_el = card.select_one(".item-detail-char")
             title = clean_text(title_el.get("title", "") or title_el.get_text()) if title_el else ""
             href = title_el["href"] if title_el and title_el.get("href") else ""
-            url = href if href.startswith("http") else f"{self.BASE_URL}{href}"
+            url = href if href.startswith("http") else f"https://www.idealista.pt{href}"
             price = parse_price(price_el.get_text()) if price_el else None
             area = parse_area(details_el.get_text()) if details_el else None
             if not title or not url:
@@ -113,17 +110,16 @@ class IdealistaScraper(BaseScraper):
                 url=url, area_m2=area, details={"fonte_raw": "idealista"},
             ))
         return listings
-
-
+ 
+ 
 class CustoJustoScraper(BaseScraper):
     portal_name = "Custo Justo"
     category = "imovel"
-    needs_browser = True
-    BASE_URL = "https://www.custojusto.pt"
-
+    render_js = False  # HTML simples — 5 créditos
+ 
     def build_search_urls(self, zones):
-        return [f"{self.BASE_URL}/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}/imobiliario" for z in zones]
-
+        return [f"https://www.custojusto.pt/{ZONE_SLUGS.get(z, z.lower().replace(' ','-'))}/imobiliario" for z in zones]
+ 
     def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
@@ -133,7 +129,7 @@ class CustoJustoScraper(BaseScraper):
             price_el = card.select_one("[class*='price']")
             title = clean_text(title_el.get_text()) if title_el else ""
             href = link_el["href"] if link_el and link_el.get("href") else ""
-            url = href if href.startswith("http") else f"{self.BASE_URL}{href}"
+            url = href if href.startswith("http") else f"https://www.custojusto.pt{href}"
             price = parse_price(price_el.get_text()) if price_el else None
             if not title or not url:
                 continue
@@ -143,17 +139,16 @@ class CustoJustoScraper(BaseScraper):
                 url=url, details={"fonte_raw": "custojusto"},
             ))
         return listings
-
-
+ 
+ 
 class ProperstarScraper(BaseScraper):
     portal_name = "Properstar"
     category = "imovel"
-    needs_browser = True
-    BASE_URL = "https://www.properstar.pt"
-
+    render_js = False  # HTML servidor — 5 créditos
+ 
     def build_search_urls(self, zones):
-        return [f"{self.BASE_URL}/portugal/comprar/apartamento"]
-
+        return ["https://www.properstar.pt/portugal/comprar/apartamento"]
+ 
     def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
@@ -164,7 +159,7 @@ class ProperstarScraper(BaseScraper):
             area_el = card.select_one("[class*='surface']")
             title = clean_text(title_el.get_text()) if title_el else ""
             href = link_el["href"] if link_el and link_el.get("href") else ""
-            url = href if href.startswith("http") else f"{self.BASE_URL}{href}"
+            url = href if href.startswith("http") else f"https://www.properstar.pt{href}"
             price = parse_price(price_el.get_text()) if price_el else None
             area = parse_area(area_el.get_text()) if area_el else None
             if not title or not url:
@@ -175,17 +170,16 @@ class ProperstarScraper(BaseScraper):
                 url=url, area_m2=area, details={"fonte_raw": "properstar"},
             ))
         return listings
-
-
+ 
+ 
 class MitulaScraper(BaseScraper):
     portal_name = "Mitula"
     category = "imovel"
-    needs_browser = True
-    BASE_URL = "https://www.mitula.pt"
-
+    render_js = False  # Agregador estático — 5 créditos
+ 
     def build_search_urls(self, zones):
-        return [f"{self.BASE_URL}/imoveis/{ZONE_SLUGS.get(z, z.lower().replace(' ', '-'))}" for z in zones]
-
+        return [f"https://www.mitula.pt/imoveis/{ZONE_SLUGS.get(z, z.lower().replace(' ','-'))}" for z in zones]
+ 
     def parse_listings(self, html, source_url):
         soup = BeautifulSoup(html, "html.parser")
         listings = []
@@ -195,7 +189,7 @@ class MitulaScraper(BaseScraper):
             price_el = card.select_one("[class*='price']")
             title = clean_text(title_el.get_text()) if title_el else ""
             href = link_el["href"] if link_el and link_el.get("href") else ""
-            url = href if href.startswith("http") else f"{self.BASE_URL}{href}"
+            url = href if href.startswith("http") else f"https://www.mitula.pt{href}"
             price = parse_price(price_el.get_text()) if price_el else None
             if not title or not url:
                 continue
@@ -205,3 +199,4 @@ class MitulaScraper(BaseScraper):
                 url=url, details={"fonte_raw": "mitula"},
             ))
         return listings
+ 
