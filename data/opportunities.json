@@ -1,8 +1,48 @@
 {
-  "scanned_at": "2026-07-01T13:57:41.456426+00:00",
-  "duration_seconds": 18.7,
+  "scanned_at": "2026-07-01T14:43:32.467708+00:00",
+  "duration_seconds": 18.6,
   "total_opportunities": 0,
   "source_stats": [
+    {
+      "portal": "OLX",
+      "found": 0,
+      "method": "http"
+    },
+    {
+      "portal": "AutoScout24",
+      "found": 0,
+      "method": "http"
+    },
+    {
+      "portal": "Mobile.de",
+      "found": 0,
+      "method": "http"
+    },
+    {
+      "portal": "AutoUncle",
+      "found": 0,
+      "method": "http"
+    },
+    {
+      "portal": "Chrono24",
+      "found": 0,
+      "method": "http"
+    },
+    {
+      "portal": "Watchfinder",
+      "found": 0,
+      "method": "http"
+    },
+    {
+      "portal": "JoliCloset",
+      "found": 0,
+      "method": "http"
+    },
+    {
+      "portal": "Catawiki",
+      "found": 0,
+      "method": "http"
+    },
     {
       "portal": "Imovirtual",
       "found": 0,
@@ -30,46 +70,6 @@
     },
     {
       "portal": "Mitula",
-      "found": 0,
-      "method": "browser"
-    },
-    {
-      "portal": "OLX",
-      "found": 0,
-      "method": "browser"
-    },
-    {
-      "portal": "AutoScout24",
-      "found": 0,
-      "method": "browser"
-    },
-    {
-      "portal": "Mobile.de",
-      "found": 0,
-      "method": "browser"
-    },
-    {
-      "portal": "AutoUncle",
-      "found": 0,
-      "method": "browser"
-    },
-    {
-      "portal": "Chrono24",
-      "found": 0,
-      "method": "browser"
-    },
-    {
-      "portal": "Watchfinder",
-      "found": 0,
-      "method": "browser"
-    },
-    {
-      "portal": "JoliCloset",
-      "found": 0,
-      "method": "browser"
-    },
-    {
-      "portal": "Catawiki",
       "found": 0,
       "method": "browser"
     }
