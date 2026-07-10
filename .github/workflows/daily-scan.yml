@@ -8,7 +8,7 @@ on:
 jobs:
   scan:
     runs-on: ubuntu-22.04
-    timeout-minutes: 30
+    timeout-minutes: 20
 
     steps:
       - name: Checkout do repositório
@@ -29,17 +29,8 @@ jobs:
           python run_scan.py
         env:
           OUTPUT_PATH: data/opportunities.json
-          DEBUG_HTML_DIR: debug_html
-          SCRAPFLY_API_KEY: ${{ secrets.SCRAPFLY_API_KEY }}
-
-      - name: Guardar amostras de HTML para calibração (artifact temporário)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-html-samples
-          path: debug_html/
-          retention-days: 7
-          if-no-files-found: ignore
+          APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+          MAX_RESULTS_PER_SOURCE: "50"
 
       - name: Fazer commit dos resultados
         run: |
