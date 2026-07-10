@@ -1,4 +1,4 @@
-   """
+"""
 Scrapers manuais via Cheerio Scraper genérico do Apify.
 Apenas compute units (~$0,05/50 páginas) — sem fee de actor.
 Precisam de calibração de seletores quando os sites mudam o HTML.
