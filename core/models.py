@@ -1,4 +1,4 @@
-"""Modelo de dados normalizado — formato único para todas as 15 fontes."""
+"""Modelo de dados normalizado — formato único para todas as fontes."""
 from dataclasses import dataclass, field, asdict
 from typing import Optional
 from datetime import datetime, timezone
@@ -8,7 +8,7 @@ import hashlib
 @dataclass
 class Listing:
     portal: str
-    category: str  # imovel | relogio | carro | moda | arte
+    category: str
     external_id: str
     title: str
     price: Optional[float]
@@ -35,7 +35,6 @@ class Listing:
         self.score = min(97, round(self.discount_pct * self.confidence * 1.8))
 
     def stable_id(self) -> str:
-        """ID estável baseado no URL — usado para detetar duplicados entre scans."""
         return hashlib.sha256(self.url.encode()).hexdigest()[:16]
 
     def to_dict(self) -> dict:
