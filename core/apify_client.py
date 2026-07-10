@@ -15,18 +15,14 @@ Nunca deve aparecer no código ou em logs.
 import os
 import logging
 import time
-from typing import Optional
+from datetime import timedelta
 
 log = logging.getLogger("asset_radar")
 
-# Limite de resultados por fonte — controla o custo do scan
-# Free ($5/mês): 50 → ~$1,15/scan, ~4 scans possíveis
-# Starter ($29/mês): 200 → ~$4,60/scan, ~6 scans/dia possíveis
 MAX_RESULTS_PER_SOURCE = int(os.environ.get("MAX_RESULTS_PER_SOURCE", "50"))
 
 
 def get_apify_client():
-    """Cria cliente Apify autenticado via variável de ambiente."""
     from apify_client import ApifyClient
     api_key = os.environ.get("APIFY_API_KEY", "")
     if not api_key:
@@ -38,17 +34,14 @@ def get_apify_client():
 
 
 def run_actor(actor_id: str, run_input: dict, timeout_secs: int = 120) -> list[dict]:
-    """
-    Corre um actor do Apify marketplace e devolve os resultados como lista de dicts.
-    """
     client = get_apify_client()
     log.info(f"[Apify] A correr actor {actor_id} (max {MAX_RESULTS_PER_SOURCE} resultados)")
     start = time.time()
     try:
         run = client.actor(actor_id).call(
             run_input=run_input,
-            timeout_secs=timeout_secs,
             memory_mbytes=256,
+            wait_duration=timedelta(seconds=timeout_secs),
         )
         dataset_id = run.get("defaultDatasetId")
         if not dataset_id:
@@ -65,11 +58,7 @@ def run_actor(actor_id: str, run_input: dict, timeout_secs: int = 120) -> list[d
 
 
 def run_cheerio_scraper(start_urls: list[str], page_function: str,
-                         timeout_secs: int = 120) -> list[dict]:
-    """
-    Corre o Cheerio Scraper genérico do Apify para fontes sem actor dedicado.
-    Apenas compute units — sem fee de actor. ~$0,05 por 50 páginas.
-    """
+                        timeout_secs: int = 120) -> list[dict]:
     client = get_apify_client()
     log.info(f"[Apify Cheerio] A correr em {len(start_urls)} URLs")
     start = time.time()
@@ -82,8 +71,8 @@ def run_cheerio_scraper(start_urls: list[str], page_function: str,
                 "maxConcurrency": 3,
                 "requestHandlerTimeoutSecs": 30,
             },
-            timeout_secs=timeout_secs,
             memory_mbytes=256,
+            wait_duration=timedelta(seconds=timeout_secs),
         )
         dataset_id = run.get("defaultDatasetId")
         if not dataset_id:
