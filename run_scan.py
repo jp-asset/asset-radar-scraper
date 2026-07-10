@@ -1,5 +1,14 @@
 """
 Asset Radar — Orquestrador principal do scan diário.
+
+Arquitectura:
+- 6 fontes via actors prontos (Imovirtual, Idealista, OLX, AutoScout24, Chrono24, Catawiki)
+- 8 fontes via Cheerio Scraper genérico (Casa Sapo, Custo Justo, Properstar, Mitula,
+  Mobile.de, AutoUncle, Watchfinder, JoliCloset)
+
+Custo estimado por scan:
+- Plano free ($5/mês, MAX_RESULTS=50): ~$1,15/scan → ~4 scans de teste possíveis
+- Plano Starter ($29/mês, MAX_RESULTS=200): ~$4,60/scan → scan diário confortável
 """
 import json
 import logging
@@ -9,88 +18,71 @@ from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from core.http_client import HttpClient, BrowserClient
 from core.config import ZONE_PRICES_DEFAULT
 from core.models import Listing
-
-from scrapers.imobiliario import (
-    ImovirtualScraper, CasaSapoScraper, IdealistaScraper,
-    CustoJustoScraper, ProperstarScraper, MitulaScraper,
-)
-from scrapers.diversos import (
-    OLXScraper, AutoScout24Scraper, MobileDeScraper, AutoUncleScraper,
-    Chrono24Scraper, WatchfinderScraper, JoliClosetScraper, CatawikiScraper,
-)
+from scrapers.actor_scrapers import ALL_ACTOR_SCRAPERS
+from scrapers.cheerio_scrapers import run_all_cheerio
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger("asset_radar")
 
 ZONES = list(ZONE_PRICES_DEFAULT.keys())
-
-ALL_SCRAPER_CLASSES = [
-    ImovirtualScraper, CasaSapoScraper, IdealistaScraper,
-    CustoJustoScraper, ProperstarScraper, MitulaScraper,
-    OLXScraper, AutoScout24Scraper, MobileDeScraper, AutoUncleScraper,
-    Chrono24Scraper, WatchfinderScraper, JoliClosetScraper, CatawikiScraper,
-]
-
 OUTPUT_PATH = os.environ.get("OUTPUT_PATH", "data/opportunities.json")
 
 
 def compute_market_estimate(listing: Listing) -> None:
     if listing.category == "imovel" and listing.zone and listing.area_m2:
         ppm2 = ZONE_PRICES_DEFAULT.get(listing.zone)
-        if ppm2:
+        if ppm2 and not listing.market_estimate:
             listing.market_estimate = ppm2 * listing.area_m2
-    elif listing.price and not listing.market_estimate:
+    if not listing.market_estimate and listing.price:
         listing.market_estimate = listing.price * 1.15
 
 
 def run_full_scan() -> dict:
     started_at = datetime.now(timezone.utc)
-    http_client = HttpClient()
     all_listings: list[Listing] = []
     source_stats = []
 
-    needs_browser_classes = [c for c in ALL_SCRAPER_CLASSES if c.needs_browser]
-    no_browser_classes = [c for c in ALL_SCRAPER_CLASSES if not c.needs_browser]
-
-    log.info("=== FASE 1: scrapers HTTP simples ===")
-    for cls in no_browser_classes:
-        scraper = cls(http_client=http_client, browser=None)
+    log.info("=== FASE 1: Actors prontos do Apify marketplace ===")
+    for cls in ALL_ACTOR_SCRAPERS:
+        scraper = cls()
         try:
             results = scraper.run(ZONES)
             for l in results:
                 compute_market_estimate(l)
                 l.compute_score()
             all_listings.extend(results)
-            source_stats.append({"portal": cls.portal_name, "found": len(results), "method": "http"})
-            log.info(f"[{cls.portal_name}] {len(results)} anúncios (HTTP simples)")
+            source_stats.append({
+                "portal": scraper.portal_name,
+                "found": len(results),
+                "method": "apify_actor",
+            })
+            log.info(f"[{scraper.portal_name}] {len(results)} anúncios (actor pronto)")
         except Exception as e:
-            log.error(f"[{cls.portal_name}] falhou: {e}")
-            source_stats.append({"portal": cls.portal_name, "found": 0, "method": "http", "error": str(e)})
+            log.error(f"[{scraper.portal_name}] falhou: {e}")
+            source_stats.append({
+                "portal": scraper.portal_name,
+                "found": 0,
+                "method": "apify_actor",
+                "error": str(e),
+            })
 
-    log.info("=== FASE 2: scrapers com browser (Playwright) ===")
-    if needs_browser_classes:
-        try:
-            with BrowserClient(headless=True) as browser:
-                for cls in needs_browser_classes:
-                    scraper = cls(http_client=http_client, browser=browser)
-                    try:
-                        results = scraper.run(ZONES)
-                        for l in results:
-                            compute_market_estimate(l)
-                            l.compute_score()
-                        all_listings.extend(results)
-                        source_stats.append({"portal": cls.portal_name, "found": len(results), "method": "browser"})
-                        log.info(f"[{cls.portal_name}] {len(results)} anúncios (browser)")
-                    except Exception as e:
-                        log.error(f"[{cls.portal_name}] falhou: {e}")
-                        source_stats.append({"portal": cls.portal_name, "found": 0, "method": "browser", "error": str(e)})
-        except Exception as e:
-            log.error(f"Não foi possível iniciar o browser Playwright: {e}")
-            for cls in needs_browser_classes:
-                source_stats.append({"portal": cls.portal_name, "found": 0, "method": "browser", "error": "browser_unavailable"})
+    log.info("=== FASE 2: Cheerio Scraper (fontes manuais) ===")
+    try:
+        cheerio_results = run_all_cheerio()
+        for portal_name, listings in cheerio_results:
+            for l in listings:
+                compute_market_estimate(l)
+                l.compute_score()
+            all_listings.extend(listings)
+            source_stats.append({
+                "portal": portal_name,
+                "found": len(listings),
+                "method": "cheerio_scraper",
+            })
+    except Exception as e:
+        log.error(f"Cheerio Scraper falhou: {e}")
 
     finished_at = datetime.now(timezone.utc)
     duration_s = (finished_at - started_at).total_seconds()
@@ -111,13 +103,13 @@ def run_full_scan() -> dict:
         "opportunities": [l.to_dict() for l in unique_listings],
     }
 
-    log.info(f"=== SCAN COMPLETO: {len(unique_listings)} oportunidades únicas em {duration_s:.1f}s ===")
+    log.info(f"=== SCAN COMPLETO: {len(unique_listings)} oportunidades em {duration_s:.1f}s ===")
     return output
 
 
 def main():
     result = run_full_scan()
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    os.makedirs(os.path.dirname(OUTPUT_PATH) if os.path.dirname(OUTPUT_PATH) else ".", exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     log.info(f"Resultado gravado em {OUTPUT_PATH}")
@@ -128,7 +120,7 @@ def main():
     print("=" * 60)
     for s in result["source_stats"]:
         status = f"erro: {s['error']}" if s.get("error") else f"{s['found']} anúncios"
-        print(f"  {s['portal']:25s} [{s['method']:7s}] {status}")
+        print(f"  {s['portal']:20s} [{s['method']:15s}] {status}")
     print("=" * 60)
 
 
