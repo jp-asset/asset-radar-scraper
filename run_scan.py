@@ -2,13 +2,8 @@
 Asset Radar — Orquestrador principal do scan diário.
 
 Arquitectura:
-- 6 fontes via actors prontos (Imovirtual, Idealista, OLX, AutoScout24, Chrono24, Catawiki)
-- 8 fontes via Cheerio Scraper genérico (Casa Sapo, Custo Justo, Properstar, Mitula,
-  Mobile.de, AutoUncle, Watchfinder, JoliCloset)
-
-Custo estimado por scan:
-- Plano free ($5/mês, MAX_RESULTS=50): ~$1,15/scan → ~4 scans de teste possíveis
-- Plano Starter ($29/mês, MAX_RESULTS=200): ~$4,60/scan → scan diário confortável
+- 6 fontes via actors prontos Apify (Imovirtual, Idealista, OLX, AutoScout24, Chrono24, Catawiki)
+- 8 fontes via HTTP + BeautifulSoup directamente no GitHub Actions (custo $0)
 """
 import json
 import logging
@@ -21,7 +16,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from core.config import ZONE_PRICES_DEFAULT
 from core.models import Listing
 from scrapers.actor_scrapers import ALL_ACTOR_SCRAPERS
-from scrapers.cheerio_scrapers import run_all_cheerio
+from scrapers.cheerio_scrapers import run_all_http_scrapers
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger("asset_radar")
@@ -58,7 +53,7 @@ def run_full_scan() -> dict:
                 "found": len(results),
                 "method": "apify_actor",
             })
-            log.info(f"[{scraper.portal_name}] {len(results)} anúncios (actor pronto)")
+            log.info(f"[{scraper.portal_name}] {len(results)} anúncios (actor)")
         except Exception as e:
             log.error(f"[{scraper.portal_name}] falhou: {e}")
             source_stats.append({
@@ -68,10 +63,10 @@ def run_full_scan() -> dict:
                 "error": str(e),
             })
 
-    log.info("=== FASE 2: Cheerio Scraper (fontes manuais) ===")
+    log.info("=== FASE 2: HTTP directo (sem créditos Apify) ===")
     try:
-        cheerio_results = run_all_cheerio()
-        for portal_name, listings in cheerio_results:
+        http_results = run_all_http_scrapers(ZONES)
+        for portal_name, listings in http_results:
             for l in listings:
                 compute_market_estimate(l)
                 l.compute_score()
@@ -79,10 +74,10 @@ def run_full_scan() -> dict:
             source_stats.append({
                 "portal": portal_name,
                 "found": len(listings),
-                "method": "cheerio_scraper",
+                "method": "http_directo",
             })
     except Exception as e:
-        log.error(f"Cheerio Scraper falhou: {e}")
+        log.error(f"HTTP scrapers falharam: {e}")
 
     finished_at = datetime.now(timezone.utc)
     duration_s = (finished_at - started_at).total_seconds()
