@@ -1,6 +1,6 @@
 {
-  "scanned_at": "2026-07-12T10:59:11.304579+00:00",
-  "duration_seconds": 170.4,
+  "scanned_at": "2026-07-12T21:54:21.359828+00:00",
+  "duration_seconds": 237.7,
   "total_opportunities": 0,
   "source_stats": [
     {
@@ -36,42 +36,42 @@
     {
       "portal": "Casa Sapo",
       "found": 0,
-      "method": "cheerio_scraper"
+      "method": "http_directo"
     },
     {
       "portal": "Custo Justo",
       "found": 0,
-      "method": "cheerio_scraper"
+      "method": "http_directo"
     },
     {
       "portal": "Properstar",
       "found": 0,
-      "method": "cheerio_scraper"
+      "method": "http_directo"
     },
     {
       "portal": "Mitula",
       "found": 0,
-      "method": "cheerio_scraper"
+      "method": "http_directo"
     },
     {
       "portal": "Mobile.de",
       "found": 0,
-      "method": "cheerio_scraper"
+      "method": "http_directo"
     },
     {
       "portal": "AutoUncle",
       "found": 0,
-      "method": "cheerio_scraper"
+      "method": "http_directo"
     },
     {
       "portal": "Watchfinder",
       "found": 0,
-      "method": "cheerio_scraper"
+      "method": "http_directo"
     },
     {
       "portal": "JoliCloset",
       "found": 0,
-      "method": "cheerio_scraper"
+      "method": "http_directo"
     }
   ],
   "opportunities": []
