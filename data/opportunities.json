@@ -1,7 +1,7 @@
 {
-  "scanned_at": "2026-07-12T22:18:13.642046+00:00",
-  "duration_seconds": 387.1,
-  "total_opportunities": 98,
+  "scanned_at": "2026-07-13T13:37:14.670277+00:00",
+  "duration_seconds": 371.0,
+  "total_opportunities": 122,
   "source_stats": [
     {
       "portal": "Imovirtual",
@@ -30,7 +30,7 @@
     },
     {
       "portal": "Catawiki",
-      "found": 48,
+      "found": 72,
       "method": "apify_actor"
     },
     {
@@ -78,324 +78,16 @@
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphones-17-pro-novos-IDJa2I9.html",
-      "title": "Iphones 17 pro novos",
-      "price": 1150.0,
-      "market_estimate": 1322.5,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphones-17-pro-novos-IDJa2I9.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2025-12-10T19:57:09+00:00",
-      "scraped_at": "2026-07-12T22:19:37.243690+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "e88a8cdd34c7b6a8"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-7-plus-256gb-desbloqueado-IDJbf7g.html",
-      "title": "iPhone 7 Plus 256GB Desbloqueado",
-      "price": 60.0,
-      "market_estimate": 69.0,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-7-plus-256gb-desbloqueado-IDJbf7g.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2025-12-26T19:57:53+00:00",
-      "scraped_at": "2026-07-12T22:19:37.243725+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "9be6502527369aed"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-12-pro-apple-bateria-100-6-1-128-gb-azul-pacfico-oferta-capa-original-capa-nova-antiqueda-cabo-e-carregador-tudo-novo-IDJqR0c.html",
-      "title": "iPhone 12 Pro APPLE Bateria 100% (6.1'' - 128 GB - Azul Pacífico) - Oferta Capa Original + Capa Nova antiqueda + Cabo e Carregador tudo NOVO",
-      "price": 280.0,
-      "market_estimate": 322.0,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-12-pro-apple-bateria-100-6-1-128-gb-azul-pacfico-oferta-capa-original-capa-nova-antiqueda-cabo-e-carregador-tudo-novo-IDJqR0c.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-06-02T17:44:03+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243759+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "22a7ef517362146d"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/suporte-batman-para-carro-suporte-para-telemvel-gift-iphone-IDFLLRG.html",
-      "title": "Suporte Batman para Carro | Suporte para Telemóvel | Gift | iphone",
-      "price": 5.0,
-      "market_estimate": 5.75,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/suporte-batman-para-carro-suporte-para-telemvel-gift-iphone-IDFLLRG.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2020-07-06T13:09:37+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243780+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "0eab1319aa921c2f"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/wireless-earphone-fones-de-desporto-bluetooth-para-android-iphone-io-IDFM21d.html",
-      "title": "Wireless Earphone | Fones de Desporto Bluetooth para Android iPhone iO",
-      "price": 5.0,
-      "market_estimate": 5.75,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/wireless-earphone-fones-de-desporto-bluetooth-para-android-iphone-io-IDFM21d.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2020-07-08T13:13:59+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243803+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "d0e7f2bfb9ff9c70"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/fones-de-desporto-wireless-bluetooth-para-iphone-samsung-android-ios-IDFM1XS.html",
-      "title": "Fones de Desporto Wireless | Bluetooth para Iphone Samsung Android iOS",
-      "price": 5.0,
-      "market_estimate": 5.75,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/fones-de-desporto-wireless-bluetooth-para-iphone-samsung-android-ios-IDFM1XS.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2020-07-08T13:06:17+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243821+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "5af5ade84470a7b8"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/capas-apple-iphone-16-pro-borboletas-gato-IDIOCT7.html",
-      "title": "Capas Apple Iphone 16 Pro - Borboletas/Gato",
-      "price": 18.0,
-      "market_estimate": 20.7,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/capas-apple-iphone-16-pro-borboletas-gato-IDIOCT7.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2025-04-05T11:33:50+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243846+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "b323da43947318fd"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-16-pro-128-gb-IDJijId.html",
-      "title": "Iphone 16 pro 128 gb",
-      "price": 850.0,
-      "market_estimate": 977.4999999999999,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-16-pro-128-gb-IDJijId.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-03-18T22:16:56+00:00",
-      "scraped_at": "2026-07-12T22:19:37.243877+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "60a27f1e87d22012"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/capa-para-iphone-11-IDIi6YW.html",
-      "title": "Capa para Iphone 11",
-      "price": 1.0,
-      "market_estimate": 1.15,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/capa-para-iphone-11-IDIi6YW.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2024-04-17T23:29:02+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243902+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "45947d54ff421327"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-se-32gb-rose-gold-IDFUGWH.html",
-      "title": "iPhone SE 32GB Rose Gold",
-      "price": 200.0,
-      "market_estimate": 229.99999999999997,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-se-32gb-rose-gold-IDFUGWH.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2020-09-14T18:27:22+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243920+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "f13b6426514f60cb"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/capa-iphone-6-plus-IDHjASb.html",
-      "title": "Capa iPhone 6 Plus",
-      "price": 2.0,
-      "market_estimate": 2.3,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/capa-iphone-6-plus-IDHjASb.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2022-09-04T17:17:56+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243928+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "851abefbe5826805"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-11-em-perfeito-estado-IDIXMAJ.html",
-      "title": "iPhone 11 em perfeito estado",
-      "price": 180.0,
-      "market_estimate": 206.99999999999997,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-11-em-perfeito-estado-IDIXMAJ.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2025-08-06T23:14:01+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243935+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "60a845f598aa3dcc"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/capa-premium-para-iphone-1116-incluindo-pro-max-IDJ2YxX.html",
-      "title": "Capa Premium para iPhone 11–16 (incluindo Pro & Max)",
-      "price": 6.5,
-      "market_estimate": 7.475,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/capa-premium-para-iphone-1116-incluindo-pro-max-IDJ2YxX.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2025-10-01T23:10:45+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243947+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "e54b95196c20bdbf"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-17-pro-max-branco-256gb-novo-IDJemrM.html",
-      "title": "Iphone 17 pro Max Branco 256gb Novo !",
-      "price": 1199.0,
-      "market_estimate": 1378.85,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-17-pro-max-branco-256gb-novo-IDJemrM.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-02-01T08:53:51+00:00",
-      "scraped_at": "2026-07-12T22:19:37.243954+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "219e33f96d125eeb"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-13-128gb-branco-perola-c-novo-c-bateria-100-IDJttuH.html",
-      "title": "IPHONE 13 - 128Gb Branco Perola c/Novo c/Bateria 100%",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-14-128gb-midnight-tudo-original-caixa-e-cabo-original-IDJuKq4.html",
+      "title": "iPhone 14 128GB Midnight | Tudo Original | Caixa e Cabo Original",
       "price": 350.0,
       "market_estimate": 402.49999999999994,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-13-128gb-branco-perola-c-novo-c-bateria-100-IDJttuH.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-14-128gb-midnight-tudo-original-caixa-e-cabo-original-IDJuKq4.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2026-06-26T15:33:44+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243962+00:00",
+      "posted_date": "2026-07-12T20:03:05+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308222+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -403,7 +95,7 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "6df37716108c9d22"
+      "id": "4c3374b7096359c3"
     },
     {
       "portal": "OLX",
@@ -417,7 +109,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": "2026-07-09T14:27:19+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243971+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308258+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -426,248 +118,6 @@
       "score": 20,
       "confidence": 0.85,
       "id": "43d7394498cb955e"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-13-pro-256gr-IDJoFy5.html",
-      "title": "iPhone 13 pro 256gr",
-      "price": 400.0,
-      "market_estimate": 459.99999999999994,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-13-pro-256gr-IDJoFy5.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-05-13T23:08:58+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243978+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "586bc012c927b98b"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/apple-airports-4-com-anc-com-caixa-e-garantia-como-novos-IDJuL0x.html",
-      "title": "Apple airports 4 com ANC com caixa e garantia - como novos",
-      "price": 99.0,
-      "market_estimate": 113.85,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/apple-airports-4-com-anc-com-caixa-e-garantia-como-novos-IDJuL0x.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-07-12T22:51:26+01:00",
-      "scraped_at": "2026-07-12T22:19:37.243986+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "af0b41c9799ff589"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-12-branco-IDIFmta.html",
-      "title": "Iphone 12 branco",
-      "price": 250.0,
-      "market_estimate": 287.5,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-12-branco-IDIFmta.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2024-12-25T22:06:00+00:00",
-      "scraped_at": "2026-07-12T22:19:37.243997+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "deb2aa446bc43c1c"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-6s-64gb-bateria-100-IDJeVwD.html",
-      "title": "IPhone 6s 64GB bateria 100%",
-      "price": 40.0,
-      "market_estimate": 46.0,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-6s-64gb-bateria-100-IDJeVwD.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-02-08T23:31:10+00:00",
-      "scraped_at": "2026-07-12T22:19:37.244004+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "8c3ec0f020dae99f"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-xs-64gb-em-muito-bom-estado-IDJiCOP.html",
-      "title": "iPhone Xs 64GB em muito bom estado",
-      "price": 95.0,
-      "market_estimate": 109.24999999999999,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-xs-64gb-em-muito-bom-estado-IDJiCOP.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-03-21T16:29:01+00:00",
-      "scraped_at": "2026-07-12T22:19:37.244011+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "2f6a2f6e97cbbe57"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-13-128gb-branco-IDJuL03.html",
-      "title": "Iphone 13 128gb Branco",
-      "price": 260.0,
-      "market_estimate": 299.0,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-13-128gb-branco-IDJuL03.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-07-12T22:48:08+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244017+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "42609861faaee21f"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/azdome-m550pro-com-gps-IDIxv7O.html",
-      "title": "AZDOME M550PRO com GPS",
-      "price": 120.0,
-      "market_estimate": 138.0,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/azdome-m550pro-com-gps-IDIxv7O.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2024-10-02T22:59:35+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244023+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "2151a2b42ff2bec6"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-15-pro-max-256gb-original-natural-titanium-excelente-estado-IDJu0pK.html",
-      "title": "Iphone 15 Pro Max 256GB Original Natural Titanium Excelente estado",
-      "price": 635.0,
-      "market_estimate": 730.25,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-15-pro-max-256gb-original-natural-titanium-excelente-estado-IDJu0pK.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-07-02T22:42:44+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244032+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "aef66bd1ab5d60ec"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-8-plus-branco-usado-IDHmYC4.html",
-      "title": "iPhone 8 Plus Branco usado",
-      "price": 180.0,
-      "market_estimate": 206.99999999999997,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-8-plus-branco-usado-IDHmYC4.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2022-10-05T23:12:14+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244038+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "8ee28f7f8f9c6200"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/apple-watch-se-2-40mm-com-fatura-e-garantia-IDJuKZa.html",
-      "title": "Apple watch SE 2 40mm com fatura e garantia",
-      "price": 89.0,
-      "market_estimate": 102.35,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/apple-watch-se-2-40mm-com-fatura-e-garantia-IDJuKZa.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-07-12T22:42:06+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244046+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "350712af48c673e1"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-17-256gb-novo-em-caixa-selada-factura-e-garantia-3-anos-IDJorDA.html",
-      "title": "Iphone 17 256GB - NOVO em Caixa SELADA - Factura e Garantia 3 Anos",
-      "price": 750.0,
-      "market_estimate": 862.4999999999999,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-17-256gb-novo-em-caixa-selada-factura-e-garantia-3-anos-IDJorDA.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-05-12T17:41:32+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244061+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "89561686edc7483a"
     },
     {
       "portal": "OLX",
@@ -681,7 +131,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": "2026-06-19T16:15:40+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244068+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308285+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -694,16 +144,16 @@
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/xiaomi-redmi-note-13-8-8gb-ram-256gb-ram-IDIRKbz.html",
-      "title": "Xiaomi redmi note 13 8+8gb ram 256gb ram",
-      "price": 170.0,
-      "market_estimate": 195.49999999999997,
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-15-pro-128gb-IDJuMho.html",
+      "title": "Iphone 15 pro 128Gb",
+      "price": 500.0,
+      "market_estimate": 575.0,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/xiaomi-redmi-note-13-8-8gb-ram-256gb-ram-IDIRKbz.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-15-pro-128gb-IDJuMho.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2025-05-14T22:55:00+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244078+00:00",
+      "posted_date": "2026-07-13T12:31:24+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308300+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -711,21 +161,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "f0c3d63fee178d52"
+      "id": "3dc755a49c06e73f"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-12-mini-128gb-IDIuWFi.html",
-      "title": "Iphone 12 mini - 128gb",
-      "price": 185.0,
-      "market_estimate": 212.74999999999997,
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-16-pro-max-esim-256gb-IDJuMgL.html",
+      "title": "Iphone 16 Pro Max eSIM 256gb",
+      "price": 850.0,
+      "market_estimate": 977.4999999999999,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-12-mini-128gb-IDIuWFi.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-16-pro-max-esim-256gb-IDJuMgL.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2024-09-04T22:54:36+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244084+00:00",
+      "posted_date": "2026-07-13T12:29:17+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308318+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -733,21 +183,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "77e52e59d2fcf32b"
+      "id": "f373a88877983bab"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/estado-estavel-i-phone-12-IDJuKYp.html",
-      "title": "Estado estavel I phone 12",
-      "price": 170.0,
-      "market_estimate": 195.49999999999997,
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-15-pro-128gb-troca-retoma-IDJuMdF.html",
+      "title": "iPhone 15 Pro 128Gb Troca/retoma",
+      "price": 480.0,
+      "market_estimate": 552.0,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/estado-estavel-i-phone-12-IDJuKYp.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-15-pro-128gb-troca-retoma-IDJuMdF.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2026-07-12T22:38:23+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244090+00:00",
+      "posted_date": "2026-07-13T12:19:29+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308328+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -755,21 +205,43 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "607d21516c22a66b"
+      "id": "eee43967ad269036"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-11-completamente-novo-IDJuKYk.html",
-      "title": "Iphone 11 completamente novo",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-14-128-gb-IDJuM9V.html",
+      "title": "iPhone 14 128 gb",
+      "price": 250.0,
+      "market_estimate": 287.5,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-14-128-gb-IDJuM9V.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-07-13T12:07:42+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308340+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "0860687dc930ef3c"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-12-a-venda-IDJ0cM8.html",
+      "title": "Iphone 12 a venda",
       "price": 200.0,
       "market_estimate": 229.99999999999997,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-11-completamente-novo-IDJuKYk.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-12-a-venda-IDJ0cM8.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2026-07-12T22:37:40+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244097+00:00",
+      "posted_date": "2025-09-04T14:35:54+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308360+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -777,21 +249,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "d26004be7ba006c2"
+      "id": "dd0115a9052c9553"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-11-usado-em-bom-estado-IDIctIs.html",
-      "title": "Iphone 11 usado em bom estado",
-      "price": 265.0,
-      "market_estimate": 304.75,
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-12-mini-128-gb-bateria-em-80-IDJ96jH.html",
+      "title": "iPhone 12 mini, 128 GB. Bateria em 80%",
+      "price": 225.0,
+      "market_estimate": 258.75,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-11-usado-em-bom-estado-IDIctIs.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-12-mini-128-gb-bateria-em-80-IDJ96jH.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2024-02-21T23:06:46+00:00",
-      "scraped_at": "2026-07-12T22:19:37.244104+00:00",
+      "posted_date": "2025-11-27T13:34:08+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308393+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -799,21 +271,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "532f570aa8111bb5"
+      "id": "56d943346dc50416"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/samsung-galaxy-watch-46mm-sm-r800-bom-estado-gps-bateria-ok-IDJl93s.html",
-      "title": "Samsung Galaxy Watch 46mm SM-R800 – Bom Estado, GPS, Bateria OK",
-      "price": 50.0,
-      "market_estimate": 57.49999999999999,
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-15-apple-IDJuMeu.html",
+      "title": "Iphone 15 apple",
+      "price": 390.0,
+      "market_estimate": 448.49999999999994,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/samsung-galaxy-watch-46mm-sm-r800-bom-estado-gps-bateria-ok-IDJl93s.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-15-apple-IDJuMeu.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2026-04-15T22:52:07+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244114+00:00",
+      "posted_date": "2026-07-13T12:22:10+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308403+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -821,21 +293,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "12c1ebf95a143e32"
+      "id": "c623d80f81034273"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/vendo-iphone-15-128gb-cor-preta-em-excelente-estado-IDJg0aY.html",
-      "title": "Vendo iPhone 15 128GB cor preta em excelente estado",
-      "price": 580.0,
-      "market_estimate": 667.0,
+      "external_id": "https://www.olx.pt/d/anuncio/coluna-musical-com-rdio-despertador-IDwIZYk.html",
+      "title": "Coluna musical com Rádio-Despertador",
+      "price": 20.0,
+      "market_estimate": 23.0,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/vendo-iphone-15-128gb-cor-preta-em-excelente-estado-IDJg0aY.html",
+      "url": "https://www.olx.pt/d/anuncio/coluna-musical-com-rdio-despertador-IDwIZYk.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2026-02-18T21:50:09+00:00",
-      "scraped_at": "2026-07-12T22:19:37.244122+00:00",
+      "posted_date": "2014-12-13T15:51:42+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308416+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -843,21 +315,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "be4b05dfde05b2c1"
+      "id": "ef7202948ab00dff"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/apple-watch-se-40mm-IDJdq3h.html",
-      "title": "Apple Watch SE – 40mm",
-      "price": 70.0,
-      "market_estimate": 80.5,
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-16-pro-max-capa-IDJuMIj.html",
+      "title": "Iphone 16 pro max capa",
+      "price": 5.0,
+      "market_estimate": 5.75,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/apple-watch-se-40mm-IDJdq3h.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-16-pro-max-capa-IDJuMIj.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2026-01-21T21:48:23+00:00",
-      "scraped_at": "2026-07-12T22:19:37.244128+00:00",
+      "posted_date": "2026-07-13T14:17:07+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308425+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -865,21 +337,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "9f9f195178dbd1ef"
+      "id": "1cd54e999eab40cc"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-7-16-gb-como-novo-IDHo3lk.html",
-      "title": "Iphone 7 16 gb como novo",
-      "price": 100.0,
-      "market_estimate": 114.99999999999999,
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-17-pro-max-IDJuMIr.html",
+      "title": "Iphone 17 pro max",
+      "price": 750.0,
+      "market_estimate": 862.4999999999999,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-7-16-gb-como-novo-IDHo3lk.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-17-pro-max-IDJuMIr.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2022-10-15T15:44:52+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244134+00:00",
+      "posted_date": "2026-07-13T14:17:18+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308433+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -887,21 +359,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "bc88ab65b6492969"
+      "id": "e859ac5e77f3ae03"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-se-2022-256-gb-como-novo-IDJpsDe.html",
-      "title": "Iphone SE 2022 256 gb como novo",
-      "price": 300.0,
-      "market_estimate": 345.0,
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-7-plus-256gb-desbloqueado-IDJbf7g.html",
+      "title": "iPhone 7 Plus 256GB Desbloqueado",
+      "price": 60.0,
+      "market_estimate": 69.0,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-se-2022-256-gb-como-novo-IDJpsDe.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-7-plus-256gb-desbloqueado-IDJbf7g.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2026-05-20T20:39:30+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244141+00:00",
+      "posted_date": "2025-12-26T19:57:53+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308442+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -909,7 +381,293 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "a5eeca8f1c7472f9"
+      "id": "9be6502527369aed"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-17-pro-256gb-troca-retoma-IDJtKKd.html",
+      "title": "iPhone 17 Pro 256Gb Troca/retoma",
+      "price": 1080.0,
+      "market_estimate": 1242.0,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-17-pro-256gb-troca-retoma-IDJtKKd.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-06-30T17:07:56+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308451+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "321b7156847bd891"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-17-pro-max-branco-256gb-novo-IDJemrM.html",
+      "title": "Iphone 17 pro Max Branco 256gb Novo !",
+      "price": 1199.0,
+      "market_estimate": 1378.85,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-17-pro-max-branco-256gb-novo-IDJemrM.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-02-01T08:53:51+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308460+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "219e33f96d125eeb"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-13-normal-128-gb-capacidade-da-bateria-87-IDJspYA.html",
+      "title": "iPhone 13 Normal 128 gb Capacidade da bateria 87%",
+      "price": 320.0,
+      "market_estimate": 368.0,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-13-normal-128-gb-capacidade-da-bateria-87-IDJspYA.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-06-15T15:00:33+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308470+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "63d713753df8acdc"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/case-para-iphone-smart-todos-os-modelos-IDJpsBj.html",
+      "title": "Case para Iphone Smart - Todos os modelos",
+      "price": 49.0,
+      "market_estimate": 56.349999999999994,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/case-para-iphone-smart-todos-os-modelos-IDJpsBj.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-05-20T20:29:44+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308486+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "0a85d6309cd9f32c"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/apple-watch-nike-se-gps-44-mm-fatura-excelente-estado-IDJuMHi.html",
+      "title": "Apple Watch Nike SE GPS 44 mm + Fatura | Excelente Estado",
+      "price": 145.0,
+      "market_estimate": 166.75,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/apple-watch-nike-se-gps-44-mm-fatura-excelente-estado-IDJuMHi.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-07-13T14:14:09+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308494+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "431a86fe40b69acf"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-7-plus-preto-matte-32gb-IDI802Z.html",
+      "title": "Iphone 7 Plus Preto Matte 32gb",
+      "price": 85.0,
+      "market_estimate": 97.74999999999999,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-7-plus-preto-matte-32gb-IDI802Z.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2024-01-09T03:55:25+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308499+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "40ff07ec0ed4d21c"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-12-pro-max-256gb-IDJuMFt.html",
+      "title": "IPhone 12 Pro Max 256GB",
+      "price": 380.0,
+      "market_estimate": 436.99999999999994,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-12-pro-max-256gb-IDJuMFt.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-07-13T14:06:43+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308505+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "e9eb3b8ba70e9c58"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-12-branco-128gb-IDJ96hA.html",
+      "title": "Iphone 12 - Branco - 128GB",
+      "price": 260.0,
+      "market_estimate": 299.0,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-12-branco-128gb-IDJ96hA.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2025-11-27T13:22:10+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308510+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "a3a5a9873d669e58"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/capa-iphone-11-pro-max-IDHygWX.html",
+      "title": "Capa iPhone 11 Pro Max",
+      "price": 5.0,
+      "market_estimate": 5.75,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/capa-iphone-11-pro-max-IDHygWX.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2023-01-26T14:18:37+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308516+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "678d4d166346a4e5"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-13-branco-IDJuMET.html",
+      "title": "iPhone 13 branco",
+      "price": 330.0,
+      "market_estimate": 379.49999999999994,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-13-branco-IDJuMET.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-07-13T14:02:56+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308520+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "bff2f2819102870b"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/capas-de-telemvel-personalizadas-nicas-e-cheias-de-estilo-IDIWHKs.html",
+      "title": "Capas de Telemóvel Personalizadas — Únicas e Cheias de Estilo!",
+      "price": 18.0,
+      "market_estimate": 20.7,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/capas-de-telemvel-personalizadas-nicas-e-cheias-de-estilo-IDIWHKs.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2025-07-10T14:31:25+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308531+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "6e1f2eb3717c2b64"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-12-pro-128gb-IDJ9Huc.html",
+      "title": "iPhone 12 Pro 128gb",
+      "price": 235.0,
+      "market_estimate": 270.25,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-12-pro-128gb-IDJ9Huc.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2025-12-06T22:10:14+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308537+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "c0c8d82bf4eb3efb"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-15-pro-128gb-como-novo-IDJu9Ko.html",
+      "title": "iPhone 15 Pro 128gb como novo",
+      "price": 500.0,
+      "market_estimate": 575.0,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-15-pro-128gb-como-novo-IDJu9Ko.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-07-04T09:38:04+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308542+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "a3575a2fa9f18b47"
     },
     {
       "portal": "OLX",
@@ -923,7 +681,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": "2026-06-18T23:15:06+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244150+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308549+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -936,82 +694,16 @@
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-17e-novo-comprado-em-maro-de-2026-em-estado-imaculado-IDJujAo.html",
-      "title": "IPhone 17e novo. Comprado em março de 2026 em estado imaculado.",
-      "price": 570.0,
-      "market_estimate": 655.5,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-17e-novo-comprado-em-maro-de-2026-em-estado-imaculado-IDJujAo.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-07-06T12:39:33+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244158+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "6d6474f10be36169"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-14-128gb-midnight-tudo-original-caixa-e-cabo-original-IDJuKq4.html",
-      "title": "iPhone 14 128GB Midnight | Tudo Original | Caixa e Cabo Original",
-      "price": 350.0,
-      "market_estimate": 402.49999999999994,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-14-128gb-midnight-tudo-original-caixa-e-cabo-original-IDJuKq4.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2026-07-12T20:03:05+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244171+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "4c3374b7096359c3"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-14-pro-128gb-IDIKm20.html",
-      "title": "iPhone 14 Pro 128Gb",
-      "price": 500.0,
-      "market_estimate": 575.0,
-      "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-14-pro-128gb-IDIKm20.html",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": "2025-02-19T21:45:15+00:00",
-      "scraped_at": "2026-07-12T22:19:37.244177+00:00",
-      "details": {
-        "fonte_raw": "olx_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "c19fedde2047db50"
-    },
-    {
-      "portal": "OLX",
-      "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/capa-iphone-16-pro-IDIRK9a.html",
-      "title": "Capa Iphone 16 PRO",
+      "external_id": "https://www.olx.pt/d/anuncio/vidro-pelicula-para-ecr-iphone-11-IDJ0cEB.html",
+      "title": "Vidro pelicula para ecrã iphone 11",
       "price": 10.0,
       "market_estimate": 11.5,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/capa-iphone-16-pro-IDIRK9a.html",
+      "url": "https://www.olx.pt/d/anuncio/vidro-pelicula-para-ecr-iphone-11-IDJ0cEB.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2025-05-14T22:45:24+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244183+00:00",
+      "posted_date": "2025-09-04T14:17:01+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308564+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -1019,21 +711,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "ea601c26bc3f988b"
+      "id": "1051a651f45892cb"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/estante-de-carregamento-telemveis-tablets-IDJdq23.html",
-      "title": "Estante de carregamento telemóveis tablets",
-      "price": 25.0,
-      "market_estimate": 28.749999999999996,
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-12-64gb-red-IDJb8PK.html",
+      "title": "Iphone 12 64gb RED",
+      "price": 200.0,
+      "market_estimate": 229.99999999999997,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/estante-de-carregamento-telemveis-tablets-IDJdq23.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-12-64gb-red-IDJb8PK.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2026-01-21T21:43:30+00:00",
-      "scraped_at": "2026-07-12T22:19:37.244198+00:00",
+      "posted_date": "2025-12-25T13:16:01+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308580+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -1041,21 +733,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "65ca891fbe0926fc"
+      "id": "83b9c826b1baa262"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-8-bom-estado-IDIi6KF.html",
-      "title": "Iphone 8 bom estado",
-      "price": 100.0,
-      "market_estimate": 114.99999999999999,
+      "external_id": "https://www.olx.pt/d/anuncio/adaptador-de-corrente-original-usb-c-e-20w-de-potncia-IDHkg5R.html",
+      "title": "Adaptador de Corrente Original USB-C e 20W de Potência",
+      "price": 14.0,
+      "market_estimate": 16.099999999999998,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-8-bom-estado-IDIi6KF.html",
+      "url": "https://www.olx.pt/d/anuncio/adaptador-de-corrente-original-usb-c-e-20w-de-potncia-IDHkg5R.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2024-04-17T22:57:52+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244204+00:00",
+      "posted_date": "2022-09-09T20:53:52+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308586+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -1063,21 +755,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "ad459ea1f16360d0"
+      "id": "9fc5d4a4f185b2ba"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/goodis-carregador-para-iphone-IDJ09rI.html",
-      "title": "goodis (carregador para iphone)",
-      "price": 12.0,
-      "market_estimate": 13.799999999999999,
+      "external_id": "https://www.olx.pt/d/anuncio/capas-para-iphone-6-ou-6s-IDGoTUy.html",
+      "title": "Capas para iPhone 6 ou 6S",
+      "price": 3.0,
+      "market_estimate": 3.4499999999999997,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/goodis-carregador-para-iphone-IDJ09rI.html",
+      "url": "https://www.olx.pt/d/anuncio/capas-para-iphone-6-ou-6s-IDGoTUy.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2025-09-03T22:42:20+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244209+00:00",
+      "posted_date": "2021-04-14T17:34:34+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308592+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -1085,21 +777,87 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "dbe004e05ea48555"
+      "id": "b20da640c9238c7b"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/cmera-espio-carregador-de-parede-IDGEzqG.html",
-      "title": "Câmera espião Carregador de parede",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-14-pro-max-IDJs0PR.html",
+      "title": "Iphone 14 PRO Max",
+      "price": 500.0,
+      "market_estimate": 575.0,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-14-pro-max-IDJs0PR.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-06-12T21:01:23+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308597+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "b8e1dc720341b840"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-13-pro-128gb-IDJuMCT.html",
+      "title": "Iphone 13 Pro 128gb",
+      "price": 390.0,
+      "market_estimate": 448.49999999999994,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-13-pro-128gb-IDJuMCT.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-07-13T13:54:22+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308602+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "3dac3c0ddfd8a397"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-15-pro-max-IDJs7oy.html",
+      "title": "Iphone 15 pro max",
+      "price": 600.0,
+      "market_estimate": 690.0,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-15-pro-max-IDJs7oy.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-06-13T14:10:00+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308607+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "4450ff6b9b73304e"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-11-avariado-IDJuMCo.html",
+      "title": "Iphone 11 - Avariado",
       "price": 40.0,
       "market_estimate": 46.0,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/cmera-espio-carregador-de-parede-IDGEzqG.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-11-avariado-IDJuMCo.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2021-08-25T12:06:45+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244219+00:00",
+      "posted_date": "2026-07-13T13:52:27+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308612+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -1107,21 +865,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "134faff3f2bc4aaa"
+      "id": "8260b5dab9403cd6"
     },
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/iphone-14-pro-max-1tb-gold-IDJuKWm.html",
-      "title": "iPhone 14 Pro Max 1Tb Gold",
-      "price": 750.0,
-      "market_estimate": 862.4999999999999,
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-15-pro-max-256gb-original-natural-titanium-excelente-estado-IDJu0pK.html",
+      "title": "Iphone 15 Pro Max 256GB Original Natural Titanium Excelente estado",
+      "price": 635.0,
+      "market_estimate": 730.25,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/iphone-14-pro-max-1tb-gold-IDJuKWm.html",
+      "url": "https://www.olx.pt/d/anuncio/iphone-15-pro-max-256gb-original-natural-titanium-excelente-estado-IDJu0pK.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2026-07-12T22:25:02+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244225+00:00",
+      "posted_date": "2026-07-02T22:42:44+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308624+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -1129,30 +887,227 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "f202466d995f8da1"
+      "id": "aef66bd1ab5d60ec"
     },
     {
-      "portal": "Catawiki",
-      "category": "arte",
-      "external_id": "https://www.catawiki.com/en/l/105174550-rolex-submariner-date-roulette-16610ln-v-men-2000-2010",
-      "title": "Rolex - Submariner Date Roulette - 16610LN(V) - Men - 2000-2010",
-      "price": 280032052400.0,
-      "market_estimate": 322036860260.0,
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphones-17-pro-novos-IDJa2I9.html",
+      "title": "Iphones 17 pro novos",
+      "price": 1150.0,
+      "market_estimate": 1322.5,
       "currency": "EUR",
-      "url": "https://www.catawiki.com/en/l/105174550-rolex-submariner-date-roulette-16610ln-v-men-2000-2010",
+      "url": "https://www.olx.pt/d/anuncio/iphones-17-pro-novos-IDJa2I9.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606628+00:00",
+      "posted_date": "2025-12-10T19:57:09+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308632+00:00",
       "details": {
-        "tipo": "leilao",
-        "fonte_raw": "catawiki_actor"
+        "fonte_raw": "olx_actor"
       },
       "is_real": true,
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "bca5f4caeb663f07"
+      "id": "e88a8cdd34c7b6a8"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-se-128gb-branco-IDJucMc.html",
+      "title": "iPhone SE 128gb branco",
+      "price": 95.0,
+      "market_estimate": 109.24999999999999,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-se-128gb-branco-IDJucMc.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-07-04T19:21:00+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308637+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "1e79185709364bc2"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/vendo-iphone-12-64gb-IDJs7n2.html",
+      "title": "Vendo iphone 12 64GB",
+      "price": 120.0,
+      "market_estimate": 138.0,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/vendo-iphone-12-64gb-IDJs7n2.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-06-13T14:06:18+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308642+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "d3d851b54b9d5dc4"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/renault-laguna-break-1-5-dci-se-black-line-110g-IDJuMBR.html",
+      "title": "Renault Laguna Break 1.5 dCi SE Black Line 110g",
+      "price": 5000.0,
+      "market_estimate": 5750.0,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/renault-laguna-break-1-5-dci-se-black-line-110g-IDJuMBR.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-07-13T13:50:37+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308649+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "b84d829beec1e696"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/ecran-xr-11-pro-max-IDIo0Nk.html",
+      "title": "Ecran XR & 11 Pro Max",
+      "price": 50.0,
+      "market_estimate": 57.49999999999999,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/ecran-xr-11-pro-max-IDIo0Nk.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2024-06-13T14:01:14+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308654+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "5ff5fd863315f5f9"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-11-para-reparao-ou-peas-ler-discrio-IDJuMzR.html",
+      "title": "iPhone 11 para reparação ou peças ler discrição.",
+      "price": 50.0,
+      "market_estimate": 57.49999999999999,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-11-para-reparao-ou-peas-ler-discrio-IDJuMzR.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-07-13T13:41:50+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308660+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "412fc64a3b7030bb"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-17-air-256gb-IDJuMzD.html",
+      "title": "Iphone 17 air 256gb",
+      "price": 700.0,
+      "market_estimate": 804.9999999999999,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-17-air-256gb-IDJuMzD.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-07-13T13:41:00+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308665+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "fcd09713f281cf15"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/iphone-x-normal-256gb-IDIKoeC.html",
+      "title": "Iphone X normal 256Gb",
+      "price": 170.0,
+      "market_estimate": 195.49999999999997,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/iphone-x-normal-256gb-IDIKoeC.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2025-02-20T12:57:24+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308671+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "0777833859c2046f"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/livro-fotos-e-vdeos-com-o-telemvel-IDJuMxU.html",
+      "title": "Livro Fotos e Vídeos com o Telemóvel",
+      "price": 3.0,
+      "market_estimate": 3.4499999999999997,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/livro-fotos-e-vdeos-com-o-telemvel-IDJuMxU.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-07-13T13:33:38+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308677+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "5f6876892f66c70d"
+    },
+    {
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/capas-do-iphone-7-plus-IDJsk8j.html",
+      "title": "Capas do iphone 7 plus",
+      "price": 5.0,
+      "market_estimate": 5.75,
+      "currency": "EUR",
+      "url": "https://www.olx.pt/d/anuncio/capas-do-iphone-7-plus-IDJsk8j.html",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": "2026-06-14T19:34:09+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308684+00:00",
+      "details": {
+        "fonte_raw": "olx_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "8cbf396f74fa4b63"
     },
     {
       "portal": "Catawiki",
@@ -1166,7 +1121,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606683+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929688+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1189,7 +1144,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606728+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929719+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1212,7 +1167,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606746+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929734+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1235,7 +1190,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606763+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929747+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1249,16 +1204,39 @@
     {
       "portal": "Catawiki",
       "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105276699-rolex-submariner-date-two-tone-18k-gold-steel-blue-dial-16613-men-1990-1999",
+      "title": "Rolex - Submariner Date Two Tone 18k Gold & Steel Blue Dial - 16613 - Men - 1990-1999",
+      "price": 806922688.0,
+      "market_estimate": 927961091.1999999,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105276699-rolex-submariner-date-two-tone-18k-gold-steel-blue-dial-16613-men-1990-1999",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.929761+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "a3a243d9cbe17fd5"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105175007-rolex-submariner-date-watch-126610ln-men-2020",
       "title": "Rolex - Submariner Date Watch - 126610LN - Men - 2020+",
-      "price": 9000103037715.0,
-      "market_estimate": 10350118493372.25,
+      "price": 10000114488572.0,
+      "market_estimate": 11500131661857.799,
       "currency": "EUR",
       "url": "https://www.catawiki.com/en/l/105175007-rolex-submariner-date-watch-126610ln-men-2020",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606780+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929788+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1281,7 +1259,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606800+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929801+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1297,14 +1275,14 @@
       "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105220486-rolex-submariner-date-vintage-1680-sg-292-men-1970-1979",
       "title": "Rolex - Submariner Date Vintage - 1680 (sg.292) - Men - 1970-1979",
-      "price": 610069535226.0,
-      "market_estimate": 701579965509.8999,
+      "price": 660175245655.0,
+      "market_estimate": 759201532503.25,
       "currency": "EUR",
       "url": "https://www.catawiki.com/en/l/105220486-rolex-submariner-date-vintage-1680-sg-292-men-1970-1979",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606818+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929817+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1318,39 +1296,16 @@
     {
       "portal": "Catawiki",
       "category": "arte",
-      "external_id": "https://www.catawiki.com/en/l/104869896-rolex-submariner-date-16610-men-1990-1999",
-      "title": "Rolex - Submariner Date - 16610 - Men - 1990-1999",
-      "price": 500572427.0,
-      "market_estimate": 575658291.05,
-      "currency": "EUR",
-      "url": "https://www.catawiki.com/en/l/104869896-rolex-submariner-date-16610-men-1990-1999",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606836+00:00",
-      "details": {
-        "tipo": "leilao",
-        "fonte_raw": "catawiki_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "3b3fda19ef49d0dc"
-    },
-    {
-      "portal": "Catawiki",
-      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105057838-rolex-submariner-date-16610-unisex-1990",
       "title": "Rolex - Submariner Date - 16610 - Unisex - 1990",
-      "price": 400045623418.0,
-      "market_estimate": 460052466930.69995,
+      "price": 440050183759.0,
+      "market_estimate": 506057711322.85,
       "currency": "EUR",
       "url": "https://www.catawiki.com/en/l/105057838-rolex-submariner-date-16610-unisex-1990",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606865+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929829+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1364,6 +1319,52 @@
     {
       "portal": "Catawiki",
       "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105247270-rolex-submariner-date-triple-0-168000-men-1980-1989",
+      "title": "Rolex - Submariner Date 'Triple 0 - 168000 - Men - 1980-1989",
+      "price": 370042313158.0,
+      "market_estimate": 425548660131.69995,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105247270-rolex-submariner-date-triple-0-168000-men-1980-1989",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.929842+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "b305d1ed16d33878"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/104869896-rolex-submariner-date-16610-men-1990-1999",
+      "title": "Rolex - Submariner Date - 16610 - Men - 1990-1999",
+      "price": 300034312561.0,
+      "market_estimate": 345039459445.14996,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/104869896-rolex-submariner-date-16610-men-1990-1999",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.929854+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "3b3fda19ef49d0dc"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105194651-rolex-submariner-date-16610-sg-416-men-1990-1999",
       "title": "Rolex - Submariner Date - 16610 (sg.416) - Men - 1990-1999",
       "price": 700080146000.0,
@@ -1373,7 +1374,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606882+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929865+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1387,62 +1388,16 @@
     {
       "portal": "Catawiki",
       "category": "arte",
-      "external_id": "https://www.catawiki.com/en/l/105174556-rolex-submariner-watch-with-mirrored-buckle-114060-men-2000-2010",
-      "title": "Rolex - Submariner Watch with Mirrored Buckle - 114060(ﾗﾝﾀﾞﾑ) - Men - 2000-2010",
-      "price": 800091586858.0,
-      "market_estimate": 920105324886.7,
-      "currency": "EUR",
-      "url": "https://www.catawiki.com/en/l/105174556-rolex-submariner-watch-with-mirrored-buckle-114060-men-2000-2010",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606903+00:00",
-      "details": {
-        "tipo": "leilao",
-        "fonte_raw": "catawiki_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "0e960ef01a9bd08f"
-    },
-    {
-      "portal": "Catawiki",
-      "category": "arte",
-      "external_id": "https://www.catawiki.com/en/l/105174319-rolex-submariner-date-roulette-16610ln-v-men-2000-2010",
-      "title": "Rolex - Submariner Date Roulette - 16610LN(V) - Men - 2000-2010",
-      "price": 9000103037715.0,
-      "market_estimate": 10350118493372.25,
-      "currency": "EUR",
-      "url": "https://www.catawiki.com/en/l/105174319-rolex-submariner-date-roulette-16610ln-v-men-2000-2010",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606921+00:00",
-      "details": {
-        "tipo": "leilao",
-        "fonte_raw": "catawiki_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "59e05c180bebd3e2"
-    },
-    {
-      "portal": "Catawiki",
-      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105078221-rolex-submariner-16610-men-1990",
       "title": "Rolex - Submariner - 16610 - Men - 1990",
-      "price": 800915683.0,
-      "market_estimate": 921053035.4499999,
+      "price": 300034312561.0,
+      "market_estimate": 345039459445.14996,
       "currency": "EUR",
       "url": "https://www.catawiki.com/en/l/105078221-rolex-submariner-16610-men-1990",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606937+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929876+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1465,7 +1420,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606957+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929886+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1479,16 +1434,39 @@
     {
       "portal": "Catawiki",
       "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105174556-rolex-submariner-watch-with-mirrored-buckle-114060-men-2000-2010",
+      "title": "Rolex - Submariner Watch with Mirrored Buckle - 114060(ﾗﾝﾀﾞﾑ) - Men - 2000-2010",
+      "price": 800091586858.0,
+      "market_estimate": 920105324886.7,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105174556-rolex-submariner-watch-with-mirrored-buckle-114060-men-2000-2010",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.929903+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "0e960ef01a9bd08f"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105220429-rolex-submariner-date-16610-sg-646-men-1990-1999",
       "title": "Rolex - Submariner Date - 16610 (sg.646) - Men - 1990-1999",
-      "price": 500057004284.0,
-      "market_estimate": 575065554926.6,
+      "price": 550062704712.0,
+      "market_estimate": 632572110418.7999,
       "currency": "EUR",
       "url": "https://www.catawiki.com/en/l/105220429-rolex-submariner-date-16610-sg-646-men-1990-1999",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606973+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929915+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1502,6 +1480,75 @@
     {
       "portal": "Catawiki",
       "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105276745-rolex-submariner-date-16610-men-1990-1999",
+      "title": "Rolex - Submariner Date - 16610 - Men - 1990-1999",
+      "price": 372542603180.0,
+      "market_estimate": 428423993656.99994,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105276745-rolex-submariner-date-16610-men-1990-1999",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.929926+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "6e649055f3084360"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105174319-rolex-submariner-date-roulette-16610ln-v-men-2000-2010",
+      "title": "Rolex - Submariner Date Roulette - 16610LN(V) - Men - 2000-2010",
+      "price": 9000103037715.0,
+      "market_estimate": 10350118493372.25,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105174319-rolex-submariner-date-roulette-16610ln-v-men-2000-2010",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.929938+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "59e05c180bebd3e2"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105174550-rolex-submariner-date-roulette-16610ln-v-men-2000-2010",
+      "title": "Rolex - Submariner Date Roulette - 16610LN(V) - Men - 2000-2010",
+      "price": 440050373772.0,
+      "market_estimate": 506057929837.8,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105174550-rolex-submariner-date-roulette-16610ln-v-men-2000-2010",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.929963+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "bca5f4caeb663f07"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105299429-rolex-submariner-5513-men-1970-1979",
       "title": "Rolex - Submariner - 5513 - Men - 1970-1979",
       "price": 425048603628.0,
@@ -1511,7 +1558,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607007+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929974+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1527,14 +1574,14 @@
       "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105227492-rolex-submariner-kermit-16610lv-men-2008",
       "title": "Rolex - Submariner Kermit - 16610LV - Men - 2008",
-      "price": 800091196854.0,
-      "market_estimate": 920104876382.1,
+      "price": 850096897282.0,
+      "market_estimate": 977611431874.2999,
       "currency": "EUR",
       "url": "https://www.catawiki.com/en/l/105227492-rolex-submariner-kermit-16610lv-men-2008",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607019+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929984+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1548,29 +1595,6 @@
     {
       "portal": "Catawiki",
       "category": "arte",
-      "external_id": "https://www.catawiki.com/en/l/105256353-rolex-submariner-no-reserve-price-5513-men-1960-1969",
-      "title": "Rolex - Submariner - No reserve price - 5513 - Men - 1960-1969",
-      "price": 490056034183.0,
-      "market_estimate": 563564439310.45,
-      "currency": "EUR",
-      "url": "https://www.catawiki.com/en/l/105256353-rolex-submariner-no-reserve-price-5513-men-1960-1969",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607032+00:00",
-      "details": {
-        "tipo": "leilao",
-        "fonte_raw": "catawiki_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "de658868ef90bc21"
-    },
-    {
-      "portal": "Catawiki",
-      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105174351-rolex-submariner-date-tritium-16610ln-u-men-1990-1999",
       "title": "Rolex - Submariner Date Tritium - 16610LN(U) - Men - 1990-1999",
       "price": 671576875756.0,
@@ -1580,7 +1604,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607048+00:00",
+      "scraped_at": "2026-07-13T13:42:50.929995+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1594,16 +1618,39 @@
     {
       "portal": "Catawiki",
       "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105256353-rolex-submariner-no-reserve-price-5513-men-1960-1969",
+      "title": "Rolex - Submariner - No reserve price - 5513 - Men - 1960-1969",
+      "price": 510058324353.0,
+      "market_estimate": 586567073005.95,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105256353-rolex-submariner-no-reserve-price-5513-men-1960-1969",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930007+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "de658868ef90bc21"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105197265-rolex-submariner-no-date-5513-sg-250-men-1970-1979",
       "title": "Rolex - Submariner No Date - 5513 (sg.250) - Men - 1970-1979",
-      "price": 500057004284.0,
-      "market_estimate": 575065554926.6,
+      "price": 550062704712.0,
+      "market_estimate": 632572110418.7999,
       "currency": "EUR",
       "url": "https://www.catawiki.com/en/l/105197265-rolex-submariner-no-date-5513-sg-250-men-1970-1979",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607061+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930018+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1617,29 +1664,6 @@
     {
       "portal": "Catawiki",
       "category": "arte",
-      "external_id": "https://www.catawiki.com/en/l/105276699-rolex-submariner-date-two-tone-18k-gold-steel-blue-dial-16613-men-1990-1999",
-      "title": "Rolex - Submariner Date Two Tone 18k Gold & Steel Blue Dial - 16613 - Men - 1990-1999",
-      "price": 381436325.0,
-      "market_estimate": 438651773.74999994,
-      "currency": "EUR",
-      "url": "https://www.catawiki.com/en/l/105276699-rolex-submariner-date-two-tone-18k-gold-steel-blue-dial-16613-men-1990-1999",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607076+00:00",
-      "details": {
-        "tipo": "leilao",
-        "fonte_raw": "catawiki_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "a3a243d9cbe17fd5"
-    },
-    {
-      "portal": "Catawiki",
-      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105174505-rolex-submariner-watch-with-mirrored-buckle-114060-men-2000-2010",
       "title": "Rolex - Submariner Watch with Mirrored Buckle - 114060 - Men - 2000-2010",
       "price": 650074415572.0,
@@ -1649,7 +1673,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607090+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930029+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1672,7 +1696,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607103+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930039+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1695,7 +1719,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607115+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930050+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1718,7 +1742,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607127+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930063+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1732,29 +1756,6 @@
     {
       "portal": "Catawiki",
       "category": "arte",
-      "external_id": "https://www.catawiki.com/en/l/105175010-rolex-submariner-date-watch-with-mirrored-buckle-116610ln-men-2000-2010",
-      "title": "Rolex - Submariner Date Watch with Mirrored Buckle - 116610LN - Men - 2000-2010",
-      "price": 760487056518.0,
-      "market_estimate": 874560114995.7,
-      "currency": "EUR",
-      "url": "https://www.catawiki.com/en/l/105175010-rolex-submariner-date-watch-with-mirrored-buckle-116610ln-men-2000-2010",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607148+00:00",
-      "details": {
-        "tipo": "leilao",
-        "fonte_raw": "catawiki_actor"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "ac01f034eee01947"
-    },
-    {
-      "portal": "Catawiki",
-      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105174993-rolex-submariner-date-watch-116613ln-men-2000-2010",
       "title": "Rolex - Submariner Date Watch - 116613LN - Men - 2000-2010",
       "price": 756886646487.0,
@@ -1764,7 +1765,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607162+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930074+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1778,6 +1779,29 @@
     {
       "portal": "Catawiki",
       "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105175010-rolex-submariner-date-watch-with-mirrored-buckle-116610ln-men-2000-2010",
+      "title": "Rolex - Submariner Date Watch with Mirrored Buckle - 116610LN - Men - 2000-2010",
+      "price": 760487056518.0,
+      "market_estimate": 874560114995.7,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105175010-rolex-submariner-date-watch-with-mirrored-buckle-116610ln-men-2000-2010",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930085+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "ac01f034eee01947"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105133333-rolex-submariner-date-16610-men-1980-1989",
       "title": "Rolex - Submariner Date - 16610 - Men - 1980-1989",
       "price": 600068695143.0,
@@ -1787,7 +1811,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607175+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930095+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1810,7 +1834,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607188+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930107+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1826,14 +1850,14 @@
       "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105217591-rolex-submariner-date-16610-men-1999",
       "title": "Rolex - Submariner Date - 16610 - Men - 1999",
-      "price": 250028592134.0,
-      "market_estimate": 287532880954.1,
+      "price": 310035452646.0,
+      "market_estimate": 356540770542.89996,
       "currency": "EUR",
       "url": "https://www.catawiki.com/en/l/105217591-rolex-submariner-date-16610-men-1999",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607203+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930118+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1849,14 +1873,14 @@
       "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105220450-rolex-submariner-date-gold-steel-purple-dial-16613-men-1990-1999",
       "title": "Rolex - Submariner Date Gold Steel Purple Dial - 16613 - Men - 1990-1999",
-      "price": 650174105569.0,
-      "market_estimate": 747700221404.35,
+      "price": 750285516427.0,
+      "market_estimate": 862828343891.0499,
       "currency": "EUR",
       "url": "https://www.catawiki.com/en/l/105220450-rolex-submariner-date-gold-steel-purple-dial-16613-men-1990-1999",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607218+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930129+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1879,7 +1903,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607305+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930175+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1902,7 +1926,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607317+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930189+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1925,7 +1949,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607331+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930201+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1948,7 +1972,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607344+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930256+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1971,7 +1995,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607357+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930273+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -1987,14 +2011,14 @@
       "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105197430-rolex-submariner-no-date-14060-men-1980-1989",
       "title": "Rolex - Submariner No Date - 14060 - Men - 1980-1989",
-      "price": 420047883598.0,
-      "market_estimate": 483055066137.69995,
+      "price": 460052443941.0,
+      "market_estimate": 529060310532.14996,
       "currency": "EUR",
       "url": "https://www.catawiki.com/en/l/105197430-rolex-submariner-no-date-14060-men-1980-1989",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607370+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930292+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -2008,16 +2032,39 @@
     {
       "portal": "Catawiki",
       "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105318841-rolex-submariner-date-16610lv-unisex-2005",
+      "title": "Rolex - Submariner Date - 16610LV - Unisex - 2005",
+      "price": 654374795572.0,
+      "market_estimate": 752531014907.7999,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105318841-rolex-submariner-date-16610lv-unisex-2005",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930305+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "c65ed69a9d9435ae"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/105229710-rolex-sea-dweller-4000ft-1220m-no-reserve-price-16600-men-2000-2010",
       "title": "Rolex - Sea-Dweller 4000ft/1220m - No reserve price - 16600 - Men - 2000-2010",
-      "price": 750085766402.0,
-      "market_estimate": 862598631362.2999,
+      "price": 800091486829.0,
+      "market_estimate": 920105209853.35,
       "currency": "EUR",
       "url": "https://www.catawiki.com/en/l/105229710-rolex-sea-dweller-4000ft-1220m-no-reserve-price-16600-men-2000-2010",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607448+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930439+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -2027,6 +2074,98 @@
       "score": 20,
       "confidence": 0.85,
       "id": "ad9bc8e8ddb461ae"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105248920-rolex-daytona-116505-men-2000-2010",
+      "title": "Rolex - Daytona - 116505 - Men - 2000-2010",
+      "price": 280003191723988.0,
+      "market_estimate": 322003670482586.2,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105248920-rolex-daytona-116505-men-2000-2010",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930455+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "83c2a39d27e5b36e"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105173175-opera-glasses-and-horse-racing-2025-switzerland-rolex",
+      "title": "Opera Glasses And Horse Racing - 2025 - Switzerland - Rolex",
+      "price": 201230172.0,
+      "market_estimate": 231414697.79999998,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105173175-opera-glasses-and-horse-racing-2025-switzerland-rolex",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930473+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "b8cdc25da69bb983"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105132297-rolex-submariner-submarienr-sea-dweller-book-unisex-1980-1989",
+      "title": "Rolex - Submariner - submarienr & Sea-Dweller book - Unisex - 1980-1989",
+      "price": 250285214.0,
+      "market_estimate": 287827996.09999996,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105132297-rolex-submariner-submarienr-sea-dweller-book-unisex-1980-1989",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930707+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "09da9329464f4020"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105133664-guido-mondani-rolex-steel-rolex-acciaio-2015-2015",
+      "title": "Guido Mondani - Rolex. Steel Rolex acciaio - 2015-2015",
+      "price": 200228171.0,
+      "market_estimate": 230262396.64999998,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105133664-guido-mondani-rolex-steel-rolex-acciaio-2015-2015",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930802+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "af6f604fd120b459"
     },
     {
       "portal": "OLX",
@@ -2040,7 +2179,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": "2026-07-09T23:36:45+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244052+00:00",
+      "scraped_at": "2026-07-13T13:38:12.308554+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -2053,16 +2192,16 @@
     {
       "portal": "OLX",
       "category": "imovel",
-      "external_id": "https://www.olx.pt/d/anuncio/consola-portatil-rog-1tb-cartao-sd-512gb-carregador-IDJuKVj.html",
-      "title": "Consola Portatil ROG 1TB + Cartao SD 512Gb + Carregador",
+      "external_id": "https://www.olx.pt/d/anuncio/troco-poco-m4-pro-5g-6-128gb-ler-descrio-IDJuMEF.html",
+      "title": "Troco Poco M4 Pro 5G 6/128GB Ler descrição",
       "price": null,
       "market_estimate": null,
       "currency": "EUR",
-      "url": "https://www.olx.pt/d/anuncio/consola-portatil-rog-1tb-cartao-sd-512gb-carregador-IDJuKVj.html",
+      "url": "https://www.olx.pt/d/anuncio/troco-poco-m4-pro-5g-6-128gb-ler-descrio-IDJuMEF.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": "2026-07-12T22:29:11+01:00",
-      "scraped_at": "2026-07-12T22:19:37.244190+00:00",
+      "posted_date": "2026-07-13T14:01:31+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308574+00:00",
       "details": {
         "fonte_raw": "olx_actor"
       },
@@ -2070,53 +2209,29 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "cee05ade68fa96e6"
+      "id": "964b0ff317399d95"
     },
     {
-      "portal": "Catawiki",
-      "category": "arte",
-      "external_id": "https://www.catawiki.com/en/l/105247270-rolex-submariner-date-triple-0-168000-men-1980-1989",
-      "title": "Rolex - Submariner Date 'Triple 0 - 168000 - Men - 1980-1989",
+      "portal": "OLX",
+      "category": "imovel",
+      "external_id": "https://www.olx.pt/d/anuncio/troco-iphone-15-pro-max-256gb-ler-descrio-IDJuMC7.html",
+      "title": "Troco iPhone 15 Pro Max 256GB Ler descrição",
       "price": null,
       "market_estimate": null,
       "currency": "EUR",
-      "url": "https://www.catawiki.com/en/l/105247270-rolex-submariner-date-triple-0-168000-men-1980-1989",
+      "url": "https://www.olx.pt/d/anuncio/troco-iphone-15-pro-max-256gb-ler-descrio-IDJuMC7.html",
       "zone": null,
       "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606709+00:00",
+      "posted_date": "2026-07-13T13:51:25+01:00",
+      "scraped_at": "2026-07-13T13:38:12.308618+00:00",
       "details": {
-        "tipo": "leilao",
-        "fonte_raw": "catawiki_actor"
+        "fonte_raw": "olx_actor"
       },
       "is_real": true,
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "b305d1ed16d33878"
-    },
-    {
-      "portal": "Catawiki",
-      "category": "arte",
-      "external_id": "https://www.catawiki.com/en/l/105276745-rolex-submariner-date-16610-men-1990-1999",
-      "title": "Rolex - Submariner Date - 16610 - Men - 1990-1999",
-      "price": null,
-      "market_estimate": null,
-      "currency": "EUR",
-      "url": "https://www.catawiki.com/en/l/105276745-rolex-submariner-date-16610-men-1990-1999",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.606991+00:00",
-      "details": {
-        "tipo": "leilao",
-        "fonte_raw": "catawiki_actor"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "6e649055f3084360"
+      "id": "3275b74c597a618a"
     },
     {
       "portal": "Catawiki",
@@ -2130,7 +2245,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607236+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930147+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -2153,7 +2268,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607287+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930163+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -2167,6 +2282,75 @@
     {
       "portal": "Catawiki",
       "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105049647-wouw-rolex-submariner-date-116610lv-hulk-by-fransman-art-1972-rolex-art-rolex-submariner-date-116610lv-hulk-2020s",
+      "title": "WOUW!!!! Rolex Submariner Date 116610LV Hulk by Fransman ART (1972) - Rolex ART - Rolex Submariner Date 116610LV Hulk - 2020s",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105049647-wouw-rolex-submariner-date-116610lv-hulk-by-fransman-art-1972-rolex-art-rolex-submariner-date-116610lv-hulk-2020s",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930219+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "fc87d1b9fa85aceb"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105332254-rolex-submariner-no-date-5513-men-1973",
+      "title": "Rolex - Submariner No Date - 5513 - Men - 1973",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105332254-rolex-submariner-no-date-5513-men-1973",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930237+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "a8189e4e4da14652"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105325477-rolex-submariner-date-watch-blue-126613lb-men-2020",
+      "title": "Rolex - Submariner Date Watch Blue - 126613LB - Men - 2020+",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105325477-rolex-submariner-date-watch-blue-126613lb-men-2020",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930317+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "9eb10d2b264c5c47"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/104411556-theatre-binoculars-2020-rolex",
       "title": "Theatre binoculars - 2020+ - Rolex",
       "price": null,
@@ -2176,7 +2360,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607383+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930327+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -2190,6 +2374,29 @@
     {
       "portal": "Catawiki",
       "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105325489-rolex-submariner-date-blue-buckle-combination-16613lb-a-men-2000-2010",
+      "title": "Rolex - Submariner Date Blue Buckle Combination - 16613LB(A) - Men - 2000-2010",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105325489-rolex-submariner-date-blue-buckle-combination-16613lb-a-men-2000-2010",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930339+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "4cabfe887eace60c"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
       "external_id": "https://www.catawiki.com/en/l/104568013-theatre-binoculars-2020-rolex",
       "title": "Theatre binoculars - 2020+ - Rolex",
       "price": null,
@@ -2199,7 +2406,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607395+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930349+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -2222,7 +2429,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607409+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930383+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -2245,7 +2452,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607422+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930403+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -2268,7 +2475,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-07-12T22:24:11.607433+00:00",
+      "scraped_at": "2026-07-13T13:42:50.930420+00:00",
       "details": {
         "tipo": "leilao",
         "fonte_raw": "catawiki_actor"
@@ -2278,6 +2485,351 @@
       "score": 0,
       "confidence": 0.85,
       "id": "8bc5745410f69b2b"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105260258-oldmoneywatches-omw-gold-winder-glass-gyro-watch-winder-orbit-tourbillon-horology-watch",
+      "title": "OldMoneyWatches - OMW Gold winder + glass - Gyro Watch Winder | Orbit | Tourbillon - Horology Watch",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105260258-oldmoneywatches-omw-gold-winder-glass-gyro-watch-winder-orbit-tourbillon-horology-watch",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930493+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "a66a49b07011a1e8"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105325612-rolex-yacht-master-men-s-watch-16628-s-men-2000-2010",
+      "title": "Rolex - Yacht Master Men's Watch - 16628(S) - Men - 2000-2010",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105325612-rolex-yacht-master-men-s-watch-16628-s-men-2000-2010",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930510+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "b58e9ce5049fbc04"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105191811-los-angeles-lakers-nba-kobe-bryant-2026-xxl-screen",
+      "title": "Los Angeles Lakers - NBA - Kobe Bryant - 2026 - XXL Screen",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105191811-los-angeles-lakers-nba-kobe-bryant-2026-xxl-screen",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930527+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "20ef04969557a6f0"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/104802930-suicide-squad-margot-elise-robbie-as-harley-quinn-artbox",
+      "title": "Suicide Squad - Margot Elise Robbie as \"Harley Quinn\" - Artbox",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/104802930-suicide-squad-margot-elise-robbie-as-harley-quinn-artbox",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930544+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "c5f95cca5634869a"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105024302-the-joker-joaquin-phoenix",
+      "title": "The Joker - Joaquin Phoenix",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105024302-the-joker-joaquin-phoenix",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930560+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "07ecab90e9efb727"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105336652-freddie-mercury-queen-queen-freddie-mercury-crypto-art",
+      "title": "Freddie Mercury - Queen - QUEEN FREDDIE MERCURY CRYPTO ART",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105336652-freddie-mercury-queen-queen-freddie-mercury-crypto-art",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930577+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "166468cb5eab3a1a"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105218678-jzl-xxl-paolo-maldini-the-art-of-anticipation",
+      "title": "JZL - [XXL] Paolo Maldini – The Art of Anticipation",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105218678-jzl-xxl-paolo-maldini-the-art-of-anticipation",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930597+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "59e521c89cf3b987"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/104912252-breaking-bad-2008-bryan-cranston-as-heisenberg",
+      "title": "BREAKING BAD (2008) - Bryan Cranston as \"Heisenberg\"",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/104912252-breaking-bad-2008-bryan-cranston-as-heisenberg",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930617+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "8b134bbf39a8b1b9"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/104825967-spiderman-stan-lee",
+      "title": "Spiderman - Stan Lee",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/104825967-spiderman-stan-lee",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930633+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "d41af586e349b442"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105218666-jzl-xxl-roberto-baggio-the-courage-to-miss",
+      "title": "JZL - [XXL]Roberto Baggio – The Courage to Miss",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105218666-jzl-xxl-roberto-baggio-the-courage-to-miss",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930652+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "4b94b4592025f458"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105218625-jzl-xxl-gianluigi-buffon-the-kiss-of-eternity",
+      "title": "JZL - [XXL]Gianluigi Buffon – The Kiss of Eternity",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105218625-jzl-xxl-gianluigi-buffon-the-kiss-of-eternity",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930669+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "4975bfaa41640a94"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105356234-antonym-emotional-victory-the-dynasty-peak-tribute",
+      "title": "Antonym - Emotional Victory – The Dynasty Peak Tribute",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105356234-antonym-emotional-victory-the-dynasty-peak-tribute",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930688+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "41ba692e47b8a39b"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105295975-the-voyager-iii-the-flash-by-elbrus-horology-marble-watch-winder-limited-edition-xxx-287",
+      "title": "The Voyager III 'The Flash' by Elbrus Horology - Marble Watch Winder - Limited Edition xxx/287 -",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105295975-the-voyager-iii-the-flash-by-elbrus-horology-marble-watch-winder-limited-edition-xxx-287",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930733+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "9328262a708e1de9"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105141046-indestructible-ip67-watch-suitcase-for-6-watches-military-green-elbrus-horology-timepiece-valet",
+      "title": "Indestructible IP67 Watch Suitcase for 6 Watches - Military Green - Elbrus Horology Timepiece Valet",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105141046-indestructible-ip67-watch-suitcase-for-6-watches-military-green-elbrus-horology-timepiece-valet",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930758+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "ca057e9b7cc16b36"
+    },
+    {
+      "portal": "Catawiki",
+      "category": "arte",
+      "external_id": "https://www.catawiki.com/en/l/105294688-the-voyager-iii-by-elbrus-horology-marble-watch-winder-limited-edition-xxx-287-tourbillon",
+      "title": "The Voyager III by Elbrus Horology - Marble Watch Winder - Limited Edition xxx/287 - Tourbillon",
+      "price": null,
+      "market_estimate": null,
+      "currency": "EUR",
+      "url": "https://www.catawiki.com/en/l/105294688-the-voyager-iii-by-elbrus-horology-marble-watch-winder-limited-edition-xxx-287-tourbillon",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-07-13T13:42:50.930779+00:00",
+      "details": {
+        "tipo": "leilao",
+        "fonte_raw": "catawiki_actor"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "d102aa55f9884c59"
     }
   ]
 }
