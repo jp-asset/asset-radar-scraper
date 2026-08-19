@@ -116,8 +116,22 @@ HEADERS = {
 
 # Padrão de preço em texto solto (fora de qualquer elemento com classe
 # "price"), usado nas fontes onde o preço não está encapsulado (AutoUncle,
-# JoliCloset) — apanha tanto "€ 19.740" como "2.600€".
-PRICE_PATTERN = re.compile(r"€\s?[\d]{1,3}(?:[.,]\d{3})*(?:[.,]\d+)?|[\d]{1,3}(?:[.,]\d{3})*(?:[.,]\d+)?\s?€")
+# JoliCloset) — apanha "€ 19.740", "2.600€" e também "540 000 €" (espaço
+# normal ou insecável como separador de milhares).
+#
+# Corrigido 19/08/2026: confirmado com dados reais do scan (via GitHub) que
+# a área já estava a ser extraída correctamente pela mesma técnica de subida
+# no HTML, mas o preço continuava sempre a None — isso isola o problema no
+# PADRÃO, não no alcance da busca. Custo Justo (e possivelmente outras
+# fontes PT) usa espaço como separador de milhares no preço (ex.
+# "540 000 €"), que o padrão antigo (só "." ou ",") não reconhecia. Ainda
+# sem acesso de rede a partir deste ambiente para confirmar 100% a partir do
+# HTML em bruto, mas é a explicação mais plausível dado que só a área falha.
+_THOUSANDS_SEP = r"[ \t\xa0.,]"
+PRICE_PATTERN = re.compile(
+    rf"€\s?[\d]{{1,3}}(?:{_THOUSANDS_SEP}\d{{3}})*(?:[.,]\d+)?"
+    rf"|[\d]{{1,3}}(?:{_THOUSANDS_SEP}\d{{3}})*(?:[.,]\d+)?\s?€"
+)
 
 # Igual ao PRICE_PATTERN mas também apanha $ e £ — adicionado 18/08/2026
 # para o Watchfinder, que mostra preços em dólares (ex. "$7,085"), não em
@@ -128,9 +142,12 @@ PRICE_PATTERN = re.compile(r"€\s?[\d]{1,3}(?:[.,]\d{3})*(?:[.,]\d+)?|[\d]{1,3}
 # símbolo (ex. "2.600€" apanha, "2016 €" não) — testado e confirmado que,
 # sem esta restrição, texto como "... Year 2016 $7,085" apanhava "2016 $"
 # em vez do preço real, porque um ano de 4 dígitos seguido de espaço e
-# símbolo de moeda também batia certo com o padrão antigo.
+# símbolo de moeda também batia certo com o padrão antigo. Isto mantém-se
+# igual com a alteração 19/08/2026 (só o separador INTERNO dos grupos de
+# milhares passou a aceitar espaço, não o espaço antes do símbolo).
 PRICE_PATTERN_ANY = re.compile(
-    r"[€$£]\s?[\d]{1,3}(?:[.,]\d{3})*(?:[.,]\d+)?|[\d]{1,3}(?:[.,]\d{3})*(?:[.,]\d+)?[€$£]"
+    rf"[€$£]\s?[\d]{{1,3}}(?:{_THOUSANDS_SEP}\d{{3}})*(?:[.,]\d+)?"
+    rf"|[\d]{{1,3}}(?:{_THOUSANDS_SEP}\d{{3}})*(?:[.,]\d+)?[€$£]"
 )
 
 # Padrão de área (m²) em texto solto — usado nas fontes onde a área não
