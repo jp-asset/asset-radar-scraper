@@ -1,0 +1,33 @@
+{
+  "_comentario": "true = a fonte corre no scan; false = é ignorada (poupa créditos Apify nas fontes 'apify_actor'; nas 'http_directo' só poupa tempo, não custam créditos). Edita directamente aqui no GitHub (lápis de editar) e faz commit — o próximo scan (cron ou manual) já lê isto. Para um teste pontual sem alterar este ficheiro, usa o input 'sources' ao correr o workflow manualmente (Actions -> Run workflow).",
+
+  "Imovirtual": true,
+  "Idealista": true,
+  "OLX": true,
+  "AutoScout24": true,
+  "Chrono24": true,
+  "Catawiki": true,
+
+  "Casa Sapo": false,
+  "_Casa Sapo": "desactivada — robots.txt do site desautoriza scraping de todos os caminhos, não é um bug nosso",
+  "Custo Justo": true,
+  "Properstar": false,
+  "_Properstar": "desactivada — HTTP 403 confirmado (bloqueio anti-bot), reactiva se quiseres voltar a tentar",
+  "Mitula": false,
+  "_Mitula": "desactivada — HTTP 401 mesmo na homepage (bloqueio do site), reactiva se quiseres voltar a tentar",
+  "Mobile.de": false,
+  "_Mobile.de": "desactivada 18/08/2026 por decisão do utilizador — é um marketplace alemão, mesmo filtrado a 'carros em Portugal' tende a devolver carros à venda na Alemanha com entrega/localização PT, não vendedores portugueses reais. Código fica pronto no ficheiro, mas não corre.",
+  "AutoUncle": true,
+  "Watchfinder": true,
+  "JoliCloset": false,
+  "_JoliCloset": "desactivada 18/08/2026 — HTTP 403 confirmado mesmo na homepage (não só na página de listagem), com headers realistas + sessão + referer já tentados. Bloqueio ao nível do site/WAF, não resolúvel por cabeçalhos. Código fica pronto no ficheiro, reactiva se quiseres voltar a tentar (ex. via Apify).",
+
+  "Standvirtual": true,
+  "_Standvirtual": "adicionada 18/08/2026 — carros, Portugal (OLX Group). robots.txt limpo e conteúdo real confirmado no HTML inicial. Confiança alta.",
+  "Onebid": true,
+  "_Onebid": "adicionada 18/08/2026 a pedido explícito, confiança BAIXA — a página lista leilões inteiros, não lotes com preço; o valor de licitação de cada lote provavelmente só carrega via JavaScript dentro da página do leilão. Ver log após o próximo scan para confirmar.",
+  "Artbid": true,
+  "_Artbid": "adicionada 18/08/2026 a pedido explícito, confiança MUITO BAIXA — verificadas 3 páginas diferentes (homepage, categorias, todos-os-lotes), nenhuma mostra lotes sem JavaScript. Provável 0 anúncios até termos browser headless ou API. Ver log após o próximo scan.",
+  "Cabral Moncada Leilões": true,
+  "_Cabral Moncada Leilões": "adicionada 18/08/2026 a pedido explícito, confiança MUITO BAIXA — verificadas homepage, /leiloes/online e a página de um leilão concreto, nenhuma mostra lotes sem JavaScript. Provável 0 anúncios até termos browser headless ou API. Ver log após o próximo scan."
+}
