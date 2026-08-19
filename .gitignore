@@ -1,0 +1,14 @@
+# Ficheiros temporarios / cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Pasta de lixo local (nunca deve ir para o GitHub)
+_to_delete/
+
+# Ambientes virtuais, se algum dia existir aqui
+venv/
+.venv/
+
+# Dados gerados pelo scan (nao fazem parte do codigo fonte)
+data/*.json

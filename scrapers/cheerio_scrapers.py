@@ -133,6 +133,36 @@ PRICE_PATTERN_ANY = re.compile(
     r"[€$£]\s?[\d]{1,3}(?:[.,]\d{3})*(?:[.,]\d+)?|[\d]{1,3}(?:[.,]\d{3})*(?:[.,]\d+)?[€$£]"
 )
 
+# Padrão de área (m²) em texto solto — usado nas fontes onde a área não
+# está encapsulada num elemento próprio (mesmo caso do preço no Custo
+# Justo/AutoUncle: aparece como texto solto num contentor pai do cartão).
+AREA_PATTERN = re.compile(r"\d+[.,]?\d*\s*m[²2]\b", re.IGNORECASE)
+
+
+def _find_in_ancestors(start_el, pattern: "re.Pattern", max_levels: int = 6) -> str | None:
+    """
+    Sobe na árvore a partir de `start_el` (inclusive) até `max_levels`
+    contentores pai, à procura da primeira ocorrência de `pattern` no texto
+    acumulado desse nível. Devolve o texto do match, ou None.
+
+    Usado quando o dado (preço, área) não está dentro do próprio elemento
+    do anúncio, mas nalgum contentor pai — caso confirmado em vários sites
+    (Custo Justo, AutoUncle). Alargado de 3 para 6 níveis em 19/08/2026:
+    3 níveis só cobria os casos mais simples e, sem acesso de rede a partir
+    deste ambiente para confirmar a estrutura HTML actual do Custo Justo,
+    alargar a busca é a correcção mais segura a fazer às cegas (não reduz
+    precisão nos casos que já funcionavam, só aumenta o alcance).
+    """
+    el = start_el
+    for _ in range(max_levels):
+        if el is None:
+            break
+        match = pattern.search(el.get_text(separator=" "))
+        if match:
+            return match.group()
+        el = el.find_parent()
+    return None
+
 
 def select_cards(soup: BeautifulSoup, selectors: list[str], limit: int = 20) -> list:
     """
@@ -210,6 +240,7 @@ def scrape_casa_sapo(zones: list[str]) -> list[Listing]:
 def scrape_custo_justo(zones: list[str]) -> list[Listing]:
     listings = []
     seen_hrefs = set()
+    no_price_count = 0
     for zone in zones[:2]:
         slug = {"Lisboa Centro": "lisboa", "Porto Centro": "porto"}.get(zone, "lisboa")
         html = fetch_html(f"https://www.custojusto.pt/{slug}/imobiliario/apartamentos-venda")
@@ -221,12 +252,23 @@ def scrape_custo_justo(zones: list[str]) -> list[Listing]:
         # Título em <h2> DENTRO do <a>.
         #
         # Corrigido 18/08/2026 ronda 4: confirmado por inspecção real que o
-        # preço NÃO está dentro do <a> (estava errado assumir isso) — está
-        # num elemento irmão a seguir ao <a>, dentro do mesmo contentor pai.
-        # Era por isso que os títulos apareciam mas o preço vinha sempre a
-        # None: card.select_one("h5") só procurava DENTRO do <a>. Corrigido
-        # com a mesma técnica já usada no AutoUncle — subir ao contentor pai
-        # e procurar o preço aí (não só dentro do link).
+        # preço NÃO está dentro do <a> — está num elemento irmão a seguir ao
+        # <a>, dentro do mesmo contentor pai. Subimos ao contentor pai e
+        # procuramos o preço aí (não só dentro do link).
+        #
+        # Corrigido 19/08/2026: a app estava a mostrar estes anúncios sem
+        # NENHUM dado (preço, área, score) — sinal de que o preço estava
+        # sistematicamente a falhar (não só ocasionalmente). Sem acesso de
+        # rede a custojusto.pt a partir deste ambiente para confirmar a
+        # estrutura HTML actual, a correcção feita às cegas foi alargar o
+        # alcance da busca (3 → 6 níveis de contentor pai, padrão € seguido
+        # de padrão genérico como fallback) em vez de adivinhar uma classe
+        # CSS nova. Também passámos a extrair a ÁREA (nunca tinha sido feito
+        # aqui) e a usar o preço/m² de referência da zona para a estimativa
+        # de mercado, em vez do heurístico fixo "+15%". Se isto não resolver,
+        # o aviso [Custo Justo] no log do próximo scan real vai confirmar
+        # que o problema é mesmo estrutural (a página pode ter passado a
+        # carregar os cartões via JavaScript), não de alcance da busca.
         cards = soup.select("a[href*='/imobiliario/apartamentos/']")
         for card in cards[:20]:
             href = card.get("href", "")
@@ -236,25 +278,47 @@ def scrape_custo_justo(zones: list[str]) -> list[Listing]:
             title_el = card.select_one("h2")
             title = clean_text(title_el.get_text()) if title_el else clean_text(card.get_text())
             url = href if href.startswith("http") else f"https://www.custojusto.pt{href}"
-            price = None
-            parent = card.find_parent()
-            for _ in range(3):
-                if parent is None:
-                    break
-                match = PRICE_PATTERN.search(parent.get_text(separator=" "))
-                if match:
-                    price = parse_price(match.group())
-                    break
-                parent = parent.find_parent()
+
+            price_text = _find_in_ancestors(card, PRICE_PATTERN, max_levels=6) \
+                or _find_in_ancestors(card, PRICE_PATTERN_ANY, max_levels=6)
+            price = parse_price(price_text) if price_text else None
+
+            area_text = _find_in_ancestors(card, AREA_PATTERN, max_levels=6)
+            area = parse_area(area_text) if area_text else None
+
             if not title or not url:
                 continue
+
+            # Estimativa de mercado: com área conhecida, usar o preço/m² de
+            # referência da zona (mais real, consistente com o resto do
+            # projecto); sem área, manter o heurístico antigo (+15%) como
+            # fallback em vez de ficar sem estimativa nenhuma.
+            ppm2 = ZONE_PRICES_DEFAULT.get(zone)
+            if area and ppm2:
+                market = ppm2 * area
+            elif price:
+                market = price * 1.15
+            else:
+                market = None
+
+            if price is None:
+                no_price_count += 1
+
             listings.append(Listing(
                 portal="Custo Justo", category="imovel", external_id=url,
-                title=title, price=price, market_estimate=price * 1.15 if price else None,
-                currency="EUR", url=url, zone=zone,
+                title=title, price=price, market_estimate=market,
+                currency="EUR", url=url, zone=zone, area_m2=area,
                 details={"fonte_raw": "custojusto_http"},
             ))
-    log.info(f"[Custo Justo] {len(listings)} anúncios")
+    if listings and no_price_count == len(listings):
+        log.warning(
+            f"[Custo Justo] {no_price_count}/{len(listings)} anuncios SEM preco "
+            "detectado mesmo subindo ate 6 niveis de contentor pai (padrao € e "
+            "generico) - a estrutura HTML da pagina pode ter mudado desde a "
+            "ultima confirmacao (18/08/2026). Precisa de inspeccao real no "
+            "proximo log do GitHub Actions."
+        )
+    log.info(f"[Custo Justo] {len(listings)} anúncios ({len(listings) - no_price_count} com preço)")
     return listings
 
 
