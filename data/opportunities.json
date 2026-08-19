@@ -1,6 +1,6 @@
 {
-  "scanned_at": "2026-08-19T17:04:10.700791+00:00",
-  "duration_seconds": 60.4,
+  "scanned_at": "2026-08-19T17:33:09.992285+00:00",
+  "duration_seconds": 48.3,
   "total_opportunities": 66,
   "source_stats": [
     {
@@ -113,7 +113,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.223240+00:00",
+      "scraped_at": "2026-08-19T17:33:37.949062+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -135,7 +135,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.223356+00:00",
+      "scraped_at": "2026-08-19T17:33:37.949179+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -157,7 +157,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.223448+00:00",
+      "scraped_at": "2026-08-19T17:33:37.949274+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -179,7 +179,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.223532+00:00",
+      "scraped_at": "2026-08-19T17:33:37.949375+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -201,7 +201,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.223616+00:00",
+      "scraped_at": "2026-08-19T17:33:37.949464+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -223,7 +223,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.223740+00:00",
+      "scraped_at": "2026-08-19T17:33:37.949555+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -245,7 +245,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.223835+00:00",
+      "scraped_at": "2026-08-19T17:33:37.949642+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -267,7 +267,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.223923+00:00",
+      "scraped_at": "2026-08-19T17:33:37.949729+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -289,7 +289,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224004+00:00",
+      "scraped_at": "2026-08-19T17:33:37.949815+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -311,7 +311,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224102+00:00",
+      "scraped_at": "2026-08-19T17:33:37.949894+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -333,7 +333,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224200+00:00",
+      "scraped_at": "2026-08-19T17:33:37.949967+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -355,7 +355,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224289+00:00",
+      "scraped_at": "2026-08-19T17:33:37.950073+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -377,7 +377,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224356+00:00",
+      "scraped_at": "2026-08-19T17:33:37.950143+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -399,7 +399,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224420+00:00",
+      "scraped_at": "2026-08-19T17:33:37.950224+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -421,7 +421,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224495+00:00",
+      "scraped_at": "2026-08-19T17:33:37.950318+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -443,7 +443,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224559+00:00",
+      "scraped_at": "2026-08-19T17:33:37.950391+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -465,7 +465,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224621+00:00",
+      "scraped_at": "2026-08-19T17:33:37.950463+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -487,7 +487,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224688+00:00",
+      "scraped_at": "2026-08-19T17:33:37.950548+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -509,7 +509,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224760+00:00",
+      "scraped_at": "2026-08-19T17:33:37.950626+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -531,7 +531,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:42.224831+00:00",
+      "scraped_at": "2026-08-19T17:33:37.950703+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -553,7 +553,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375048+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520535+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -575,7 +575,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375096+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520568+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -597,7 +597,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375113+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520582+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -619,7 +619,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375125+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520594+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -641,7 +641,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375180+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520647+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -663,7 +663,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375223+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520690+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -685,7 +685,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375265+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520734+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -707,7 +707,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375311+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520781+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -729,7 +729,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375352+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520823+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -751,7 +751,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375394+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520867+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -773,7 +773,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375433+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520908+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -795,7 +795,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375472+00:00",
+      "scraped_at": "2026-08-19T17:33:40.520950+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -817,7 +817,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375510+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521028+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -839,7 +839,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375547+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521071+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -861,7 +861,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375583+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521111+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -883,7 +883,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375620+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521151+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -905,7 +905,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375658+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521193+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -927,7 +927,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375699+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521238+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -949,7 +949,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375737+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521278+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -971,7 +971,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375778+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521321+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -993,7 +993,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375817+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521363+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1015,7 +1015,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375860+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521409+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1037,7 +1037,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375898+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521451+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1059,7 +1059,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375936+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521491+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1081,7 +1081,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.375974+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521531+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1103,7 +1103,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:44.376012+00:00",
+      "scraped_at": "2026-08-19T17:33:40.521571+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1119,13 +1119,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-3-assoalhadas-45195407?utm_source=li&utm_medium=gallery&utm_content=45195407",
       "title": "Apartamento 3 Assoalhadas",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 540000.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-3-assoalhadas-45195407?utm_source=li&utm_medium=gallery&utm_content=45195407",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 75.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.853103+00:00",
+      "scraped_at": "2026-08-19T17:33:19.741459+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1141,13 +1141,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-sao-joao-da-talha-45087128",
       "title": "T3 - são joão da talha",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 662400.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-sao-joao-da-talha-45087128",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 92.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.853242+00:00",
+      "scraped_at": "2026-08-19T17:33:19.741779+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1163,13 +1163,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-remodelado-em-benfica-44854961",
       "title": "T2 Remodelado em Benfica",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 396000.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-remodelado-em-benfica-44854961",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 55.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.853350+00:00",
+      "scraped_at": "2026-08-19T17:33:19.742098+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1185,13 +1185,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-1-remodelado-com-terraco-45205480",
       "title": "T1+1 Remodelado com terraço",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 345600.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-1-remodelado-com-terraco-45205480",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 48.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.853439+00:00",
+      "scraped_at": "2026-08-19T17:33:19.742371+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1207,13 +1207,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-de-excelencia--45205479",
       "title": "Apartamento T3, de excelência no Cadaval, com piscina, parqueamento, arrecadação e localização privilegiada.",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 1152000.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-de-excelencia--45205479",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 160.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.853533+00:00",
+      "scraped_at": "2026-08-19T17:33:19.742666+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1229,13 +1229,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-reboleira-excelente-localiz-45205378",
       "title": "T1 reboleira excelente localizaçaol metro e comboio",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 331200.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-reboleira-excelente-localiz-45205378",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 46.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.853619+00:00",
+      "scraped_at": "2026-08-19T17:33:19.742942+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1251,13 +1251,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-puro-luxo-ericeira-a-700m--45205368",
       "title": "T3 Puro Luxo Ericeira, a 700m da praia com vista mar",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 1051200.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-puro-luxo-ericeira-a-700m--45205368",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 146.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.853706+00:00",
+      "scraped_at": "2026-08-19T17:33:19.743253+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1273,13 +1273,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-ericeira-a-700m-da-praia-co-45205348",
       "title": "T2 Ericeira a 700m da praia com vista mar",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 604800.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-ericeira-a-700m-da-praia-co-45205348",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 84.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.853794+00:00",
+      "scraped_at": "2026-08-19T17:33:19.743540+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1295,13 +1295,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/excelente-apartamento-t4-em-qu-45086810",
       "title": "Excelente apartamento t4 em queluz - espaço, conforto e localização central",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 856800.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/excelente-apartamento-t4-em-qu-45086810",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 119.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.853879+00:00",
+      "scraped_at": "2026-08-19T17:33:19.743820+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1317,13 +1317,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-44970216",
       "title": "Apartamento T3",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 655200.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-44970216",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 91.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.853956+00:00",
+      "scraped_at": "2026-08-19T17:33:19.744095+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1339,13 +1339,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-de-luxo-a-700m-da-praia-co-45205334",
       "title": "T2 de Luxo, a 700m da praia com vista mar",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 712800.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-de-luxo-a-700m-da-praia-co-45205334",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 99.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.854037+00:00",
+      "scraped_at": "2026-08-19T17:33:19.744369+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1361,13 +1361,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-de-luxo-na-ericeira-a-700m-45205310",
       "title": "T1 de Luxo na Ericeira, a 700m da praia, com vista mar",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 432000.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-de-luxo-na-ericeira-a-700m-45205310",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 60.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.854139+00:00",
+      "scraped_at": "2026-08-19T17:33:19.744656+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1383,13 +1383,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-de-luxo-na-ericeira-com-vis-45205295",
       "title": "T3 de Luxo na Ericeira com Vista Mar, Varanda de 66 m²",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 475200.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-de-luxo-na-ericeira-com-vis-45205295",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 66.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.854225+00:00",
+      "scraped_at": "2026-08-19T17:33:19.744903+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1405,13 +1405,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45178401",
       "title": "Apartamento T2 Mafra",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 856800.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45178401",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 119.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.854303+00:00",
+      "scraped_at": "2026-08-19T17:33:19.745182+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1427,13 +1427,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-com-boas-areas-roupeiros-g-45086475",
       "title": "T2 Com Boas Areas, Roupeiros Generosos Pronto A...",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 684000.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-com-boas-areas-roupeiros-g-45086475",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 95.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.854391+00:00",
+      "scraped_at": "2026-08-19T17:33:19.745446+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1449,13 +1449,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-varanda-e-d-44969788",
       "title": "Apartamento t2 com varanda e duas frentes no empreendimento anjos 49",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 496800.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-varanda-e-d-44969788",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 69.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.854472+00:00",
+      "scraped_at": "2026-08-19T17:33:19.745726+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1471,13 +1471,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-venteira-com-44969726",
       "title": "Apartamento T2 em Venteira com Excelente Localização",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 468000.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-venteira-com-44969726",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 65.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.854551+00:00",
+      "scraped_at": "2026-08-19T17:33:19.746008+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1493,13 +1493,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-em-alfragide-com-o-42674374",
       "title": "Apartamento em alfragide com ótimas áreas",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 799200.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-em-alfragide-com-o-42674374",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 111.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.854636+00:00",
+      "scraped_at": "2026-08-19T17:33:19.746278+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1515,13 +1515,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-lourinha-e-a-44496814",
       "title": "Apartamento T2 em Lourinhã e Atalaia",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 864000.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-lourinha-e-a-44496814",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 120.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.854716+00:00",
+      "scraped_at": "2026-08-19T17:33:19.746540+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1537,13 +1537,13 @@
       "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-remodelado-sao-vicente-a-10-44057219",
       "title": "T2 remodelado são vicente a 10 mins a pé da estação de comboios de santa apolónia (650m) c/ vista rio",
       "price": null,
-      "market_estimate": null,
+      "market_estimate": 360000.0,
       "currency": "EUR",
       "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-remodelado-sao-vicente-a-10-44057219",
       "zone": "Lisboa Centro",
-      "area_m2": null,
+      "area_m2": 50.0,
       "posted_date": null,
-      "scraped_at": "2026-08-19T17:04:21.854803+00:00",
+      "scraped_at": "2026-08-19T17:33:19.746840+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
