@@ -1,37 +1,43 @@
 {
-  "scanned_at": "2026-08-20T12:00:47.276348+00:00",
-  "duration_seconds": 51.3,
+  "scanned_at": "2026-08-20T15:45:35.080416+00:00",
+  "duration_seconds": 50.4,
   "total_opportunities": 65,
   "source_stats": [
     {
       "portal": "Imovirtual",
       "found": 0,
-      "method": "apify_actor"
+      "method": "apify_actor",
+      "skipped": true
     },
     {
       "portal": "Idealista",
       "found": 0,
-      "method": "apify_actor"
+      "method": "apify_actor",
+      "skipped": true
     },
     {
       "portal": "OLX",
       "found": 0,
-      "method": "apify_actor"
+      "method": "apify_actor",
+      "skipped": true
     },
     {
       "portal": "AutoScout24",
       "found": 0,
-      "method": "apify_actor"
+      "method": "apify_actor",
+      "skipped": true
     },
     {
       "portal": "Chrono24",
       "found": 0,
-      "method": "apify_actor"
+      "method": "apify_actor",
+      "skipped": true
     },
     {
       "portal": "Catawiki",
       "found": 0,
-      "method": "apify_actor"
+      "method": "apify_actor",
+      "skipped": true
     },
     {
       "portal": "Casa Sapo",
@@ -107,7 +113,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.521662+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811105+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -129,7 +135,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.521764+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811211+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -151,7 +157,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.521846+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811294+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -173,7 +179,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.521914+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811363+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -187,7 +193,7 @@
       "portal": "AutoUncle",
       "category": "carro",
       "external_id": "https://www.autouncle.pt/pt/d/6600296-usado-2025-peugeot-308-130-cv",
-      "title": "Usado (2025) Peugeot 308 130 HP | Super Preço20259.500 km1.5L DieselSedanAutomática130 HP (95 kW)Emissões CO2: 130 g CO2/km comb.5 L/100kmDetalhes",
+      "title": "Usado (2025) Peugeot 308 130 HP | Super PreçoOut 20259.500 km1.5L DieselSedanAutomática130 HP (95 kW)Emissões CO2: 130 g CO2/km comb.5 L/100kmDetalhes",
       "price": 24500.0,
       "market_estimate": 28174.999999999996,
       "currency": "EUR",
@@ -195,7 +201,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.521983+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811435+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -217,7 +223,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522050+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811502+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -239,7 +245,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522113+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811591+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -261,7 +267,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522191+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811677+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -283,7 +289,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522258+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811746+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -305,7 +311,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522331+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811857+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -327,7 +333,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522412+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811924+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -341,7 +347,7 @@
       "portal": "AutoUncle",
       "category": "carro",
       "external_id": "https://www.autouncle.pt/pt/d/6599307-usado-2025-peugeot-2008-style-100-cv",
-      "title": "Usado (2025) Peugeot 2008 Style 100 HP | Bom preço1.2 PureTech 100cv Style202515.949 kmVariante: Style1.2L GasolinaSUVManual100 HP (73 kW)Emissões CO2: 123 g CO2/km comb.5.4 L/100kmDetalhes",
+      "title": "Usado (2025) Peugeot 2008 Style 100 HP | Bom preço1.2 PureTech 100cv StyleMar 202515.949 kmVariante: Style1.2L GasolinaSUVManual100 HP (73 kW)Emissões CO2: 123 g CO2/km comb.5.4 L/100kmDetalhes",
       "price": 18900.0,
       "market_estimate": 21735.0,
       "currency": "EUR",
@@ -349,7 +355,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522493+00:00",
+      "scraped_at": "2026-08-20T15:46:03.811998+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -371,7 +377,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522566+00:00",
+      "scraped_at": "2026-08-20T15:46:03.812073+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -393,7 +399,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522639+00:00",
+      "scraped_at": "2026-08-20T15:46:03.812149+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -415,7 +421,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522710+00:00",
+      "scraped_at": "2026-08-20T15:46:03.812222+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -437,7 +443,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522782+00:00",
+      "scraped_at": "2026-08-20T15:46:03.812296+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -459,7 +465,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522855+00:00",
+      "scraped_at": "2026-08-20T15:46:03.812372+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -481,7 +487,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522927+00:00",
+      "scraped_at": "2026-08-20T15:46:03.812446+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -503,7 +509,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.522989+00:00",
+      "scraped_at": "2026-08-20T15:46:03.812541+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -525,7 +531,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:18.523057+00:00",
+      "scraped_at": "2026-08-20T15:46:03.812625+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -547,7 +553,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365321+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142176+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -569,7 +575,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365349+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142202+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -591,7 +597,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365365+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142216+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -613,7 +619,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365378+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142228+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -635,7 +641,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365449+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142275+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -657,7 +663,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365496+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142319+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -679,7 +685,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365540+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142361+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -701,7 +707,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365583+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142403+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -723,7 +729,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365630+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142448+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -745,7 +751,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365673+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142491+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -767,7 +773,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365717+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142551+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -789,7 +795,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365756+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142592+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -811,7 +817,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365801+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142637+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -833,7 +839,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365842+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142678+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -855,7 +861,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365885+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142720+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -877,7 +883,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365926+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142761+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -899,7 +905,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.365965+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142799+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -921,7 +927,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.366005+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142838+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -943,7 +949,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.366044+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142878+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -965,7 +971,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.366081+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142915+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -987,7 +993,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.366118+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142959+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1009,7 +1015,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.366160+00:00",
+      "scraped_at": "2026-08-20T15:46:06.142999+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1031,7 +1037,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.366205+00:00",
+      "scraped_at": "2026-08-20T15:46:06.143043+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1053,7 +1059,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.366245+00:00",
+      "scraped_at": "2026-08-20T15:46:06.143080+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1075,7 +1081,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:01:22.366288+00:00",
+      "scraped_at": "2026-08-20T15:46:06.143123+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1097,7 +1103,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 75.0,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:58.997855+00:00",
+      "scraped_at": "2026-08-20T15:45:45.612867+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1106,6 +1112,292 @@
       "score": 0,
       "confidence": 0.85,
       "id": "1a2e72d847f2f5ab"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/estudio-em-santa-maria-maior-d-45150018",
+      "title": "Estúdio em Santa Maria Maior de 25 m2",
+      "price": null,
+      "market_estimate": 180000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/estudio-em-santa-maria-maior-d-45150018",
+      "zone": "Lisboa Centro",
+      "area_m2": 25.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.613159+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "06968c8567af6ee3"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-no-neudel-o-apartamento-do-44992995",
+      "title": "T2 no Neudel: O Apartamento dos Seus Sonhos no Coração do Futuro!",
+      "price": null,
+      "market_estimate": 676800.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-no-neudel-o-apartamento-do-44992995",
+      "zone": "Lisboa Centro",
+      "area_m2": 94.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.613459+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "6711f2b10294bc85"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-lisboa-44860161",
+      "title": "Apartamento T2 Lisboa",
+      "price": null,
+      "market_estimate": 403200.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-lisboa-44860161",
+      "zone": "Lisboa Centro",
+      "area_m2": 56.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.613749+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "8c960e7ca2e9ef99"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-renovado-com-varanda-na-ama-45206716",
+      "title": "T3 Renovado com Varanda na Amadora",
+      "price": null,
+      "market_estimate": 583200.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-renovado-com-varanda-na-ama-45206716",
+      "zone": "Lisboa Centro",
+      "area_m2": 81.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.614015+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "2cca0e4d2f47bd52"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/excelente-apartamento-t3-em-al-45206663",
+      "title": "Excelente Apartamento T3 Em Alcainça - Mafra",
+      "price": null,
+      "market_estimate": 1274400.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/excelente-apartamento-t3-em-al-45206663",
+      "zone": "Lisboa Centro",
+      "area_m2": 177.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.614283+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "f4fde46a141e61da"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-duplex-penthouse-no-centro--45206660",
+      "title": "T3 Duplex Penthouse no centro de Lisboa em Arroios",
+      "price": null,
+      "market_estimate": 936000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-duplex-penthouse-no-centro--45206660",
+      "zone": "Lisboa Centro",
+      "area_m2": 130.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.614594+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "11b9a975b3caee0a"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-no-centro-de-lisboa-em-arro-45206645",
+      "title": "T2 no centro de Lisboa em Arroios a 3 minutos do metro",
+      "price": null,
+      "market_estimate": 669600.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-no-centro-de-lisboa-em-arro-45206645",
+      "zone": "Lisboa Centro",
+      "area_m2": 93.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.614886+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "116aef7fb2d048fd"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-com-varanda-no-centro-de-li-45206631",
+      "title": "T2 com varanda no centro de Lisboa em Arroios a 3 minutos do metro",
+      "price": null,
+      "market_estimate": 705600.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-com-varanda-no-centro-de-li-45206631",
+      "zone": "Lisboa Centro",
+      "area_m2": 98.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.615161+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "3e88aad6f608309a"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-vila-franca-de--45206615",
+      "title": "Apartamento T2 Vila Franca de Xira",
+      "price": null,
+      "market_estimate": 669600.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-vila-franca-de--45206615",
+      "zone": "Lisboa Centro",
+      "area_m2": 93.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.615431+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "94ebac9f65709697"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-implex-no-centro-de-lisboa--45206605",
+      "title": "T3 Implex no centro de Lisboa com jardim privativo",
+      "price": null,
+      "market_estimate": 1454400.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-implex-no-centro-de-lisboa--45206605",
+      "zone": "Lisboa Centro",
+      "area_m2": 202.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.615726+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "7fccb31130a7fc4b"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-vila-franca-de--45206603",
+      "title": "Apartamento T1 Vila Franca de Xira",
+      "price": null,
+      "market_estimate": 532800.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-vila-franca-de--45206603",
+      "zone": "Lisboa Centro",
+      "area_m2": 74.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.615986+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "ef83574ebb0471d6"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/novidade-apartamento-t3-em-m-45206584",
+      "title": "Novidade apartamento t3 em monte abraão, queluz",
+      "price": null,
+      "market_estimate": 972000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/novidade-apartamento-t3-em-m-45206584",
+      "zone": "Lisboa Centro",
+      "area_m2": 135.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.616248+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "8eed12b6a1089e58"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/duplex-t5-em-santo-antonio-44787606",
+      "title": "Duplex T5 em Santo António",
+      "price": null,
+      "market_estimate": 1432800.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/duplex-t5-em-santo-antonio-44787606",
+      "zone": "Lisboa Centro",
+      "area_m2": 199.0,
+      "posted_date": null,
+      "scraped_at": "2026-08-20T15:45:45.616497+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "fab4261f93a3e50b"
     },
     {
       "portal": "Custo Justo",
@@ -1119,7 +1411,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 56.0,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:58.998142+00:00",
+      "scraped_at": "2026-08-20T15:45:45.616750+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1141,7 +1433,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 89.0,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:58.998468+00:00",
+      "scraped_at": "2026-08-20T15:45:45.617006+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1163,7 +1455,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 90.0,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:58.998743+00:00",
+      "scraped_at": "2026-08-20T15:45:45.617254+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1185,7 +1477,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 129.0,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:58.999013+00:00",
+      "scraped_at": "2026-08-20T15:45:45.617506+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1207,7 +1499,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 74.0,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:58.999274+00:00",
+      "scraped_at": "2026-08-20T15:45:45.617781+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1229,7 +1521,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 59.0,
       "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:58.999538+00:00",
+      "scraped_at": "2026-08-20T15:45:45.618009+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1238,292 +1530,6 @@
       "score": 0,
       "confidence": 0.85,
       "id": "327f3d486911e366"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/lisboa-rua-dos-douradores-44787436",
-      "title": "Lisboa-Rua dos Douradores",
-      "price": null,
-      "market_estimate": 1008000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/lisboa-rua-dos-douradores-44787436",
-      "zone": "Lisboa Centro",
-      "area_m2": 140.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:58.999807+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "2b197a8a29deed9f"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-88m2-em-predi-44059897",
-      "title": "Apartamento T2, 88M2, Em Prédio Com Elevadores...",
-      "price": null,
-      "market_estimate": 633600.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-88m2-em-predi-44059897",
-      "zone": "Lisboa Centro",
-      "area_m2": 88.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.000046+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "b245346e2151a254"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-remodelado-com-vista-de-rio-44498288",
-      "title": "T2 Remodelado com Vista de Rio São Vicente, Lisboa",
-      "price": null,
-      "market_estimate": 324000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-remodelado-com-vista-de-rio-44498288",
-      "zone": "Lisboa Centro",
-      "area_m2": 45.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.000311+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "763799bfcec8df81"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-santa-maria--44971067",
-      "title": "Apartamento T3 em Santa Maria Maior de 65,5 m2",
-      "price": null,
-      "market_estimate": 471600.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-santa-maria--44971067",
-      "zone": "Lisboa Centro",
-      "area_m2": 65.5,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.000575+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "f528fa254784f402"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-oeiras-e-sao-44333168",
-      "title": "Apartamento T2 em Oeiras e São Julião da Barra, Paço de Arcos e Caxias de 81,00 m2",
-      "price": null,
-      "market_estimate": 583200.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-oeiras-e-sao-44333168",
-      "zone": "Lisboa Centro",
-      "area_m2": 81.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.000841+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "7a4ec8336158eadf"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44976566",
-      "title": "Apartamento T2 Mafra",
-      "price": null,
-      "market_estimate": 1058400.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44976566",
-      "zone": "Lisboa Centro",
-      "area_m2": 147.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.001087+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "9e90e4151b62432f"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44976564",
-      "title": "Apartamento T2 Mafra",
-      "price": null,
-      "market_estimate": 669600.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44976564",
-      "zone": "Lisboa Centro",
-      "area_m2": 93.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.001333+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "e22349b4d8139205"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-44976507",
-      "title": "Apartamento T3 Mafra",
-      "price": null,
-      "market_estimate": 1080000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-44976507",
-      "zone": "Lisboa Centro",
-      "area_m2": 150.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.001605+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "95636b0af590fe7e"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-44976485",
-      "title": "Apartamento T3 Mafra",
-      "price": null,
-      "market_estimate": 907200.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-44976485",
-      "zone": "Lisboa Centro",
-      "area_m2": 126.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.001855+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "ba5ce2ce8a537b2c"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/3-3-encalhado-sem-credito-ou-44930317",
-      "title": "3/3 - encalhado sem credito ou sem entrada: permute!",
-      "price": null,
-      "market_estimate": 1900800.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/3-3-encalhado-sem-credito-ou-44930317",
-      "zone": "Lisboa Centro",
-      "area_m2": 264.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.002094+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "5a7d0b7b7dace5e2"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/1-3-encalhado-sem-credito-ou-44930299",
-      "title": "1/3 - encalhado sem crédito ou sem entrada: permute!",
-      "price": null,
-      "market_estimate": 1900800.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/1-3-encalhado-sem-credito-ou-44930299",
-      "zone": "Lisboa Centro",
-      "area_m2": 264.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.002332+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "bcc2f17bb05cfc46"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/2-3-encalhado-sem-credito-ou-44930314",
-      "title": "2/3 - encalhado sem crédito ou sem entrada: permute!",
-      "price": null,
-      "market_estimate": 1900800.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/2-3-encalhado-sem-credito-ou-44930314",
-      "zone": "Lisboa Centro",
-      "area_m2": 264.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.002589+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "5d3b037b85a8f9f5"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/vive-em-coliving-esta-num-tra-44927468",
-      "title": "Vive em coliving? está num trampolim para a compropriedade!",
-      "price": null,
-      "market_estimate": 1900800.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/vive-em-coliving-esta-num-tra-44927468",
-      "zone": "Lisboa Centro",
-      "area_m2": 264.0,
-      "posted_date": null,
-      "scraped_at": "2026-08-20T12:00:59.002829+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "6cfbf2a587dad091"
     }
   ]
 }
