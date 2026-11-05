@@ -1,6 +1,6 @@
 {
-  "scanned_at": "2026-11-04T13:43:25.275261+00:00",
-  "duration_seconds": 28.4,
+  "scanned_at": "2026-11-05T13:55:35.186552+00:00",
+  "duration_seconds": 30.7,
   "total_opportunities": 65,
   "source_stats": [
     {
@@ -101,6 +101,28 @@
   ],
   "opportunities": [
     {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-todo-equipado--45406016?utm_source=li&utm_medium=gallery&utm_content=45406016",
+      "title": "Apartamento T2, Todo Equipado e Mobilado com Garagem e Arrumos em Condominio Fechado. Zona : Entre Av. Boavista e Campo Alegre.",
+      "price": 12.0,
+      "market_estimate": 576000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-todo-equipado--45406016?utm_source=li&utm_medium=gallery&utm_content=45406016",
+      "zone": "Parque das Nações",
+      "area_m2": 90.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:45.381056+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 100.0,
+      "score": 97,
+      "confidence": 0.85,
+      "id": "231e7d422b3d8b04"
+    },
+    {
       "portal": "AutoUncle",
       "category": "carro",
       "external_id": "https://www.autouncle.pt/pt/d/6531960-novo-2026-jeep-avenger-altitude-101-cv",
@@ -112,7 +134,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.455085+00:00",
+      "scraped_at": "2026-11-05T13:55:48.993574+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -121,28 +143,6 @@
       "score": 20,
       "confidence": 0.85,
       "id": "fa1a4b2ca6ea4bf9"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6536777-novo-2026-jeep-avenger-altitude-100-cv",
-      "title": "Novo (2026) Jeep Avenger Altitude 100 HP | Bom preço1.2 TG AltitudeMai 20268 kmVariante: Altitude1.2L GasolinaSUVManual100 HP (73 kW)Emissões CO2: 126 g CO2/km comb.5.6 L/100kmDetalhes",
-      "price": 23590.0,
-      "market_estimate": 27128.499999999996,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6536777-novo-2026-jeep-avenger-altitude-100-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.455215+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "8b0fac5df85ab1d8"
     },
     {
       "portal": "AutoUncle",
@@ -156,7 +156,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.455329+00:00",
+      "scraped_at": "2026-11-05T13:55:48.993664+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -178,7 +178,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.455419+00:00",
+      "scraped_at": "2026-11-05T13:55:48.993722+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -200,7 +200,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.455509+00:00",
+      "scraped_at": "2026-11-05T13:55:48.993784+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -214,7 +214,7 @@
       "portal": "AutoUncle",
       "category": "carro",
       "external_id": "https://www.autouncle.pt/pt/d/6544590-usado-2025-peugeot-408-allure-225-cv",
-      "title": "Usado (2025) Peugeot 408 Allure 225 HP | Super PreçoPlug-In Hybrid 225 e-EAT8202527.138 kmVariante: Allure1.6L Elétrico/PetrolSUVAutomática225 HP (165 kW)Emissões CO2: 114 g CO2/km comb.Detalhes",
+      "title": "Usado (2025) Peugeot 408 Allure 225 HP | Bom preçoPlug-In Hybrid 225 e-EAT8202527.138 kmVariante: Allure1.6L Elétrico/PetrolSUVAutomática225 HP (165 kW)Emissões CO2: 114 g CO2/km comb.Detalhes",
       "price": 28290.0,
       "market_estimate": 32533.499999999996,
       "currency": "EUR",
@@ -222,7 +222,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.455603+00:00",
+      "scraped_at": "2026-11-05T13:55:48.993850+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -236,7 +236,7 @@
       "portal": "AutoUncle",
       "category": "carro",
       "external_id": "https://www.autouncle.pt/pt/d/6569364-usado-2025-peugeot-408-allure-225-cv",
-      "title": "Usado (2025) Peugeot 408 Allure 225 HP | Super PreçoPlug-In Hybrid 225 e-EAT8202529.700 kmVariante: Allure1.6L Elétrico/PetrolSUVAutomática225 HP (165 kW)Emissões CO2: 114 g CO2/km comb.Detalhes",
+      "title": "Usado (2025) Peugeot 408 Allure 225 HP | Bom preçoPlug-In Hybrid 225 e-EAT8202529.700 kmVariante: Allure1.6L Elétrico/PetrolSUVAutomática225 HP (165 kW)Emissões CO2: 114 g CO2/km comb.Detalhes",
       "price": 28290.0,
       "market_estimate": 32533.499999999996,
       "currency": "EUR",
@@ -244,7 +244,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.455695+00:00",
+      "scraped_at": "2026-11-05T13:55:48.993908+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -258,7 +258,7 @@
       "portal": "AutoUncle",
       "category": "carro",
       "external_id": "https://www.autouncle.pt/pt/d/6660558-usado-2022-ds-automobiles-ds7-crossback-performance-line-plus-225-cv",
-      "title": "Usado (2022) DS Automobiles DS7 Crossback Performance Line Plus 225 HP | Super Preço202210.986 kmVariante: Performance Line Plus1.6L Elétrico/PetrolSUVAutomática225 HP (165 kW)Emissões CO2: 28 g CO2/km comb.1.2 L/100kmDetalhes",
+      "title": "Usado (2022) DS Automobiles DS7 Crossback Performance Line Plus 225 HP | Bom preço202210.986 kmVariante: Performance Line Plus1.6L Elétrico/PetrolSUVAutomática225 HP (165 kW)Emissões CO2: 28 g CO2/km comb.1.2 L/100kmDetalhes",
       "price": 26890.0,
       "market_estimate": 30923.499999999996,
       "currency": "EUR",
@@ -266,7 +266,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.455797+00:00",
+      "scraped_at": "2026-11-05T13:55:48.993972+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -279,16 +279,16 @@
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6693028-usado-2025-opel-grandland-x-145-cv",
-      "title": "Usado (2025) Opel Grandland X 145 HP | Bom preço1.2 Hybrid 136cv e-DCS6 GS2025500 km1.2L Elétrico/PetrolSUVAutomática145 HP (106 kW)Detalhes",
-      "price": 33000.0,
-      "market_estimate": 37950.0,
+      "external_id": "https://www.autouncle.pt/pt/d/6692984-usado-2026-peugeot-208-allure-136-cv",
+      "title": "Usado (2026) Peugeot 208 Allure 136 HP | Bom preço1.2 HYBRID ALLURE E-DCS6202610.726 kmVariante: Allure1.2L HíbridoCitadinoAutomática136 HP (100 kW)Emissões CO2: 102 g CO2/km comb.Detalhes",
+      "price": 21690.0,
+      "market_estimate": 24943.499999999996,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6693028-usado-2025-opel-grandland-x-145-cv",
+      "url": "https://www.autouncle.pt/pt/d/6692984-usado-2026-peugeot-208-allure-136-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.455873+00:00",
+      "scraped_at": "2026-11-05T13:55:48.994035+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -296,29 +296,7 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "b946e51f5fa9c425"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6692993-novo-2026-peugeot-2008-100-cv",
-      "title": "Novo (2026) Peugeot 2008 100 HP | Bom preçoSet 202650 km1.2L GasolinaSUVManual100 HP (73 kW)Detalhes",
-      "price": 23490.0,
-      "market_estimate": 27013.499999999996,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6692993-novo-2026-peugeot-2008-100-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.455947+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "3d51bb6b9e48ee46"
+      "id": "cf6a9d72956a687b"
     },
     {
       "portal": "AutoUncle",
@@ -332,7 +310,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.456045+00:00",
+      "scraped_at": "2026-11-05T13:55:48.994095+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -341,50 +319,6 @@
       "score": 20,
       "confidence": 0.85,
       "id": "390612929c458e3f"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6556248-usado-2025-fiat-panda-70-cv",
-      "title": "Usado (2025) Fiat Panda 70 HP | Bom preço1.0 Hybrid 70cv Pandina20259.900 km1.0L HíbridoCitadinoManual70 HP (51 kW)4.8 L/100kmDetalhes",
-      "price": 12990.0,
-      "market_estimate": 14938.499999999998,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6556248-usado-2025-fiat-panda-70-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.456123+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "88017b699ac0455e"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6692071-usado-2023-opel-astra-s-180-cv",
-      "title": "Usado (2023) Opel Astra S 180 HP | Super Preço6T PHEV 180cv S/S AT8 GS202314.988 kmVariante: S1.6L Elétrico/PetrolCarrinhaAutomática180 HP (132 kW)Emissões CO2: 25 g CO2/km comb.1.1 L/100kmDetalhes",
-      "price": 22490.0,
-      "market_estimate": 25863.499999999996,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6692071-usado-2023-opel-astra-s-180-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.456212+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "036fcd39b9fb0365"
     },
     {
       "portal": "AutoUncle",
@@ -398,7 +332,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.456323+00:00",
+      "scraped_at": "2026-11-05T13:55:48.994153+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -407,28 +341,6 @@
       "score": 20,
       "confidence": 0.85,
       "id": "f4d8084a245487cb"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6691537-usado-2024-jeep-avenger-ev-summit-156-cv",
-      "title": "Usado (2024) Jeep Avenger EV Summit 156 HP | Bom preço54 kWh SummitMar 202415.800 kmVariante: SummitEléctricoSUVAutomáticaAutonomia: 404 km114 kW (156 HP)Emissões CO2: 0 g CO2/km comb.15.3 kWh/100 kmDetalhes",
-      "price": 25790.0,
-      "market_estimate": 29658.499999999996,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6691537-usado-2024-jeep-avenger-ev-summit-156-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.456420+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "521dc9c8ccc3f911"
     },
     {
       "portal": "AutoUncle",
@@ -442,7 +354,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.456501+00:00",
+      "scraped_at": "2026-11-05T13:55:48.994203+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -455,30 +367,8 @@
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6690824-usado-2025-alfa-romeo-junior-edizione-speciale-136-cv",
-      "title": "Usado (2025) Alfa Romeo Junior Edizione Speciale 136 HP | Bom preço1.2 Speciale eDCT620258.515 kmVariante: Edizione Speciale1.2L GasolinaSUVAutomática136 HP (100 kW)Detalhes",
-      "price": 28290.0,
-      "market_estimate": 32533.499999999996,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6690824-usado-2025-alfa-romeo-junior-edizione-speciale-136-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.456577+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "fe0bec797fbe03cf"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
       "external_id": "https://www.autouncle.pt/pt/d/6690666-usado-2025-peugeot-308-gt-145-cv",
-      "title": "Usado (2025) Peugeot 308 GT 145 HP | Super Preço1.2 Hybrid GT e-DCS6202513.000 kmVariante: GT1.2L Elétrico/PetrolCitadinoAutomática145 HP (106 kW)Detalhes",
+      "title": "Usado (2025) Peugeot 308 GT 145 HP | Bom preço1.2 Hybrid GT e-DCS6202513.000 kmVariante: GT1.2L Elétrico/PetrolCitadinoAutomática145 HP (106 kW)Detalhes",
       "price": 25000.0,
       "market_estimate": 28749.999999999996,
       "currency": "EUR",
@@ -486,7 +376,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.456654+00:00",
+      "scraped_at": "2026-11-05T13:55:48.994252+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -499,16 +389,16 @@
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6690663-usado-2026-peugeot-3008-allure-145-cv",
-      "title": "Usado (2026) Peugeot 3008 Allure 145 HP | Bom preçoAllure Hybrid 145cv e-DCS6202613.604 kmVariante: Allure1.2L Elétrico/PetrolSUVAutomática145 HP (106 kW)Detalhes",
-      "price": 32490.0,
-      "market_estimate": 37363.5,
+      "external_id": "https://www.autouncle.pt/pt/d/6690602-usado-2019-citroen-c4-cactus-feel-99-cv",
+      "title": "Usado (2019) Citroën C4 Cactus Feel 99 HP | Super Preço1.5 BlueHDi 100 S&S Feel201999.000 kmVariante: Feel1.5L DieselCitadinoManual99 HP (72 kW)Detalhes",
+      "price": 11900.0,
+      "market_estimate": 13684.999999999998,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6690663-usado-2026-peugeot-3008-allure-145-cv",
+      "url": "https://www.autouncle.pt/pt/d/6690602-usado-2019-citroen-c4-cactus-feel-99-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.456736+00:00",
+      "scraped_at": "2026-11-05T13:55:48.994299+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -516,21 +406,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "54661fe5f3f05829"
+      "id": "0cccda174bf5ad23"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6690619-usado-2026-peugeot-3008-allure-145-cv",
-      "title": "Usado (2026) Peugeot 3008 Allure 145 HP | Bom preçoAllure Hybrid 145cv e-DCS6202614.875 kmVariante: Allure1.2L Elétrico/PetrolSUVAutomática145 HP (106 kW)Detalhes",
-      "price": 32490.0,
-      "market_estimate": 37363.5,
+      "external_id": "https://www.autouncle.pt/pt/d/6689760-usado-2026-citroen-c5-aircross-145-cv",
+      "title": "Usado (2026) Citroën C5 Aircross 145 HP | Bom preço1.2 HYBRID MAXJan 202618.037 km1.2L Elétrico/PetrolSUVAutomática145 HP (106 kW)Detalhes",
+      "price": 30350.0,
+      "market_estimate": 34902.5,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6690619-usado-2026-peugeot-3008-allure-145-cv",
+      "url": "https://www.autouncle.pt/pt/d/6689760-usado-2026-citroen-c5-aircross-145-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:37.456813+00:00",
+      "scraped_at": "2026-11-05T13:55:48.994344+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -538,7 +428,139 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "1651aa5b48fb60c3"
+      "id": "dfca75502844f20d"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6682607-usado-2024-opel-mokka-elegance-110-cv",
+      "title": "Usado (2024) Opel Mokka Elegance 110 HP | Bom preço1.5 D EleganceFev 202467.603 kmVariante: Elegance1.5L DieselSUVManual110 HP (80 kW)Emissões CO2: 114 g CO2/km comb.4.3 L/100kmDetalhes",
+      "price": 18109.0,
+      "market_estimate": 20825.35,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6682607-usado-2024-opel-mokka-elegance-110-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:48.994395+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "aeb5db4304d1a654"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6265952-usado-2024-fiat-tipo-city-life-101-cv",
+      "title": "Usado (2024) Fiat Tipo City Life 101 HP | Bom preço1.0 GSE T3 City LifeMar 202434.836 kmVariante: City Life1.0L GasolinaManual101 HP (74 kW)Detalhes",
+      "price": 14484.0,
+      "market_estimate": 16656.6,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6265952-usado-2024-fiat-tipo-city-life-101-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:48.994442+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "e7ece683754e2bbb"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6297481-usado-2023-peugeot-2008-gt-130-cv",
+      "title": "Usado (2023) Peugeot 2008 GT 130 HP | Bom preço1.5 BlueHDi GT EAT8Mar 202383.092 kmVariante: GT1.5L DieselSUVAutomática130 HP (95 kW)Emissões CO2: 98 g CO2/km comb.3.8 L/100kmDetalhes",
+      "price": 19993.0,
+      "market_estimate": 22991.949999999997,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6297481-usado-2023-peugeot-2008-gt-130-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:48.994496+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "05c93055b75ddc86"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6687889-usado-2025-opel-corsa-edition-101-cv",
+      "title": "Usado (2025) Opel Corsa Edition 101 HP | Bom preço1.2 T EDITIONDez 20253.620 kmVariante: Edition1.2L GasolinaCitadinoManual101 HP (74 kW)Emissões CO2: 114 g CO2/km comb.5.1 L/100kmDetalhes",
+      "price": 16490.0,
+      "market_estimate": 18963.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6687889-usado-2025-opel-corsa-edition-101-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:48.994547+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "f525fc39ee696998"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6572105-usado-2025-ds-automobiles-ds4-136-cv",
+      "title": "Usado (2025) DS Automobiles DS4 136 HP | Bom preçoHybrid 136 e-DCS6 Etoile202543.151 km1.2L Elétrico/PetrolSUVAutomática136 HP (100 kW)Detalhes",
+      "price": 25250.0,
+      "market_estimate": 29037.499999999996,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6572105-usado-2025-ds-automobiles-ds4-136-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:48.994594+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "6deba75ccfe94d9f"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6671560-usado-2025-peugeot-2008-allure-100-cv",
+      "title": "Usado (2025) Peugeot 2008 Allure 100 HP | Bom preço1.2 PureTech 100cv Allure20255.571 kmVariante: Allure1.2L GasolinaSUVManual100 HP (73 kW)Detalhes",
+      "price": 18750.0,
+      "market_estimate": 21562.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6671560-usado-2025-peugeot-2008-allure-100-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:48.994659+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "6ec8484f580b6fb4"
     },
     {
       "portal": "Watchfinder",
@@ -552,7 +574,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916110+00:00",
+      "scraped_at": "2026-11-05T13:55:51.708668+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -574,7 +596,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916140+00:00",
+      "scraped_at": "2026-11-05T13:55:51.708697+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -596,7 +618,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916154+00:00",
+      "scraped_at": "2026-11-05T13:55:51.708708+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -618,7 +640,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916166+00:00",
+      "scraped_at": "2026-11-05T13:55:51.708716+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -640,7 +662,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916178+00:00",
+      "scraped_at": "2026-11-05T13:55:51.708725+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -662,7 +684,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916189+00:00",
+      "scraped_at": "2026-11-05T13:55:51.708733+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -675,16 +697,16 @@
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/tudor/ranger/m79950-0001/454276",
-      "title": "New Price Manufacturer's Warranty Tudor Ranger M79950-0001 Box Papers Year 2025",
-      "price": 3250.0,
-      "market_estimate": 3737.4999999999995,
+      "external_id": "https://www.watchfinder.com/watches/breitling/chronomat-gmt/mb0410/451162",
+      "title": "Breitling Chronomat GMT MB0410 Box Papers Year 2018",
+      "price": 5915.0,
+      "market_estimate": 6802.249999999999,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/tudor/ranger/m79950-0001/454276",
+      "url": "https://www.watchfinder.com/watches/breitling/chronomat-gmt/mb0410/451162",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916338+00:00",
+      "scraped_at": "2026-11-05T13:55:51.708828+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -692,21 +714,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "51007efacd62e4d2"
+      "id": "8ff174b8ed01d2cb"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/bremont/u-2/u-2-51-jet/454284",
-      "title": "New Price Manufacturer's Warranty Bremont U-2 U-2/51-JET Box Papers Year 2026",
-      "price": 4000.0,
-      "market_estimate": 4600.0,
+      "external_id": "https://www.watchfinder.com/watches/bvlgari/octo/103740/454592",
+      "title": "New Price Manufacturer's Warranty Bvlgari Octo 103740 Box Papers Year 2025",
+      "price": 5980.0,
+      "market_estimate": 6876.999999999999,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/bremont/u-2/u-2-51-jet/454284",
+      "url": "https://www.watchfinder.com/watches/bvlgari/octo/103740/454592",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916384+00:00",
+      "scraped_at": "2026-11-05T13:55:51.708864+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -714,21 +736,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "74241782e2d93240"
+      "id": "fbd4a72e364ec10a"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/omega/seamaster-diver-300m/210-30-42-20-01-001/438658",
-      "title": "Omega Seamaster Diver 300m 210.30.42.20.01.001 Box Papers Year 2020",
-      "price": 5250.0,
-      "market_estimate": 6037.499999999999,
+      "external_id": "https://www.watchfinder.com/watches/cartier/roadster/w62025v3/441658",
+      "title": "Cartier Roadster W62025V3 Box Papers Year 2009",
+      "price": 5080.0,
+      "market_estimate": 5842.0,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/omega/seamaster-diver-300m/210-30-42-20-01-001/438658",
+      "url": "https://www.watchfinder.com/watches/cartier/roadster/w62025v3/441658",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916429+00:00",
+      "scraped_at": "2026-11-05T13:55:51.708898+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -736,21 +758,109 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "28942545d671731a"
+      "id": "1020e296bda6fe2e"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/tag-heuer/carrera/war201d-fc6291/424911",
-      "title": "Tag Heuer Carrera WAR201D.FC6291 Box Papers Year 2014",
+      "external_id": "https://www.watchfinder.com/watches/cartier/tank-francaise/we1002s3/451401",
+      "title": "Manufacturer's Warranty Cartier Tank Francaise WE1002S3 Box Papers Year 1998",
+      "price": 11530.0,
+      "market_estimate": 13259.499999999998,
+      "currency": "USD",
+      "url": "https://www.watchfinder.com/watches/cartier/tank-francaise/we1002s3/451401",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:51.708934+00:00",
+      "details": {
+        "fonte_raw": "watchfinder_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "7283c9e0f02e323a"
+    },
+    {
+      "portal": "Watchfinder",
+      "category": "relogio",
+      "external_id": "https://www.watchfinder.com/watches/iwc/ingenieur/iw324907/447529",
+      "title": "Manufacturer's Warranty IWC Ingenieur IW324907 Box Papers Year 2026",
+      "price": 10225.0,
+      "market_estimate": 11758.75,
+      "currency": "USD",
+      "url": "https://www.watchfinder.com/watches/iwc/ingenieur/iw324907/447529",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:51.708969+00:00",
+      "details": {
+        "fonte_raw": "watchfinder_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "88d57f8d7d39e4ad"
+    },
+    {
+      "portal": "Watchfinder",
+      "category": "relogio",
+      "external_id": "https://www.watchfinder.com/watches/iwc/pilots-chrono/iw377701/454022",
+      "title": "New Price IWC Pilot's Chrono IW377701 Box Papers Year 2016",
+      "price": 4435.0,
+      "market_estimate": 5100.25,
+      "currency": "USD",
+      "url": "https://www.watchfinder.com/watches/iwc/pilots-chrono/iw377701/454022",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:51.709002+00:00",
+      "details": {
+        "fonte_raw": "watchfinder_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "a5035cbd7f02ab44"
+    },
+    {
+      "portal": "Watchfinder",
+      "category": "relogio",
+      "external_id": "https://www.watchfinder.com/watches/omega/aqua-terra-150m-gents/2503-30-00/446616",
+      "title": "Omega Aqua Terra 150m Gents 2503.30.00 Box Papers Year 2002",
+      "price": 2635.0,
+      "market_estimate": 3030.2499999999995,
+      "currency": "USD",
+      "url": "https://www.watchfinder.com/watches/omega/aqua-terra-150m-gents/2503-30-00/446616",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:51.709037+00:00",
+      "details": {
+        "fonte_raw": "watchfinder_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "d862e54ce2213403"
+    },
+    {
+      "portal": "Watchfinder",
+      "category": "relogio",
+      "external_id": "https://www.watchfinder.com/watches/omega/dynamic/5200-50-00/447815",
+      "title": "Vintage Omega Dynamic 5200.50.00 Box Papers Year 2001",
       "price": 2185.0,
       "market_estimate": 2512.75,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/tag-heuer/carrera/war201d-fc6291/424911",
+      "url": "https://www.watchfinder.com/watches/omega/dynamic/5200-50-00/447815",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916475+00:00",
+      "scraped_at": "2026-11-05T13:55:51.709072+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -758,21 +868,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "62f6502d9cef5eec"
+      "id": "6e3df0604baaa906"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/daytona/116523/417759",
-      "title": "Manufacturer's Warranty Rolex Daytona 116523 Box Papers Year 2009",
-      "price": 19375.0,
-      "market_estimate": 22281.25,
+      "external_id": "https://www.watchfinder.com/watches/omega/speedmaster/speedmaster-racing/329-30-44-51-04-001/445790",
+      "title": "Manufacturer's Warranty Omega Speedmaster Racing 329.30.44.51.04.001 Box Papers Year 2026",
+      "price": 8295.0,
+      "market_estimate": 9539.25,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/daytona/116523/417759",
+      "url": "https://www.watchfinder.com/watches/omega/speedmaster/speedmaster-racing/329-30-44-51-04-001/445790",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916518+00:00",
+      "scraped_at": "2026-11-05T13:55:51.709109+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -780,21 +890,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "6cdc39265af9ce67"
+      "id": "931b7728a229f14d"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/lady-oyster-perpetual/176200/414012",
-      "title": "Rolex Lady Oyster Perpetual 176200 Box Papers Year 2008",
-      "price": 5000.0,
-      "market_estimate": 5750.0,
+      "external_id": "https://www.watchfinder.com/watches/panerai/luminor-marina/pam00296/441876",
+      "title": "Panerai Luminor Marina PAM00296 Box Papers Year 2008",
+      "price": 4950.0,
+      "market_estimate": 5692.5,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/lady-oyster-perpetual/176200/414012",
+      "url": "https://www.watchfinder.com/watches/panerai/luminor-marina/pam00296/441876",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916558+00:00",
+      "scraped_at": "2026-11-05T13:55:51.709141+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -802,21 +912,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "2a2a3f26d14c842f"
+      "id": "79f9656f69b95217"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/lady-oyster-perpetual/79240/445811",
-      "title": "Vintage Rolex Lady Oyster Perpetual 79240 Box Papers Year 1998",
-      "price": 4685.0,
-      "market_estimate": 5387.75,
+      "external_id": "https://www.watchfinder.com/watches/panerai/radiomir-1940-3-days/pam00736/447086",
+      "title": "Panerai Radiomir 1940 3 Days PAM00736 Box Papers Year 2017",
+      "price": 7265.0,
+      "market_estimate": 8354.75,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/lady-oyster-perpetual/79240/445811",
+      "url": "https://www.watchfinder.com/watches/panerai/radiomir-1940-3-days/pam00736/447086",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916602+00:00",
+      "scraped_at": "2026-11-05T13:55:51.709174+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -824,21 +934,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "eac345c8e6ead208"
+      "id": "010431215e86e2f2"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/cellini/6633-8/435524",
-      "title": "Rolex Cellini 6633/8 Box Papers Year 2008",
-      "price": 14500.0,
-      "market_estimate": 16675.0,
+      "external_id": "https://www.watchfinder.com/watches/panerai/radiomir-gmt/pam00946/295046",
+      "title": "Panerai Radiomir GMT PAM00946 Box Papers Year 2019",
+      "price": 7700.0,
+      "market_estimate": 8855.0,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/cellini/6633-8/435524",
+      "url": "https://www.watchfinder.com/watches/panerai/radiomir-gmt/pam00946/295046",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916641+00:00",
+      "scraped_at": "2026-11-05T13:55:51.709208+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -846,21 +956,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "86032292297cd431"
+      "id": "76e9d93a1be6f8ed"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/lady-oyster-perpetual/176200/439711",
-      "title": "New Price Rolex Lady Oyster Perpetual 176200 Box Papers Year 2008",
-      "price": 4600.0,
-      "market_estimate": 5290.0,
+      "external_id": "https://www.watchfinder.com/watches/panerai/submersible/pam01305/445158",
+      "title": "Panerai Submersible PAM01305 Box Papers Year 2019",
+      "price": 5785.0,
+      "market_estimate": 6652.749999999999,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/lady-oyster-perpetual/176200/439711",
+      "url": "https://www.watchfinder.com/watches/panerai/submersible/pam01305/445158",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916689+00:00",
+      "scraped_at": "2026-11-05T13:55:51.709240+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -868,21 +978,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "db3b2994e5a84b0c"
+      "id": "26769c13e699a73b"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/tag-heuer/aquaracer/waf141a-ba0824/361862",
-      "title": "Tag Heuer Aquaracer WAF141A.BA0824 Box Papers Year 2005",
-      "price": 1750.0,
-      "market_estimate": 2012.4999999999998,
+      "external_id": "https://www.watchfinder.com/watches/rolex/datejust/116234/446043",
+      "title": "Manufacturer's Warranty Rolex Datejust 116234 Box Papers Year 2008",
+      "price": 8950.0,
+      "market_estimate": 10292.5,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/tag-heuer/aquaracer/waf141a-ba0824/361862",
+      "url": "https://www.watchfinder.com/watches/rolex/datejust/116234/446043",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916731+00:00",
+      "scraped_at": "2026-11-05T13:55:51.709274+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -890,21 +1000,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "65fe5dfb30284c38"
+      "id": "8b15c01f296cf7d5"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/tag-heuer/aquaracer/wab2010-ba0804/388538",
-      "title": "Tag Heuer Aquaracer WAB2010.BA0804 Box Papers Year 2004",
-      "price": 1250.0,
-      "market_estimate": 1437.5,
+      "external_id": "https://www.watchfinder.com/watches/rolex/datejust-lady/69160/439780",
+      "title": "Manufacturer's Warranty Rolex Datejust Lady 69160 Box Papers Year 1998",
+      "price": 4180.0,
+      "market_estimate": 4807.0,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/tag-heuer/aquaracer/wab2010-ba0804/388538",
+      "url": "https://www.watchfinder.com/watches/rolex/datejust-lady/69160/439780",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916772+00:00",
+      "scraped_at": "2026-11-05T13:55:51.709309+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -912,21 +1022,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "671abc9132794a0d"
+      "id": "842bfdb16b5cf689"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/datejust-lady-31/178240/448337",
-      "title": "New Price Rolex Datejust Lady 31 178240 Box Papers Year 2018",
-      "price": 7185.0,
-      "market_estimate": 8262.75,
+      "external_id": "https://www.watchfinder.com/watches/rolex/datejust/1601/395977",
+      "title": "Vintage Rolex Datejust 1601 Box Papers Year 1984",
+      "price": 7395.0,
+      "market_estimate": 8504.25,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/datejust-lady-31/178240/448337",
+      "url": "https://www.watchfinder.com/watches/rolex/datejust/1601/395977",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916817+00:00",
+      "scraped_at": "2026-11-05T13:55:51.709342+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -934,21 +1044,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "2a694d78ca07a4db"
+      "id": "70aadb0d316cfa48"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/oyster-perpetual/114300/447818",
-      "title": "-5% Rolex Oyster Perpetual 114300 Box Papers Year 2019",
-      "price": 8770.0,
-      "market_estimate": 10085.5,
+      "external_id": "https://www.watchfinder.com/watches/tag-heuer/carrera/cv2015-ba0794/439385",
+      "title": "Tag Heuer Carrera CV2015.BA0794 Box Papers Year 2005",
+      "price": 2510.0,
+      "market_estimate": 2886.5,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/oyster-perpetual/114300/447818",
+      "url": "https://www.watchfinder.com/watches/tag-heuer/carrera/cv2015-ba0794/439385",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916862+00:00",
+      "scraped_at": "2026-11-05T13:55:51.709375+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -956,21 +1066,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "1e148b5f0303cab0"
+      "id": "8cfe0fe28f57b671"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/submariner/16618/435260",
-      "title": "New Price Vintage Rolex Submariner 16618 Box Papers Year 1990",
-      "price": 26875.0,
-      "market_estimate": 30906.249999999996,
+      "external_id": "https://www.watchfinder.com/watches/zenith/pilot/96-2431-693-21-c738/207096",
+      "title": "Zenith Pilot 96.2431.693/21.C738 Box Papers Year 2019",
+      "price": 5850.0,
+      "market_estimate": 6727.499999999999,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/submariner/16618/435260",
+      "url": "https://www.watchfinder.com/watches/zenith/pilot/96-2431-693-21-c738/207096",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916905+00:00",
+      "scraped_at": "2026-11-05T13:55:51.709409+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -978,95 +1088,7 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "05360cc7860243c3"
-    },
-    {
-      "portal": "Watchfinder",
-      "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/sea-dweller/1665/434630",
-      "title": "Vintage Rolex Sea-Dweller 1665 Box Papers Year 1977",
-      "price": 15235.0,
-      "market_estimate": 17520.25,
-      "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/sea-dweller/1665/434630",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916948+00:00",
-      "details": {
-        "fonte_raw": "watchfinder_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "c13da5a6dd7c10bf"
-    },
-    {
-      "portal": "Watchfinder",
-      "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/datejust-lady-28/279161/426655",
-      "title": "New Price Manufacturer's Warranty Rolex Datejust Lady 28 279161 Box Papers Year 2023",
-      "price": 11185.0,
-      "market_estimate": 12862.749999999998,
-      "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/datejust-lady-28/279161/426655",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.916993+00:00",
-      "details": {
-        "fonte_raw": "watchfinder_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "74981654e38a52e7"
-    },
-    {
-      "portal": "Watchfinder",
-      "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/datejust-lady-31/178241/404680",
-      "title": "New Price Rolex Datejust Lady 31 178241 Box Papers Year 2015",
-      "price": 10750.0,
-      "market_estimate": 12362.499999999998,
-      "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/datejust-lady-31/178241/404680",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.917036+00:00",
-      "details": {
-        "fonte_raw": "watchfinder_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "6dbf0ee13f99d661"
-    },
-    {
-      "portal": "Watchfinder",
-      "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/omega/seamaster-diver-300m/210-30-42-20-03-002/453241",
-      "title": "New Price Manufacturer's Warranty Omega Seamaster Diver 300m 210.30.42.20.03.002 Box Papers Year 2026",
-      "price": 8125.0,
-      "market_estimate": 9343.75,
-      "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/omega/seamaster-diver-300m/210-30-42-20-03-002/453241",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:40.917086+00:00",
-      "details": {
-        "fonte_raw": "watchfinder_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "e0f61694a568573c"
+      "id": "933cb8d6e44a8f7d"
     },
     {
       "portal": "Custo Justo",
@@ -1080,7 +1102,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 111.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.990132+00:00",
+      "scraped_at": "2026-11-05T13:55:41.654751+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1093,16 +1115,16 @@
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/braga/imobiliario/apartamentos/t3-novo-122-m-varanda-42-45405615?utm_source=li&utm_medium=gallery&utm_content=45405615",
-      "title": "T3 NOVO | 122 m² | Varanda 42 m² | Garagem | Maximinos, Braga",
+      "external_id": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t2-faro-45036506?utm_source=li&utm_medium=gallery&utm_content=45036506",
+      "title": "Apartamento T2 Faro",
       "price": null,
-      "market_estimate": 878400.0,
+      "market_estimate": 1058400.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/braga/imobiliario/apartamentos/t3-novo-122-m-varanda-42-45405615?utm_source=li&utm_medium=gallery&utm_content=45405615",
+      "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t2-faro-45036506?utm_source=li&utm_medium=gallery&utm_content=45036506",
       "zone": "Lisboa Centro",
-      "area_m2": 122.0,
+      "area_m2": 147.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.990496+00:00",
+      "scraped_at": "2026-11-05T13:55:41.654985+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1110,153 +1132,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "3d41bb1a1b3e4e9c"
+      "id": "45ca8f5337aba4ec"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-em-monte-abraao-45490692",
-      "title": "Apartamento t4 em monte abraão- zona central",
-      "price": null,
-      "market_estimate": 691200.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-em-monte-abraao-45490692",
-      "zone": "Lisboa Centro",
-      "area_m2": 96.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.990802+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "676d9b04cc83c8af"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-duas-varand-45490652",
-      "title": "Apartamento T2 Com Duas Varandas No Lumiar",
-      "price": null,
-      "market_estimate": 453600.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-duas-varand-45490652",
-      "zone": "Lisboa Centro",
-      "area_m2": 63.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.991091+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "cec4d4cb86e77c75"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-varandas-no-45490610",
-      "title": "Apartamento t2 com varandas no lumiar lisboa",
-      "price": null,
-      "market_estimate": 504000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-varandas-no-45490610",
-      "zone": "Lisboa Centro",
-      "area_m2": 70.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.991401+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "8e9db1322684bda8"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-44970216",
-      "title": "Apartamento T3",
-      "price": null,
-      "market_estimate": 655200.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-44970216",
-      "zone": "Lisboa Centro",
-      "area_m2": 91.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.991674+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "9632b38ebcea5201"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-lourinha-e-a-45114556",
-      "title": "Apartamento T3 em Lourinhã e Atalaia de 94,00 m2",
-      "price": null,
-      "market_estimate": 676800.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-lourinha-e-a-45114556",
-      "zone": "Lisboa Centro",
-      "area_m2": 94.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.991957+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "7ceeafde9674937b"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-lourinha-e-a-45114557",
-      "title": "Apartamento T3 em Lourinhã e Atalaia de 113,00 m2",
-      "price": null,
-      "market_estimate": 813600.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-lourinha-e-a-45114557",
-      "zone": "Lisboa Centro",
-      "area_m2": 113.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.992244+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "6f5636ece80ae9a9"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-com-terraco-privativo-de-80-45490520",
-      "title": "T1 com Terraço Privativo de 80 m², em Bom Estado e com Grande Potencial",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/2x-apartanento-t2-80-m2-e-90-m-45492543",
+      "title": "2x apartanento t2 80 m2 e 90 m2 entradas independents em Mem Martins a 10 minutos da estação.",
       "price": null,
       "market_estimate": 576000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-com-terraco-privativo-de-80-45490520",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/2x-apartanento-t2-80-m2-e-90-m-45492543",
       "zone": "Lisboa Centro",
       "area_m2": 80.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.992544+00:00",
+      "scraped_at": "2026-11-05T13:55:41.655196+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1264,7 +1154,51 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "10cfbd982311097d"
+      "id": "cdfa3b7049129a3c"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-126m2-estrear-m-45492529",
+      "title": "Apartamento T2 126M2 Estrear Miraflores Com 2...",
+      "price": null,
+      "market_estimate": 907200.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-126m2-estrear-m-45492529",
+      "zone": "Lisboa Centro",
+      "area_m2": 126.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:41.655389+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "67b7d95b99c84d03"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-lourinha-45492489",
+      "title": "T1 lourinhã",
+      "price": null,
+      "market_estimate": 324000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-lourinha-45492489",
+      "zone": "Lisboa Centro",
+      "area_m2": 45.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:41.655578+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "5c651278fe6161ae"
     },
     {
       "portal": "Custo Justo",
@@ -1278,7 +1212,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 100.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.992830+00:00",
+      "scraped_at": "2026-11-05T13:55:41.655797+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1300,7 +1234,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 55.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.993093+00:00",
+      "scraped_at": "2026-11-05T13:55:41.655999+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1313,16 +1247,16 @@
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/fantastico-apartamento-t3-remo-45431144",
-      "title": "Fantástico Apartamento T3 Remodelado junto ao Mercado da Encarnação",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-serra-das-minas-45404139",
+      "title": "T2 serra das minas",
       "price": null,
-      "market_estimate": 554400.0,
+      "market_estimate": 576000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/fantastico-apartamento-t3-remo-45431144",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-serra-das-minas-45404139",
       "zone": "Lisboa Centro",
-      "area_m2": 77.0,
+      "area_m2": 80.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.993400+00:00",
+      "scraped_at": "2026-11-05T13:55:41.656204+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1330,43 +1264,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "201f9adca853e489"
+      "id": "626fc0649efa2a4c"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-com-arrecadacao-45490275",
-      "title": "Apartamento t3 com arrecadação - mem martins",
-      "price": null,
-      "market_estimate": 748800.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-com-arrecadacao-45490275",
-      "zone": "Lisboa Centro",
-      "area_m2": 104.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.993680+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "f425d60e0cd23a67"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/conde-da-ribeira-by-valle-flor-41527648",
-      "title": "Conde da Ribeira by Valle Flôr Properties Collection - Concluído e pronto a escriturar",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-benfica-remodelado-45228977",
+      "title": "T3 benfica remodelado",
       "price": null,
       "market_estimate": 590400.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/conde-da-ribeira-by-valle-flor-41527648",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-benfica-remodelado-45228977",
       "zone": "Lisboa Centro",
       "area_m2": 82.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.993962+00:00",
+      "scraped_at": "2026-11-05T13:55:41.656395+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1374,21 +1286,43 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "9414e0c7392090de"
+      "id": "8eacaeabe83c21a9"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44250603",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-duplex-mafra-45475443",
+      "title": "Apartamento T4 Duplex Mafra",
+      "price": null,
+      "market_estimate": 1504800.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-duplex-mafra-45475443",
+      "zone": "Lisboa Centro",
+      "area_m2": 209.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:41.656584+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "f911368b1c221788"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45475424",
       "title": "Apartamento T2 Mafra",
       "price": null,
-      "market_estimate": 583200.0,
+      "market_estimate": 633600.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44250603",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45475424",
       "zone": "Lisboa Centro",
-      "area_m2": 81.0,
+      "area_m2": 88.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.994219+00:00",
+      "scraped_at": "2026-11-05T13:55:41.656778+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1396,21 +1330,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "e9fa849fe24baf16"
+      "id": "08b9b47c3bf3d05e"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-mafra-44432683",
-      "title": "Apartamento T1 Mafra",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/luxuoso-apartamento-t6-duplex--45492222",
+      "title": "Luxuoso Apartamento T6 Duplex Avenida Conde de Valbom | Lisboa",
       "price": null,
-      "market_estimate": 532800.0,
+      "market_estimate": 1843200.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-mafra-44432683",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/luxuoso-apartamento-t6-duplex--45492222",
       "zone": "Lisboa Centro",
-      "area_m2": 74.0,
+      "area_m2": 256.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.994505+00:00",
+      "scraped_at": "2026-11-05T13:55:41.656980+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1418,21 +1352,65 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "a2f528aeeb84de3b"
+      "id": "463006046a443a37"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44432682",
-      "title": "Apartamento T2 Mafra",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-totalmente-remo-45216036",
+      "title": "Apartamento T3 Totalmente Remodelado a Estrear Centro de Benfica (ag5536)",
+      "price": null,
+      "market_estimate": 547200.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-totalmente-remo-45216036",
+      "zone": "Lisboa Centro",
+      "area_m2": 76.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:41.657186+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "2dcac4226699c33f"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/oportunidade-unica-na-reboleir-45239970",
+      "title": "Oportunidade Única na Reboleira, Amadora!",
+      "price": null,
+      "market_estimate": 633600.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/oportunidade-unica-na-reboleir-45239970",
+      "zone": "Lisboa Centro",
+      "area_m2": 88.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:41.657364+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "a1723c9b0e5e24a0"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-barcarena-de-45491990",
+      "title": "Apartamento T3 em Barcarena de 107 m2",
       "price": null,
       "market_estimate": 770400.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44432682",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-barcarena-de-45491990",
       "zone": "Lisboa Centro",
       "area_m2": 107.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.994771+00:00",
+      "scraped_at": "2026-11-05T13:55:41.657535+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1440,21 +1418,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "404e78bad1e6a9da"
+      "id": "6fef6314a0238e4e"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44781852",
-      "title": "Apartamento T2 Mafra",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t0-novos-desde-490-44826044",
+      "title": "Apartamento T0 Novos Desde 490.000 No Empreendimento Prata Riverside Village",
       "price": null,
-      "market_estimate": 792000.0,
+      "market_estimate": 345600.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44781852",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t0-novos-desde-490-44826044",
       "zone": "Lisboa Centro",
-      "area_m2": 110.0,
+      "area_m2": 48.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.995036+00:00",
+      "scraped_at": "2026-11-05T13:55:41.657765+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1462,21 +1440,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "c375183638e3b116"
+      "id": "4aa26b3170c235ee"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-novo-com-vista-44239896",
-      "title": "Apartamento T3 NOVO, com vista de mar, na Ericeira",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-novo-em-condominio-fechado--44169474",
+      "title": "T2 Novo Em Condomínio Fechado De Luxo",
       "price": null,
-      "market_estimate": 784800.0,
+      "market_estimate": 756000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-novo-com-vista-44239896",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-novo-em-condominio-fechado--44169474",
       "zone": "Lisboa Centro",
-      "area_m2": 109.0,
+      "area_m2": 105.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.995340+00:00",
+      "scraped_at": "2026-11-05T13:55:41.657958+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1484,21 +1462,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "22888fe97e8785c9"
+      "id": "62ee80ccfb525fe4"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/penthouse-t3-na-ericeira-44239835",
-      "title": "Penthouse T3 na Ericeira",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-misericordia-42294628",
+      "title": "Apartamento T3 em Misericórdia de 158,00 m2",
       "price": null,
-      "market_estimate": 1000800.0,
+      "market_estimate": 1137600.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/penthouse-t3-na-ericeira-44239835",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-misericordia-42294628",
       "zone": "Lisboa Centro",
-      "area_m2": 139.0,
+      "area_m2": 158.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:30.995611+00:00",
+      "scraped_at": "2026-11-05T13:55:41.658142+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1506,21 +1484,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "580cf5d64aec103d"
+      "id": "6d2b0184a6bd70de"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t2-em-quarteira-de-44821348?utm_source=li&utm_medium=gallery&utm_content=44821348",
-      "title": "Apartamento T2 em Quarteira de 45 m2",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-totalmente-remodelado-com-s-45403806",
+      "title": "T3 Totalmente Remodelado com Suite e Duas Varandas | Estrada da Luz",
       "price": null,
-      "market_estimate": 288000.0,
+      "market_estimate": 676800.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t2-em-quarteira-de-44821348?utm_source=li&utm_medium=gallery&utm_content=44821348",
-      "zone": "Parque das Nações",
-      "area_m2": 45.0,
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-totalmente-remodelado-com-s-45403806",
+      "zone": "Lisboa Centro",
+      "area_m2": 94.0,
       "posted_date": null,
-      "scraped_at": "2026-11-04T13:43:33.885997+00:00",
+      "scraped_at": "2026-11-05T13:55:41.658341+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1528,7 +1506,29 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "1492ce9bfdb73d32"
+      "id": "47a3e91650b81314"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-lisboa-benfica-45491708",
+      "title": "Apartamento Lisboa - Benfica",
+      "price": null,
+      "market_estimate": 424800.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-lisboa-benfica-45491708",
+      "zone": "Lisboa Centro",
+      "area_m2": 59.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-05T13:55:41.658511+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "f67b7fa8a15a123b"
     }
   ]
 }
