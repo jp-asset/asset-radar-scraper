@@ -1,6 +1,6 @@
 {
-  "scanned_at": "2026-11-07T12:22:08.371884+00:00",
-  "duration_seconds": 27.4,
+  "scanned_at": "2026-11-08T12:41:12.770593+00:00",
+  "duration_seconds": 33.4,
   "total_opportunities": 65,
   "source_stats": [
     {
@@ -103,38 +103,16 @@
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6649141-usado-2025-peugeot-2008-style-100-cv",
-      "title": "Usado (2025) Peugeot 2008 Style 100 HP | Bom preço1.2 PureTech 100cv StyleJun 202521.475 kmVariante: Style1.2L GasolinaSUVManual100 HP (73 kW)Detalhes",
-      "price": 18390.0,
-      "market_estimate": 21148.5,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6649141-usado-2025-peugeot-2008-style-100-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.345814+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "be2953b217513679"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
       "external_id": "https://www.autouncle.pt/pt/d/6600298-usado-2025-peugeot-2008-style-100-cv",
       "title": "Usado (2025) Peugeot 2008 Style 100 HP | Bom preço1.2 PureTech 100cv StyleMai 202523.401 kmVariante: Style1.2L GasolinaSUVManual100 HP (73 kW)Emissões CO2: 123 g CO2/km comb.5.4 L/100kmDetalhes",
-      "price": 18390.0,
-      "market_estimate": 21148.5,
+      "price": 18250.0,
+      "market_estimate": 20987.5,
       "currency": "EUR",
       "url": "https://www.autouncle.pt/pt/d/6600298-usado-2025-peugeot-2008-style-100-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.345919+00:00",
+      "scraped_at": "2026-11-08T12:41:26.929597+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -147,16 +125,16 @@
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6580509-usado-2023-peugeot-208-active-75-cv",
-      "title": "Usado (2023) Peugeot 208 Active 75 HP | Bom preço1.2 PureTech Active Pack2023121.000 kmVariante: Active1.2L GasolinaCitadinoManual75 HP (55 kW)4.8 L/100kmDetalhes",
-      "price": 11890.0,
-      "market_estimate": 13673.499999999998,
+      "external_id": "https://www.autouncle.pt/pt/d/6587951-usado-2026-opel-mokka-edition-136-cv",
+      "title": "Usado (2026) Opel Mokka Edition 136 HP | Super Preço1.2 T EDITIONFev 20264.598 kmVariante: Edition1.2L GasolinaSUVManual136 HP (100 kW)Emissões CO2: 129 g CO2/km comb.5.7 L/100kmDetalhes",
+      "price": 20990.0,
+      "market_estimate": 24138.499999999996,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6580509-usado-2023-peugeot-208-active-75-cv",
+      "url": "https://www.autouncle.pt/pt/d/6587951-usado-2026-opel-mokka-edition-136-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346000+00:00",
+      "scraped_at": "2026-11-08T12:41:26.929679+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -164,21 +142,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "2485f82b5ddd25fd"
+      "id": "83c10bfb87433add"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6579006-usado-2023-peugeot-2008-active-102-cv",
-      "title": "Usado (2023) Peugeot 2008 Active 102 HP | Bom preço1.2 PureTech Active Pack2023100.000 kmVariante: Active1.2L GasolinaSUVManual102 HP (75 kW)Detalhes",
-      "price": 13690.0,
-      "market_estimate": 15743.499999999998,
+      "external_id": "https://www.autouncle.pt/pt/d/6526175-novo-2026-citroen-berlingo-100-cv",
+      "title": "Novo (2026) Citroën Berlingo 100 HP | Super PreçoM 1.5 BlueHDi (L1)Mar 202611 km1.5L DieselMonovolumeManual100 HP (73 kW)5.5 L/100kmDetalhes",
+      "price": 22500.0,
+      "market_estimate": 25874.999999999996,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6579006-usado-2023-peugeot-2008-active-102-cv",
+      "url": "https://www.autouncle.pt/pt/d/6526175-novo-2026-citroen-berlingo-100-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346076+00:00",
+      "scraped_at": "2026-11-08T12:41:26.929731+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -186,21 +164,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "0c97f60159bb72a4"
+      "id": "7056d76a1464af83"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6693084-usado-2025-peugeot-5008-allure-136-cv",
-      "title": "Usado (2025) Peugeot 5008 Allure 136 HP | Bom preço1.2 Hybrid Allure Pack e-DCS6Mar 202524.141 kmVariante: Allure1.2L Elétrico/PetrolSUVAutomática136 HP (100 kW)Emissões CO2: 130 g CO2/km comb.5.8 L/100kmDetalhes",
-      "price": 30378.0,
-      "market_estimate": 34934.7,
+      "external_id": "https://www.autouncle.pt/pt/d/6631141-usado-2023-ford-focus-st-line-115-cv",
+      "title": "Usado (2023) Ford Focus ST-Line 115 HP | Bom preço1.5 TDCI ECOBLUE 115cv AUTO202374.668 kmVariante: ST-Line1.5L DieselCarrinhaAutomática115 HP (84 kW)Emissões CO2: 123 g CO2/km comb.4.7 L/100kmDetalhes",
+      "price": 22250.0,
+      "market_estimate": 25587.499999999996,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6693084-usado-2025-peugeot-5008-allure-136-cv",
+      "url": "https://www.autouncle.pt/pt/d/6631141-usado-2023-ford-focus-st-line-115-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346166+00:00",
+      "scraped_at": "2026-11-08T12:41:26.929792+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -208,21 +186,351 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "6a2b03157480eac3"
+      "id": "2c302bfe6661cf14"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6706610-usado-2026-jeep-avenger-altitude-110-cv",
+      "title": "Usado (2026) Jeep Avenger Altitude 110 HP | Bom preço1.2 e-Hybrid 48V 110cv 4X2 DCT202617.928 kmVariante: Altitude1.2L GasolinaSUVAutomática110 HP (80 kW)Detalhes",
+      "price": 24250.0,
+      "market_estimate": 27887.499999999996,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6706610-usado-2026-jeep-avenger-altitude-110-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.929847+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "c1f23849fea73654"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6631171-usado-2025-opel-astra-136-cv",
+      "title": "Usado (2025) Opel Astra 136 HP | Super Preço2T Hybrid 136cv CADC6 ST GSMar 202515.472 km1.2L Elétrico/PetrolCitadinoAutomática136 HP (100 kW)Detalhes",
+      "price": 23500.0,
+      "market_estimate": 27024.999999999996,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6631171-usado-2025-opel-astra-136-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.929898+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "95b675d8f771f0de"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6644091-usado-2025-fiat-600-145-cv",
+      "title": "Usado (2025) Fiat 600 145 HP | Bom preçoHybrid 1.2 145cv DCT -Mai 20258.317 km1.2L GasolinaSUVAutomática145 HP (106 kW)Emissões CO2: 109 g CO2/km comb.4.8 L/100kmDetalhes",
+      "price": 22000.0,
+      "market_estimate": 25299.999999999996,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6644091-usado-2025-fiat-600-145-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.929957+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "a8848ae8ee45584d"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6682743-usado-2025-peugeot-2008-allure-100-cv",
+      "title": "Usado (2025) Peugeot 2008 Allure 100 HP | Bom preço1.2 100 cv Allure202519.536 kmVariante: Allure1.2L GasolinaSUVManual100 HP (73 kW)Detalhes",
+      "price": 18500.0,
+      "market_estimate": 21275.0,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6682743-usado-2025-peugeot-2008-allure-100-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930019+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "c1dc4719a7854645"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6611160-usado-2025-ford-tourneo-courier-titanium-125-cv",
+      "title": "Usado (2025) Ford Tourneo Courier Titanium 125 HP | Super Preço1.0 EcoBoost 125cv TITANIUMJul 202515.825 kmVariante: Titanium1.0L GasolinaMonovolumeManual125 HP (91 kW)Emissões CO2: 151 g CO2/km comb.6.7 L/100kmDetalhes",
+      "price": 21900.0,
+      "market_estimate": 25184.999999999996,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6611160-usado-2025-ford-tourneo-courier-titanium-125-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930083+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "56254e4d26411da7"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6649141-usado-2025-peugeot-2008-style-100-cv",
+      "title": "Usado (2025) Peugeot 2008 Style 100 HP | Bom preço1.2 PureTech 100cv StyleJun 202521.475 kmVariante: Style1.2L GasolinaSUVManual100 HP (73 kW)Detalhes",
+      "price": 18250.0,
+      "market_estimate": 20987.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6649141-usado-2025-peugeot-2008-style-100-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930135+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "be2953b217513679"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6645614-usado-2024-alfa-romeo-junior-edizione-speciale-136-cv",
+      "title": "Usado (2024) Alfa Romeo Junior Edizione Speciale 136 HP | Bom preço1.2 136CV Ibrida SpecialeOut 202418.417 kmVariante: Edizione Speciale1.2L GasolinaSUVAutomática136 HP (100 kW)Detalhes",
+      "price": 26000.0,
+      "market_estimate": 29899.999999999996,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6645614-usado-2024-alfa-romeo-junior-edizione-speciale-136-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930188+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "1279d2615627732b"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6634098-usado-2023-fiat-tipo-cross-95-cv",
+      "title": "Usado (2023) Fiat Tipo Cross 95 HP | Bom preçoCROSS 1.0Cc202355.377 kmVariante: Cross1.2L DieselManual95 HP (69 kW)4.4 L/100kmDetalhes",
+      "price": 15000.0,
+      "market_estimate": 17250.0,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6634098-usado-2023-fiat-tipo-cross-95-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930234+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "8a28e620c52ae1d5"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6666278-usado-2022-opel-mokka-gs-line-130-cv",
+      "title": "Usado (2022) Opel Mokka GS Line 130 HP | Bom preço1.2T 130cv GS Line202233.572 kmVariante: GS Line1.2L GasolinaSUVManual130 HP (95 kW)Emissões CO2: 123 g CO2/km comb.5.5 L/100kmDetalhes",
+      "price": 17750.0,
+      "market_estimate": 20412.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6666278-usado-2022-opel-mokka-gs-line-130-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930288+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "e2e9d8ed6183f6b1"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6693028-usado-2025-opel-grandland-x-145-cv",
+      "title": "Usado (2025) Opel Grandland X 145 HP | Bom preço1.2 Hybrid 136cv e-DCS6 GS2025500 km1.2L Elétrico/PetrolSUVAutomática145 HP (106 kW)Detalhes",
+      "price": 32250.0,
+      "market_estimate": 37087.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6693028-usado-2025-opel-grandland-x-145-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930334+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "b946e51f5fa9c425"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6671559-usado-2026-citroen-berlingo-100-cv",
+      "title": "Usado (2026) Citroën Berlingo 100 HP | Super PreçoM 1.5 BlueHDi 100 S&S CVM6 -202626.033 km1.5L DieselMonovolumeManual100 HP (73 kW)5.5 L/100kmDetalhes",
+      "price": 19250.0,
+      "market_estimate": 22137.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6671559-usado-2026-citroen-berlingo-100-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930381+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "ebd349c06c4d0f8a"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6643033-usado-2025-peugeot-2008-style-100-cv",
+      "title": "Usado (2025) Peugeot 2008 Style 100 HP | Bom preço1.2 PureTech 100cv StyleJun 202521.144 kmVariante: Style1.2L GasolinaSUVManual100 HP (73 kW)Detalhes",
+      "price": 18250.0,
+      "market_estimate": 20987.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6643033-usado-2025-peugeot-2008-style-100-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930444+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "d9f5045f7b1b38b8"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6500643-usado-2022-opel-grandland-x-gs-line-130-cv",
+      "title": "Usado (2022) Opel Grandland X GS Line 130 HP | Bom preço1.2T 130cv S/S GS LineOut 202254.000 kmVariante: GS Line1.2L GasolinaSUVManual130 HP (95 kW)Emissões CO2: 133 g CO2/km comb.5.9 L/100kmDetalhes",
+      "price": 18250.0,
+      "market_estimate": 20987.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6500643-usado-2022-opel-grandland-x-gs-line-130-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930501+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "996a5de944650cae"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6663431-usado-2025-peugeot-2008-allure-100-cv",
+      "title": "Usado (2025) Peugeot 2008 Allure 100 HP | Bom preço1.2 100 cv AllureDez 202517.237 kmVariante: Allure1.2L GasolinaSUVManual100 HP (73 kW)Detalhes",
+      "price": 18750.0,
+      "market_estimate": 21562.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6663431-usado-2025-peugeot-2008-allure-100-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930549+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "40cb0bca5011ae1c"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6677823-usado-2025-peugeot-2008-style-100-cv",
+      "title": "Usado (2025) Peugeot 2008 Style 100 HP | Super Preço1.2 PureTech 100cv Style202520.451 kmVariante: Style1.2L GasolinaSUVManual100 HP (73 kW)Detalhes",
+      "price": 17250.0,
+      "market_estimate": 19837.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6677823-usado-2025-peugeot-2008-style-100-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:26.930600+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "bc202a814a96924b"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
       "external_id": "https://www.autouncle.pt/pt/d/6686018-usado-2025-citroen-berlingo-100-cv",
       "title": "Usado (2025) Citroën Berlingo 100 HP | Bom preçoM 1.5 BlueHDi 100 S&S CVM6 -202520.397 km1.5L DieselMonovolumeManual100 HP (73 kW)5.5 L/100kmDetalhes",
-      "price": 19250.0,
-      "market_estimate": 22137.5,
+      "price": 18250.0,
+      "market_estimate": 20987.5,
       "currency": "EUR",
       "url": "https://www.autouncle.pt/pt/d/6686018-usado-2025-citroen-berlingo-100-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346237+00:00",
+      "scraped_at": "2026-11-08T12:41:26.930648+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -231,314 +539,6 @@
       "score": 20,
       "confidence": 0.85,
       "id": "412fffc8041050a6"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6579002-usado-2023-peugeot-308-sw-active-130-cv",
-      "title": "Usado (2023) Peugeot 308 SW Active 130 HP | Bom preço1.2 PureTech Active Pack2023111.635 kmVariante: Active1.2L GasolinaCarrinhaManual130 HP (95 kW)Detalhes",
-      "price": 14890.0,
-      "market_estimate": 17123.5,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6579002-usado-2023-peugeot-308-sw-active-130-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346310+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "63f56c8295b82889"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6687349-usado-2026-opel-corsa-110-cv",
-      "title": "Usado (2026) Opel Corsa 110 HP | Bom preço1.2 Turbo Hybrid 110cv CDC6 GS202617.276 km1.2L GasolinaCitadinoAutomática110 HP (80 kW)Emissões CO2: 103 g CO2/km comb.4.6 L/100kmDetalhes",
-      "price": 19490.0,
-      "market_estimate": 22413.5,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6687349-usado-2026-opel-corsa-110-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346419+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "797c10065659f1a0"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6693195-usado-2019-citroen-c5-aircross-shine-130-cv",
-      "title": "Usado (2019) Citroën C5 Aircross Shine 130 HP | Bom preço1.5 BlueHDi Shine PackNov 2019103.853 kmVariante: Shine1.5L DieselSUVManual130 HP (95 kW)Emissões CO2: 106 g CO2/km comb.4.1 L/100kmDetalhes",
-      "price": 15194.0,
-      "market_estimate": 17473.1,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6693195-usado-2019-citroen-c5-aircross-shine-130-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346506+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "d9eba0ba74597b5e"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6579007-usado-2022-opel-corsa-business-102-cv",
-      "title": "Usado (2022) Opel Corsa Business 102 HP | Bom preço1.5 D Business2022135.000 kmVariante: Business1.5L DieselCitadinoManual102 HP (75 kW)Emissões CO2: 85 g CO2/km comb.3.2 L/100kmDetalhes",
-      "price": 10890.0,
-      "market_estimate": 12523.499999999998,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6579007-usado-2022-opel-corsa-business-102-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346584+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "1e4314e14c37912e"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6517960-usado-2025-ds-automobiles-ds7-crossback-130-cv",
-      "title": "Usado (2025) DS Automobiles DS7 Crossback 130 HP | Super PreçoFev 202513.476 km1.5L DieselSUVAutomática130 HP (95 kW)Emissões CO2: 134 g CO2/km comb.5.1 L/100kmDetalhes",
-      "price": 31029.0,
-      "market_estimate": 35683.35,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6517960-usado-2025-ds-automobiles-ds7-crossback-130-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346657+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "bc80fc5698c28f1a"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6634129-usado-2023-peugeot-2008-active-102-cv",
-      "title": "Usado (2023) Peugeot 2008 Active 102 HP | Bom preço1.2 PureTech Active Pack202395.354 kmVariante: Active1.2L GasolinaSUVManual102 HP (75 kW)Detalhes",
-      "price": 13690.0,
-      "market_estimate": 15743.499999999998,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6634129-usado-2023-peugeot-2008-active-102-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346726+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "68164a86c4234879"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6543008-usado-2023-fiat-ducato-easy-140-cv",
-      "title": "Usado (2023) Fiat Ducato Easy 140 HP | Bom preço2.2 Multijet 140cv 33 L3H2 Easy202339.000 kmVariante: Easy2.2L DieselVanManual140 HP (102 kW)Detalhes",
-      "price": 27950.0,
-      "market_estimate": 32142.499999999996,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6543008-usado-2023-fiat-ducato-easy-140-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346799+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "a126202524741805"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6693002-usado-2025-alfa-romeo-junior-edizione-speciale-145-cv",
-      "title": "Usado (2025) Alfa Romeo Junior Edizione Speciale 145 HP | Bom preço1.2 Speciale eDCT6Mar 202525.192 kmVariante: Edizione Speciale1.2L GasolinaSUVAutomática145 HP (106 kW)Emissões CO2: 118 g CO2/km comb.5.2 L/100kmDetalhes",
-      "price": 25850.0,
-      "market_estimate": 29727.499999999996,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6693002-usado-2025-alfa-romeo-junior-edizione-speciale-145-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346877+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "1b003af18367d669"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6690850-usado-2025-peugeot-308-style-145-cv",
-      "title": "Usado (2025) Peugeot 308 Style 145 HP | Super Preço1.2 Hybrid Style e-DCS6202519.970 kmVariante: Style1.2L Elétrico/PetrolCitadinoAutomática145 HP (106 kW)Detalhes",
-      "price": 19990.0,
-      "market_estimate": 22988.5,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6690850-usado-2025-peugeot-308-style-145-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.346946+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "dbaa48d12b775375"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6684274-usado-2024-peugeot-308-sw-active-130-cv",
-      "title": "Usado (2024) Peugeot 308 SW Active 130 HP | Super Preço1.2 PureTech Active PackJun 202432.944 kmVariante: Active1.2L GasolinaCarrinhaManual130 HP (95 kW)Detalhes",
-      "price": 16750.0,
-      "market_estimate": 19262.5,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6684274-usado-2024-peugeot-308-sw-active-130-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.347014+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "d955949b89d7fdf5"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6580547-usado-2024-peugeot-308-sw-allure-130-cv",
-      "title": "Usado (2024) Peugeot 308 SW Allure 130 HP | Super Preço1.2 PureTech Allure EAT8202477.753 kmVariante: Allure1.2L GasolinaCarrinhaAutomática130 HP (95 kW)Detalhes",
-      "price": 16090.0,
-      "market_estimate": 18503.5,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6580547-usado-2024-peugeot-308-sw-allure-130-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.347081+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "ad6dce045176a24e"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6578966-usado-2023-peugeot-2008-active-102-cv",
-      "title": "Usado (2023) Peugeot 2008 Active 102 HP | Bom preço1.2 PureTech Active Pack202388.000 kmVariante: Active1.2L GasolinaSUVManual102 HP (75 kW)Detalhes",
-      "price": 13690.0,
-      "market_estimate": 15743.499999999998,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6578966-usado-2023-peugeot-2008-active-102-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.347148+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "ba2ac7b598f98a37"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6578983-usado-2023-peugeot-308-sw-allure-130-cv",
-      "title": "Usado (2023) Peugeot 308 SW Allure 130 HP | Bom preço1.5 BlueHDi Allure Pack EAT82023134.895 kmVariante: Allure1.5L DieselCarrinhaAutomática130 HP (95 kW)Detalhes",
-      "price": 17890.0,
-      "market_estimate": 20573.5,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6578983-usado-2023-peugeot-308-sw-allure-130-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.347224+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "357c4468b8d279bf"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6564200-usado-2023-peugeot-2008-active-102-cv",
-      "title": "Usado (2023) Peugeot 2008 Active 102 HP | Bom preço1.2 PureTech Active Pack2023100.000 kmVariante: Active1.2L GasolinaSUVManual102 HP (75 kW)Detalhes",
-      "price": 13690.0,
-      "market_estimate": 15743.499999999998,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6564200-usado-2023-peugeot-2008-active-102-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:20.347293+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "2e04b87f107d8e2e"
     },
     {
       "portal": "Watchfinder",
@@ -552,7 +552,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425270+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993023+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -574,7 +574,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425298+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993049+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -596,7 +596,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425311+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993060+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -618,7 +618,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425324+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993069+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -640,7 +640,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425336+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993078+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -662,7 +662,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425347+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993086+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -684,7 +684,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425521+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993184+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -706,7 +706,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425573+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993223+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -728,7 +728,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425620+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993259+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -750,7 +750,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425664+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993293+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -772,7 +772,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425710+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993330+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -794,7 +794,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425756+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993367+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -816,7 +816,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425810+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993403+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -838,7 +838,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425881+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993449+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -860,7 +860,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425930+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993483+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -882,7 +882,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.425974+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993516+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -904,7 +904,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.426016+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993550+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -926,7 +926,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.426061+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993586+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -948,7 +948,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.426102+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993619+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -970,7 +970,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.426147+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993655+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -992,7 +992,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.426193+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993691+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1014,7 +1014,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.426239+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993727+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1036,7 +1036,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.426280+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993760+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1058,7 +1058,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:23.426323+00:00",
+      "scraped_at": "2026-11-08T12:41:29.993794+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1071,16 +1071,16 @@
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-45208351?utm_source=li&utm_medium=gallery&utm_content=45208351",
-      "title": "Apartamento T3 Mafra",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/fantastico-apartamento-t3-remo-45431144?utm_source=li&utm_medium=gallery&utm_content=45431144",
+      "title": "Fantástico Apartamento T3 Remodelado junto ao Mercado da Encarnação",
       "price": null,
-      "market_estimate": 612000.0,
+      "market_estimate": 554400.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-45208351?utm_source=li&utm_medium=gallery&utm_content=45208351",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/fantastico-apartamento-t3-remo-45431144?utm_source=li&utm_medium=gallery&utm_content=45431144",
       "zone": "Lisboa Centro",
-      "area_m2": 85.0,
+      "area_m2": 77.0,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.158761+00:00",
+      "scraped_at": "2026-11-08T12:41:19.940734+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1088,7 +1088,7 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "2f0614b055bba932"
+      "id": "e16a35d665644951"
     },
     {
       "portal": "Custo Justo",
@@ -1102,7 +1102,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 111.0,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.159080+00:00",
+      "scraped_at": "2026-11-08T12:41:19.940966+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1124,7 +1124,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 100.0,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.159401+00:00",
+      "scraped_at": "2026-11-08T12:41:19.941168+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1146,7 +1146,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 55.0,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.159685+00:00",
+      "scraped_at": "2026-11-08T12:41:19.941355+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1159,16 +1159,16 @@
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-em-areeiro-de-5-44888188",
-      "title": "Apartamento T1 em Areeiro de 54 m2",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-muito-luminoso--45421056",
+      "title": "Apartamento T2 Muito Luminoso com Varandas, Lareira e Arrecadação em Agualva-Cacém, no 1andar.",
       "price": null,
-      "market_estimate": 388800.0,
+      "market_estimate": 655200.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-em-areeiro-de-5-44888188",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-muito-luminoso--45421056",
       "zone": "Lisboa Centro",
-      "area_m2": 54.0,
+      "area_m2": 91.0,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.159949+00:00",
+      "scraped_at": "2026-11-08T12:41:19.941576+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1176,21 +1176,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "0f1a0c0ecaa9a73f"
+      "id": "95521f32720e5cad"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/duplex-t4-1-de-ultimo-piso-com-45419048",
-      "title": "Duplex T4+1 de Último Piso com Vista 360° em Lisboa",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apresentamos-o-lumina-composto-45421035",
+      "title": "Apresentamos o Lumina composto por 16 apartamentos, localizado em Varge Mondar, Rio de Mouro, no concelho de Sintra.",
       "price": null,
-      "market_estimate": 1584000.0,
+      "market_estimate": 597600.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/duplex-t4-1-de-ultimo-piso-com-45419048",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apresentamos-o-lumina-composto-45421035",
       "zone": "Lisboa Centro",
-      "area_m2": 220.0,
+      "area_m2": 83.0,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.160253+00:00",
+      "scraped_at": "2026-11-08T12:41:19.941790+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1198,285 +1198,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "7061598e0ab624d0"
+      "id": "afb5d1b613a1ebb0"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-c-varanda-45418880",
-      "title": "Apartamento T2 C/ Varanda",
-      "price": null,
-      "market_estimate": 511200.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-c-varanda-45418880",
-      "zone": "Lisboa Centro",
-      "area_m2": 71.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.160559+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "4c0afea934e079fd"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-ericeira-a-c-40809521",
-      "title": "Apartamento T2 - Ericeira, A Casa Das Casas",
-      "price": null,
-      "market_estimate": 676800.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-ericeira-a-c-40809521",
-      "zone": "Lisboa Centro",
-      "area_m2": 94.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.160843+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "40b02e6890ba7f7c"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-remodelado-com-vista-panora-45417784",
-      "title": "T2 remodelado com vista panorâmica para o tejo, junto a braço de prata | marvila | lisboa",
-      "price": null,
-      "market_estimate": 576000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-remodelado-com-vista-panora-45417784",
-      "zone": "Lisboa Centro",
-      "area_m2": 80.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.161138+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "c1789c3f1a9d953f"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-renovado-em-cas-45417781",
-      "title": "Apartamento T2 Renovado em Cascais",
-      "price": null,
-      "market_estimate": 432000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-renovado-em-cas-45417781",
-      "zone": "Lisboa Centro",
-      "area_m2": 60.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.161426+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "68fc371ed62c4e19"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-cascais-e-es-44283816",
-      "title": "Apartamento T3 em Cascais e Estoril de 142,00 m2",
-      "price": null,
-      "market_estimate": 1022400.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-cascais-e-es-44283816",
-      "zone": "Lisboa Centro",
-      "area_m2": 142.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.161698+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "6bf085b04b8c66f5"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-dubai-44177816",
-      "title": "Apartamento t1 dubai",
-      "price": null,
-      "market_estimate": 540000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-dubai-44177816",
-      "zone": "Lisboa Centro",
-      "area_m2": 75.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.161956+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "400d84ce1a3d338d"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-dubai-44177674",
-      "title": "Apartamento t2 dubai",
-      "price": null,
-      "market_estimate": 727200.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-dubai-44177674",
-      "zone": "Lisboa Centro",
-      "area_m2": 101.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.162211+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "8bd187b68be5742f"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-em-cascais-e-es-44380212",
-      "title": "Apartamento T1 em Cascais e Estoril de 124,00 m2",
-      "price": null,
-      "market_estimate": 892800.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-em-cascais-e-es-44380212",
-      "zone": "Lisboa Centro",
-      "area_m2": 124.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.162494+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "39d7f569e880f3bb"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-44775101",
-      "title": "Apartamento T3 Mafra",
-      "price": null,
-      "market_estimate": 849600.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-44775101",
-      "zone": "Lisboa Centro",
-      "area_m2": 118.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.162756+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "0d41bdcb2855ab44"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-44177063",
-      "title": "Apartamento t2",
-      "price": null,
-      "market_estimate": 698400.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-44177063",
-      "zone": "Lisboa Centro",
-      "area_m2": 97.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.163012+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "6d0ea58511d3a4c0"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-dubai-44177042",
-      "title": "Apartamento t2 em dubai",
-      "price": null,
-      "market_estimate": 727200.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-dubai-44177042",
-      "zone": "Lisboa Centro",
-      "area_m2": 101.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.163270+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "0e79d794e5c8f721"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-estrada-da-luz--44646585",
-      "title": "Apartamento T3 Estrada Da Luz Com Parqueamento...",
-      "price": null,
-      "market_estimate": 936000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-estrada-da-luz--44646585",
-      "zone": "Lisboa Centro",
-      "area_m2": 130.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.163571+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "83c8b99550f18437"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-moderno-com-ele-44831587",
-      "title": "Apartamento T2 Moderno Com Elevador E 2 Lugares...",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-elevador-e--44991814",
+      "title": "Apartamento T2 Com Elevador E Parqueamento No...",
       "price": null,
       "market_estimate": 720000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-moderno-com-ele-44831587",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-elevador-e--44991814",
       "zone": "Lisboa Centro",
       "area_m2": 100.0,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.163848+00:00",
+      "scraped_at": "2026-11-08T12:41:19.941990+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1484,21 +1220,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "1ab2e22be45ff46b"
+      "id": "7154091deaa24f98"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-moderno-com-sui-44831580",
-      "title": "Apartamento T2 Moderno Com Suíte, Elevador E 2...",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-com-localizacao-privilegiad-45364558",
+      "title": "T2 Com Localização Privilegiada No Forte Da Casa",
       "price": null,
-      "market_estimate": 806400.0,
+      "market_estimate": 468000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-moderno-com-sui-44831580",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-com-localizacao-privilegiad-45364558",
       "zone": "Lisboa Centro",
-      "area_m2": 112.0,
+      "area_m2": 65.0,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:13.164121+00:00",
+      "scraped_at": "2026-11-08T12:41:19.942191+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1506,21 +1242,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "5d1f883be3e1a934"
+      "id": "d34527226d2b2491"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-mafra-45238800?utm_source=li&utm_medium=gallery&utm_content=45238800",
-      "title": "Apartamento T1 Mafra",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-no-centro-de-vi-43914045",
+      "title": "Apartamento t2 no centro de vila franca de xira",
       "price": null,
-      "market_estimate": 288000.0,
+      "market_estimate": 518400.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-mafra-45238800?utm_source=li&utm_medium=gallery&utm_content=45238800",
-      "zone": "Parque das Nações",
-      "area_m2": 45.0,
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-no-centro-de-vi-43914045",
+      "zone": "Lisboa Centro",
+      "area_m2": 72.0,
       "posted_date": null,
-      "scraped_at": "2026-11-07T12:22:17.147217+00:00",
+      "scraped_at": "2026-11-08T12:41:19.942385+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1528,7 +1264,271 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "947c97ec85f71af6"
+      "id": "b7c2137950c17ca4"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-mina-de-agua-45505193",
+      "title": "Apartamento T2 em Mina de Água",
+      "price": null,
+      "market_estimate": 475200.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-mina-de-agua-45505193",
+      "zone": "Lisboa Centro",
+      "area_m2": 66.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:19.942571+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "5cf30f9a938eefa1"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/duplex-t3-duplex-mafra-44740039",
+      "title": "Duplex T3 Duplex Mafra",
+      "price": null,
+      "market_estimate": 878400.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/duplex-t3-duplex-mafra-44740039",
+      "zone": "Lisboa Centro",
+      "area_m2": 122.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:19.942744+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "f2e01f1d9150344a"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-duplex-mafra-44740015",
+      "title": "Apartamento T3 Duplex Mafra",
+      "price": null,
+      "market_estimate": 878400.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-duplex-mafra-44740015",
+      "zone": "Lisboa Centro",
+      "area_m2": 122.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:19.942919+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "22741849aaf44515"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45422380",
+      "title": "Apartamento T2 Mafra",
+      "price": null,
+      "market_estimate": 691200.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45422380",
+      "zone": "Lisboa Centro",
+      "area_m2": 96.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:19.943086+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "4daa2374641c12ce"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45422378",
+      "title": "Apartamento T2 Mafra",
+      "price": null,
+      "market_estimate": 842400.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45422378",
+      "zone": "Lisboa Centro",
+      "area_m2": 117.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:19.943255+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "94c17fe2ed47ef46"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-43990362",
+      "title": "Apartamento T3 Mafra",
+      "price": null,
+      "market_estimate": 777600.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-43990362",
+      "zone": "Lisboa Centro",
+      "area_m2": 108.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:19.943434+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "b56efe91da07c67d"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-em-avenidas-nov-45232986",
+      "title": "Apartamento T4 em Avenidas Novas",
+      "price": null,
+      "market_estimate": 2016000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-em-avenidas-nov-45232986",
+      "zone": "Lisboa Centro",
+      "area_m2": 280.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:19.943613+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "fe2e7f9e9a0e00a4"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-terraco-em--45237145",
+      "title": "Apartamento T2 com terraço em Rio de Mouro",
+      "price": null,
+      "market_estimate": 540000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-terraco-em--45237145",
+      "zone": "Lisboa Centro",
+      "area_m2": 75.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:19.943784+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "969718e503445b35"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-aguas-livres-44835197",
+      "title": "Apartamento T2 Em Águas Livres,Amadora, Lisboa, Amadora",
+      "price": null,
+      "market_estimate": 813600.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-aguas-livres-44835197",
+      "zone": "Lisboa Centro",
+      "area_m2": 113.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:19.943970+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "637c65bf9b4a974d"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/partamento-t3-renovado-em-benf-44470129",
+      "title": "Partamento T3 Renovado Em Benfica Zona Central...",
+      "price": null,
+      "market_estimate": 691200.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/partamento-t3-renovado-em-benf-44470129",
+      "zone": "Lisboa Centro",
+      "area_m2": 96.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:19.944151+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "451d6b8d84d3fd65"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-remodelado-com-excelentes-a-44470082",
+      "title": "T3 Remodelado Com Excelentes Acabamentos No...",
+      "price": null,
+      "market_estimate": 633600.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-remodelado-com-excelentes-a-44470082",
+      "zone": "Lisboa Centro",
+      "area_m2": 88.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:19.944331+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "8de855d61c7c5718"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-45208351?utm_source=li&utm_medium=gallery&utm_content=45208351",
+      "title": "Apartamento T3 Mafra",
+      "price": null,
+      "market_estimate": 544000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-45208351?utm_source=li&utm_medium=gallery&utm_content=45208351",
+      "zone": "Parque das Nações",
+      "area_m2": 85.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-08T12:41:23.902112+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "2f0614b055bba932"
     }
   ]
 }
