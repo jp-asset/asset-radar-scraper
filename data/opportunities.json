@@ -1,7 +1,7 @@
 {
-  "scanned_at": "2026-11-18T15:01:11.538094+00:00",
-  "duration_seconds": 32.4,
-  "total_opportunities": 66,
+  "scanned_at": "2026-11-19T15:10:22.119125+00:00",
+  "duration_seconds": 33.1,
+  "total_opportunities": 65,
   "source_stats": [
     {
       "portal": "Imovirtual",
@@ -41,7 +41,7 @@
     },
     {
       "portal": "Custo Justo",
-      "found": 22,
+      "found": 21,
       "method": "http_directo"
     },
     {
@@ -112,7 +112,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629176+00:00",
+      "scraped_at": "2026-11-19T15:10:37.980834+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -134,7 +134,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629265+00:00",
+      "scraped_at": "2026-11-19T15:10:37.980937+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -156,7 +156,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629341+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981027+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -178,7 +178,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629404+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981102+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -200,7 +200,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629466+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981173+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -222,7 +222,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629523+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981234+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -244,7 +244,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629586+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981324+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -266,7 +266,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629651+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981393+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -288,7 +288,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629710+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981464+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -310,7 +310,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629766+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981521+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -332,7 +332,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629821+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981579+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -354,7 +354,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629876+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981642+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -376,7 +376,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.629952+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981702+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -398,7 +398,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.630016+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981758+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -420,7 +420,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.630072+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981814+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -442,7 +442,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.630134+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981869+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -464,7 +464,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.630190+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981925+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -486,7 +486,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.630244+00:00",
+      "scraped_at": "2026-11-19T15:10:37.981979+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -508,7 +508,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.630304+00:00",
+      "scraped_at": "2026-11-19T15:10:37.982034+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -530,7 +530,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:27.630363+00:00",
+      "scraped_at": "2026-11-19T15:10:37.982086+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -552,7 +552,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.287979+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544411+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -574,7 +574,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288010+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544447+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -596,7 +596,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288025+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544462+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -618,7 +618,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288038+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544475+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -640,7 +640,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288051+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544488+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -662,7 +662,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288063+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544500+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -675,16 +675,16 @@
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/breitling/super-chronomat-b01-44/eb0136/452006",
-      "title": "New Price Manufacturer's Warranty Breitling Super Chronomat B01 44 EB0136 Box Papers Year 2025",
-      "price": 7500.0,
-      "market_estimate": 8625.0,
+      "external_id": "https://www.watchfinder.com/watches/zenith/chronomaster/03-3100-3600-69-m3100/457252",
+      "title": "New Price Zenith Chronomaster 03.3100.3600/69.M3100 Box Papers Year 2023",
+      "price": 8855.0,
+      "market_estimate": 10183.25,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/breitling/super-chronomat-b01-44/eb0136/452006",
+      "url": "https://www.watchfinder.com/watches/zenith/chronomaster/03-3100-3600-69-m3100/457252",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288195+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544635+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -692,21 +692,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "c1874b3fd3bfc70c"
+      "id": "3fb7ba9183ba1780"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/breitling/super-chronomat-b01-44/eb0136/420897",
-      "title": "New Price Manufacturer's Warranty Breitling Super Chronomat B01 44 EB0136 Box Papers Year 2025",
-      "price": 7500.0,
-      "market_estimate": 8625.0,
+      "external_id": "https://www.watchfinder.com/watches/omega/speedmaster/speedmaster-moonwatch/310-30-42-50-04-001/457497",
+      "title": "New Price Manufacturer's Warranty Omega Speedmaster Moonwatch 310.30.42.50.04.001 Box Papers Year 2026",
+      "price": 8090.0,
+      "market_estimate": 9303.5,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/breitling/super-chronomat-b01-44/eb0136/420897",
+      "url": "https://www.watchfinder.com/watches/omega/speedmaster/speedmaster-moonwatch/310-30-42-50-04-001/457497",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288239+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544682+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -714,21 +714,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "04367fe8433ddc48"
+      "id": "9bf5ae5d2f13e062"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/omega/de-ville-ladymatic/425-60-34-20-55-004/189253",
-      "title": "Omega De Ville Ladymatic 425.60.34.20.55.004 Box Papers Year 2020",
-      "price": 17300.0,
-      "market_estimate": 19895.0,
+      "external_id": "https://www.watchfinder.com/watches/tudor/black-bay-58/m7939g1a0nru-0003/457528",
+      "title": "New Price Manufacturer's Warranty Tudor Black Bay 58 M7939G1A0NRU-0003 Box Papers Year 2026",
+      "price": 5350.0,
+      "market_estimate": 6152.499999999999,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/omega/de-ville-ladymatic/425-60-34-20-55-004/189253",
+      "url": "https://www.watchfinder.com/watches/tudor/black-bay-58/m7939g1a0nru-0003/457528",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288283+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544728+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -736,21 +736,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "43732f86e25f8334"
+      "id": "50f3fa7d14c13f92"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/breitling/aviator-8/m17315/450385",
-      "title": "Breitling Aviator 8 M17315 Box Papers Year 2021",
-      "price": 3505.0,
-      "market_estimate": 4030.7499999999995,
+      "external_id": "https://www.watchfinder.com/watches/rolex/oyster-perpetual/277200/457899",
+      "title": "New Price Manufacturer's Warranty Rolex Oyster Perpetual 277200 Box Papers Year 2024",
+      "price": 9555.0,
+      "market_estimate": 10988.25,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/breitling/aviator-8/m17315/450385",
+      "url": "https://www.watchfinder.com/watches/rolex/oyster-perpetual/277200/457899",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288323+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544773+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -758,21 +758,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "321f5f632c9d57da"
+      "id": "d378147e875a8e41"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/breitling/exospace/vb5510/452693",
-      "title": "Breitling Exospace VB5510 Box Papers Year 2016",
-      "price": 4140.0,
-      "market_estimate": 4761.0,
+      "external_id": "https://www.watchfinder.com/watches/rolex/explorer/124273/456994",
+      "title": "New Price Manufacturer's Warranty Rolex Explorer 124273 Box Papers Year 2024",
+      "price": 10955.0,
+      "market_estimate": 12598.249999999998,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/breitling/exospace/vb5510/452693",
+      "url": "https://www.watchfinder.com/watches/rolex/explorer/124273/456994",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288362+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544816+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -780,21 +780,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "e208e0f3873f535b"
+      "id": "dc155bce6dfea161"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/breitling/super-avenger/a13370/455330",
-      "title": "Breitling Super Avenger A13370 Box Papers Year 2007",
-      "price": 6235.0,
-      "market_estimate": 7170.249999999999,
+      "external_id": "https://www.watchfinder.com/watches/tudor/black-bay-pro/m79470-0001/456509",
+      "title": "New Price Manufacturer's Warranty Tudor Black Bay Pro M79470-0001 Box Papers Year 2024",
+      "price": 3630.0,
+      "market_estimate": 4174.5,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/breitling/super-avenger/a13370/455330",
+      "url": "https://www.watchfinder.com/watches/tudor/black-bay-pro/m79470-0001/456509",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288401+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544866+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -802,21 +802,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "f98045b7b2d02eeb"
+      "id": "26a2bce1c2a06641"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/cartier/must-21/w10075f4/452964",
-      "title": "Manufacturer's Warranty Cartier Must 21 W10075F4 Box Papers Year 1995",
-      "price": 1270.0,
-      "market_estimate": 1460.5,
+      "external_id": "https://www.watchfinder.com/watches/rolex/datejust-41/126334/457898",
+      "title": "New Price Manufacturer's Warranty Rolex Datejust 41 126334 Box Papers Year 2022",
+      "price": 15160.0,
+      "market_estimate": 17434.0,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/cartier/must-21/w10075f4/452964",
+      "url": "https://www.watchfinder.com/watches/rolex/datejust-41/126334/457898",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288445+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544913+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -824,21 +824,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "41a707f3bdc9dd76"
+      "id": "7a0836d831da9286"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/cartier/tank-divan/w6300356/452677",
-      "title": "Manufacturer's Warranty Cartier Tank Divan W6300356 Box Papers Year 2003",
-      "price": 5285.0,
-      "market_estimate": 6077.749999999999,
+      "external_id": "https://www.watchfinder.com/watches/breitling/top-time/ab0176/456985",
+      "title": "New Price Manufacturer's Warranty Breitling Top Time AB0176 Box Papers Year 2025",
+      "price": 6495.0,
+      "market_estimate": 7469.249999999999,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/cartier/tank-divan/w6300356/452677",
+      "url": "https://www.watchfinder.com/watches/breitling/top-time/ab0176/456985",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288488+00:00",
+      "scraped_at": "2026-11-19T15:10:40.544955+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -846,21 +846,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "82237d000a294a72"
+      "id": "adfe1c57f4dc5af7"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/iwc/big-pilots/iw502001/412451",
-      "title": "IWC Big Pilot's IW502001 Box Papers Year 2018",
-      "price": 6690.0,
-      "market_estimate": 7693.499999999999,
+      "external_id": "https://www.watchfinder.com/watches/rolex/datejust-41/126303/457531",
+      "title": "New Price Manufacturer's Warranty Rolex Datejust 41 126303 Box Papers Year 2024",
+      "price": 15160.0,
+      "market_estimate": 17434.0,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/iwc/big-pilots/iw502001/412451",
+      "url": "https://www.watchfinder.com/watches/rolex/datejust-41/126303/457531",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288526+00:00",
+      "scraped_at": "2026-11-19T15:10:40.545000+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -868,21 +868,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "e5553caad9cede4c"
+      "id": "eb43a9adb0b09636"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/jaeger-lecoultre/reverso-classic-large-small-seconds/3858520/441864",
-      "title": "Manufacturer's Warranty Jaeger-LeCoultre Reverso Classic Large Small Seconds 3858520 Box Papers Year 2019",
-      "price": 7325.0,
-      "market_estimate": 8423.75,
+      "external_id": "https://www.watchfinder.com/watches/rolex/explorer/114270/456920",
+      "title": "New Price Rolex Explorer 114270 Box Papers Year 2006",
+      "price": 7515.0,
+      "market_estimate": 8642.25,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/jaeger-lecoultre/reverso-classic-large-small-seconds/3858520/441864",
+      "url": "https://www.watchfinder.com/watches/rolex/explorer/114270/456920",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288569+00:00",
+      "scraped_at": "2026-11-19T15:10:40.545042+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -890,21 +890,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "da868989e18c3fa9"
+      "id": "a81dc50c1f23a67f"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/longines/master-collection/l2-673-4-92-0/456661",
-      "title": "New Price Manufacturer's Warranty Longines Master Collection L2.673.4.92.0 Box Papers Year 2024",
-      "price": 2485.0,
-      "market_estimate": 2857.75,
+      "external_id": "https://www.watchfinder.com/watches/rolex/explorer/214270/456986",
+      "title": "New Price Rolex Explorer 214270 Box Papers Year 2020",
+      "price": 7515.0,
+      "market_estimate": 8642.25,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/longines/master-collection/l2-673-4-92-0/456661",
+      "url": "https://www.watchfinder.com/watches/rolex/explorer/214270/456986",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288612+00:00",
+      "scraped_at": "2026-11-19T15:10:40.545082+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -912,21 +912,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "29d3ba043d8cdc59"
+      "id": "68f910d13b2015e1"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/omega/constellation/131-23-41-21-11-001/457305",
-      "title": "New Price Manufacturer's Warranty Omega Constellation 131.23.41.21.11.001 Box Papers Year 2023",
-      "price": 8950.0,
-      "market_estimate": 10292.5,
+      "external_id": "https://www.watchfinder.com/watches/rolex/datejust-lady/79173/456671",
+      "title": "New Price Rolex Datejust Lady 79173 Box Papers Year 2002",
+      "price": 5990.0,
+      "market_estimate": 6888.499999999999,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/omega/constellation/131-23-41-21-11-001/457305",
+      "url": "https://www.watchfinder.com/watches/rolex/datejust-lady/79173/456671",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288656+00:00",
+      "scraped_at": "2026-11-19T15:10:40.545122+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -934,21 +934,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "b38420e436c14334"
+      "id": "733be00f23d5e52b"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/omega/olympic-speedmaster/522-20-42-30-01-002/457243",
-      "title": "New Price Omega Olympic Speedmaster 522.20.42.30.01.002 Box Papers Year 2018",
-      "price": 9950.0,
-      "market_estimate": 11442.5,
+      "external_id": "https://www.watchfinder.com/watches/rolex/datejust-lady/69173/456669",
+      "title": "New Price Vintage Rolex Datejust Lady 69173 Box Papers Year 1985",
+      "price": 5095.0,
+      "market_estimate": 5859.25,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/omega/olympic-speedmaster/522-20-42-30-01-002/457243",
+      "url": "https://www.watchfinder.com/watches/rolex/datejust-lady/69173/456669",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288698+00:00",
+      "scraped_at": "2026-11-19T15:10:40.545163+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -956,21 +956,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "98759d2dfc8dbcdb"
+      "id": "f5309681467e3b2e"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/maurice-lacroix/masterpiece/mp6348-ss001-12e/453676",
-      "title": "Maurice Lacroix Masterpiece MP6348-SS001-12E Box Papers Year 2002",
-      "price": 2545.0,
-      "market_estimate": 2926.75,
+      "external_id": "https://www.watchfinder.com/watches/rolex/explorer/114270/449447",
+      "title": "Rolex Explorer 114270 Box Papers Year 2002",
+      "price": 6750.0,
+      "market_estimate": 7762.499999999999,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/maurice-lacroix/masterpiece/mp6348-ss001-12e/453676",
+      "url": "https://www.watchfinder.com/watches/rolex/explorer/114270/449447",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288738+00:00",
+      "scraped_at": "2026-11-19T15:10:40.545204+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -978,21 +978,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "510056d34e8ca590"
+      "id": "75bd1fcfd2fb4eb0"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/omega/speedmaster/speedmaster-speedy-tuesday/311-32-42-30-01-001/456430",
-      "title": "New Price Omega Speedmaster Speedy Tuesday 311.32.42.30.01.001 Box Papers Year 2017",
-      "price": 11720.0,
-      "market_estimate": 13477.999999999998,
+      "external_id": "https://www.watchfinder.com/watches/rolex/submariner/16610/435536",
+      "title": "Manufacturer's Warranty Rolex Submariner 16610 Box Papers Year 2001",
+      "price": 10445.0,
+      "market_estimate": 12011.749999999998,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/omega/speedmaster/speedmaster-speedy-tuesday/311-32-42-30-01-001/456430",
+      "url": "https://www.watchfinder.com/watches/rolex/submariner/16610/435536",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288782+00:00",
+      "scraped_at": "2026-11-19T15:10:40.545244+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1000,21 +1000,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "c07f75868e7de8ec"
+      "id": "7068186858a1d128"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/omega/speedmaster-moonphase/304-30-44-52-01-001/452676",
-      "title": "Omega Speedmaster Moonphase 304.30.44.52.01.001 Box Papers Year 2019",
-      "price": 7960.0,
-      "market_estimate": 9154.0,
+      "external_id": "https://www.watchfinder.com/watches/iwc/ingenieur/iw328903/452657",
+      "title": "IWC Ingenieur IW328903 Box Papers Year 2023",
+      "price": 9365.0,
+      "market_estimate": 10769.75,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/omega/speedmaster-moonphase/304-30-44-52-01-001/452676",
+      "url": "https://www.watchfinder.com/watches/iwc/ingenieur/iw328903/452657",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288825+00:00",
+      "scraped_at": "2026-11-19T15:10:40.545298+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1022,21 +1022,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "a083997e89b7ef4d"
+      "id": "a25519314e4f315a"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/submariner/16613/447104",
-      "title": "Vintage Rolex Submariner 16613 Box Papers Year 1992",
-      "price": 10620.0,
-      "market_estimate": 12212.999999999998,
+      "external_id": "https://www.watchfinder.com/watches/tudor/pelagos/m2543c1a7nu-0001/457311",
+      "title": "New Price Manufacturer's Warranty Tudor Pelagos M2543C1A7NU-0001 Box Papers Year 2025",
+      "price": 4775.0,
+      "market_estimate": 5491.25,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/submariner/16613/447104",
+      "url": "https://www.watchfinder.com/watches/tudor/pelagos/m2543c1a7nu-0001/457311",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288866+00:00",
+      "scraped_at": "2026-11-19T15:10:40.545345+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1044,21 +1044,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "de008182538ea652"
+      "id": "858e3ba470dbd3d1"
     },
     {
       "portal": "Watchfinder",
       "category": "relogio",
-      "external_id": "https://www.watchfinder.com/watches/rolex/submariner/16613/428889",
-      "title": "Rolex Submariner 16613 Box Papers Year 2005",
-      "price": 13695.0,
-      "market_estimate": 15749.249999999998,
+      "external_id": "https://www.watchfinder.com/watches/oris/propilot/01-798-7768-4284-set/457517",
+      "title": "New Price Oris Propilot 01 798 7768 4284-SET Box Papers Year 2020",
+      "price": 1465.0,
+      "market_estimate": 1684.7499999999998,
       "currency": "USD",
-      "url": "https://www.watchfinder.com/watches/rolex/submariner/16613/428889",
+      "url": "https://www.watchfinder.com/watches/oris/propilot/01-798-7768-4284-set/457517",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:30.288904+00:00",
+      "scraped_at": "2026-11-19T15:10:40.545390+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1066,21 +1066,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "b790b52da8b3aae7"
+      "id": "31b4fac86f078ca8"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-penha-de-fra-44952533?utm_source=li&utm_medium=gallery&utm_content=44952533",
-      "title": "Apartamento T3 Em Penha De França,Lisboa, Lisboa",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-aguas-livres-44835197?utm_source=li&utm_medium=gallery&utm_content=44835197",
+      "title": "Apartamento T2 Em Águas Livres,Amadora, Lisboa, Amadora",
       "price": null,
-      "market_estimate": 396000.0,
+      "market_estimate": 813600.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-penha-de-fra-44952533?utm_source=li&utm_medium=gallery&utm_content=44952533",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-aguas-livres-44835197?utm_source=li&utm_medium=gallery&utm_content=44835197",
       "zone": "Lisboa Centro",
-      "area_m2": 55.0,
+      "area_m2": 113.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.527846+00:00",
+      "scraped_at": "2026-11-19T15:10:30.183189+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1088,21 +1088,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "8791b31739e5605b"
+      "id": "88d681f5aeb33c4a"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-totalmente-remodelado-na-al-45373973?utm_source=li&utm_medium=gallery&utm_content=45373973",
-      "title": "T2 Totalmente Remodelado na Alta de Algés",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-totalmente-renovado-com-vis-45456876?utm_source=li&utm_medium=gallery&utm_content=45456876",
+      "title": "T2 Totalmente Renovado com Vista sobre o Rio e o Parque Urbano Vale do Silêncio Lisboa",
       "price": null,
-      "market_estimate": 338400.0,
+      "market_estimate": 576000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-totalmente-remodelado-na-al-45373973?utm_source=li&utm_medium=gallery&utm_content=45373973",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-totalmente-renovado-com-vis-45456876?utm_source=li&utm_medium=gallery&utm_content=45456876",
       "zone": "Lisboa Centro",
-      "area_m2": 47.0,
+      "area_m2": 80.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.528203+00:00",
+      "scraped_at": "2026-11-19T15:10:30.183626+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1110,21 +1110,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "7374ae55843f0ef8"
+      "id": "58fa39115b2e3721"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-terraco-va-45201304",
-      "title": "Apartamento t2 com terraço, varandas e 2 arrecadações - vialonga",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-massama-com--45446134",
+      "title": "Apartamento T2 em Massama com boas areas",
       "price": null,
-      "market_estimate": 698400.0,
+      "market_estimate": 576000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-terraco-va-45201304",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-massama-com--45446134",
       "zone": "Lisboa Centro",
-      "area_m2": 97.0,
+      "area_m2": 80.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.528517+00:00",
+      "scraped_at": "2026-11-19T15:10:30.183964+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1132,21 +1132,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "957d954f2513a648"
+      "id": "67be12a11a16e1ef"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-em-misericordia-35564642",
-      "title": "Apartamento T1 em Misericórdia de 127,00 m2",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-4-assoalhadas-em-s-35374228",
+      "title": "Apartamento 4 Assoalhadas Em São Domingos De...",
       "price": null,
-      "market_estimate": 914400.0,
+      "market_estimate": 712800.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-em-misericordia-35564642",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-4-assoalhadas-em-s-35374228",
       "zone": "Lisboa Centro",
-      "area_m2": 127.0,
+      "area_m2": 99.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.528797+00:00",
+      "scraped_at": "2026-11-19T15:10:30.184278+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1154,7 +1154,161 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "024959035ef90260"
+      "id": "153f7bb6beadfc9c"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-com-parqueament-44269942",
+      "title": "Apartamento t1 com parqueamento acesso direto à praia do magoito",
+      "price": null,
+      "market_estimate": 432000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-com-parqueament-44269942",
+      "zone": "Lisboa Centro",
+      "area_m2": 60.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-19T15:10:30.184625+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "36d423dc3a38e9d5"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-duplex-novo-com-45529737",
+      "title": "Apartamento T4 Duplex Novo Com 4 Quartos, 3...",
+      "price": null,
+      "market_estimate": 1684800.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-duplex-novo-com-45529737",
+      "zone": "Lisboa Centro",
+      "area_m2": 234.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-19T15:10:30.184937+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "8a76282215d13bd5"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-quinta-do-mir-45363696",
+      "title": "Apartamento t2 | quinta do mirante",
+      "price": null,
+      "market_estimate": 453600.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-quinta-do-mir-45363696",
+      "zone": "Lisboa Centro",
+      "area_m2": 63.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-19T15:10:30.185231+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "7840ebc8d858fd1b"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-totalmente-remo-45363692",
+      "title": "Apartamento T3 totalmente remodelado nos Jardins da Parede, Cascais",
+      "price": null,
+      "market_estimate": 1353600.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-totalmente-remo-45363692",
+      "zone": "Lisboa Centro",
+      "area_m2": 188.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-19T15:10:30.185568+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "d707fec32f5ec554"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-com-suite-no-monte-abraao--45363672",
+      "title": "T3 com suite no monte abraão |",
+      "price": null,
+      "market_estimate": 792000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-com-suite-no-monte-abraao--45363672",
+      "zone": "Lisboa Centro",
+      "area_m2": 110.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-19T15:10:30.185857+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "6debbe2721f4d0ff"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-totalmente-remo-45363660",
+      "title": "Apartamento t2 totalmente remodelado em queluz",
+      "price": null,
+      "market_estimate": 439200.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-totalmente-remo-45363660",
+      "zone": "Lisboa Centro",
+      "area_m2": 61.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-19T15:10:30.186141+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "28aec35d220ae2b7"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-com-estaciona-45363651",
+      "title": "Apartamento T3 , Com Estacionamento -...",
+      "price": null,
+      "market_estimate": 842400.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-com-estaciona-45363651",
+      "zone": "Lisboa Centro",
+      "area_m2": 117.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-19T15:10:30.186444+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "8c31e14f0e6a07fd"
     },
     {
       "portal": "Custo Justo",
@@ -1168,7 +1322,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 78.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.529113+00:00",
+      "scraped_at": "2026-11-19T15:10:30.186726+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1190,7 +1344,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 113.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.529409+00:00",
+      "scraped_at": "2026-11-19T15:10:30.187012+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1212,7 +1366,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 55.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.529700+00:00",
+      "scraped_at": "2026-11-19T15:10:30.187324+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1225,16 +1379,16 @@
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-com-varanda-su-45525624",
-      "title": "Apartamento T3 Com Varanda, Suíte E Garagem No...",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-em-linda-a-velha-oeiras-45445757",
+      "title": "T2 Em Linda A Velha, Oeiras",
       "price": null,
-      "market_estimate": 1180800.0,
+      "market_estimate": 432000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-com-varanda-su-45525624",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-em-linda-a-velha-oeiras-45445757",
       "zone": "Lisboa Centro",
-      "area_m2": 164.0,
+      "area_m2": 60.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.530018+00:00",
+      "scraped_at": "2026-11-19T15:10:30.187605+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1242,109 +1396,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "918d206345b26918"
+      "id": "bf7206bbafee7de6"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-45525606",
-      "title": "Apartamento T3 Mafra",
-      "price": null,
-      "market_estimate": 907200.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-45525606",
-      "zone": "Lisboa Centro",
-      "area_m2": 126.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.530294+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "ae467d6368322986"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-de-4-assoalhadas-e-45525605",
-      "title": "Apartamento de 4 assoalhadas em Belas com vista desafogada e garagem",
-      "price": null,
-      "market_estimate": 936000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-de-4-assoalhadas-e-45525605",
-      "zone": "Lisboa Centro",
-      "area_m2": 130.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.530584+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "13d0c016b3f29509"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-de-125-m-com-varanda-est-45360263",
-      "title": "T2 de 125 m² com varanda, estacionamento e vista jardim em Quinta dos Barros, Alvalade",
-      "price": null,
-      "market_estimate": 900000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-de-125-m-com-varanda-est-45360263",
-      "zone": "Lisboa Centro",
-      "area_m2": 125.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.530853+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "9de9ae4f7da28c4e"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-no-empreendimento-solar-das-45201163",
-      "title": "T2 no Empreendimento Solar das Musas",
-      "price": null,
-      "market_estimate": 698400.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-no-empreendimento-solar-das-45201163",
-      "zone": "Lisboa Centro",
-      "area_m2": 97.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.531146+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "08dc750683f3857f"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-novo-em-odivelas-45201118",
-      "title": "T2 Novo Em Odivelas",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45475424",
+      "title": "Apartamento T2 Mafra",
       "price": null,
       "market_estimate": 633600.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-novo-em-odivelas-45201118",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45475424",
       "zone": "Lisboa Centro",
       "area_m2": 88.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.531409+00:00",
+      "scraped_at": "2026-11-19T15:10:30.187881+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1352,21 +1418,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "623906e6a2f6d30b"
+      "id": "08b9b47c3bf3d05e"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-central-sacavem-45525452",
-      "title": "T2 central Sacavém",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-com-varanda-e-dois-elevador-45529526",
+      "title": "T3 Com Varanda E Dois Elevadores Em Benfica",
       "price": null,
-      "market_estimate": 504000.0,
+      "market_estimate": 576000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-central-sacavem-45525452",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-com-varanda-e-dois-elevador-45529526",
       "zone": "Lisboa Centro",
-      "area_m2": 70.0,
+      "area_m2": 80.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.531660+00:00",
+      "scraped_at": "2026-11-19T15:10:30.188153+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1374,21 +1440,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "ed6b0fb808efd68b"
+      "id": "808a8e5796eb1682"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-renovado-com-terraco-privad-45442187",
-      "title": "T2 renovado com terraço privado de 50 m² | Rua da Indústria, Alcântara",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-no-chiado-com-4-as-45529518",
+      "title": "Apartamento no Chiado com 4 assoalhadas e 2 lugares de estacionamento e com elevador em prédio de 2003",
       "price": null,
-      "market_estimate": 360000.0,
+      "market_estimate": 813600.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-renovado-com-terraco-privad-45442187",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-no-chiado-com-4-as-45529518",
       "zone": "Lisboa Centro",
-      "area_m2": 50.0,
+      "area_m2": 113.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.531918+00:00",
+      "scraped_at": "2026-11-19T15:10:30.188502+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1396,21 +1462,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "c8ee1d6973b1ec5b"
+      "id": "d731c18b48940b5a"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-benfica-de-8-45360012",
-      "title": "Apartamento T3 em Benfica de 85,5 m2",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-a-torres-vedr-45529494",
+      "title": "Apartamento t2 à torres vedras, hilarião | 160.000",
       "price": null,
-      "market_estimate": 615600.0,
+      "market_estimate": 518400.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-benfica-de-8-45360012",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-a-torres-vedr-45529494",
       "zone": "Lisboa Centro",
-      "area_m2": 85.5,
+      "area_m2": 72.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.532197+00:00",
+      "scraped_at": "2026-11-19T15:10:30.188829+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1418,21 +1484,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "1d21492a685e1cbc"
+      "id": "ad2f365da6e01735"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44781852",
-      "title": "Apartamento T2 Mafra",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/novo-empreendimento-t3-novo--45529433",
+      "title": "Novo Empreendimento - T3 Novo Com Varanda E...",
       "price": null,
-      "market_estimate": 792000.0,
+      "market_estimate": 705600.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-44781852",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/novo-empreendimento-t3-novo--45529433",
       "zone": "Lisboa Centro",
-      "area_m2": 110.0,
+      "area_m2": 98.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.532464+00:00",
+      "scraped_at": "2026-11-19T15:10:30.189114+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1440,87 +1506,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "c375183638e3b116"
+      "id": "33a4b7c67c90a5a5"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-no-empreendimento-solar-das-44268293",
-      "title": "T2 no Empreendimento Solar das Musas",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-totalmente-remodelado-na-al-45373973?utm_source=li&utm_medium=gallery&utm_content=45373973",
+      "title": "T2 Totalmente Remodelado na Alta de Algés",
       "price": null,
-      "market_estimate": 698400.0,
+      "market_estimate": 300800.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-no-empreendimento-solar-das-44268293",
-      "zone": "Lisboa Centro",
-      "area_m2": 97.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.532735+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "327c01f836291899"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-no-empreendimento-solar-das-44268277",
-      "title": "T3 no Empreendimento Solar das Musas",
-      "price": null,
-      "market_estimate": 1072800.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-no-empreendimento-solar-das-44268277",
-      "zone": "Lisboa Centro",
-      "area_m2": 149.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.533056+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "176e5b847bc78449"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-no-empreendimento-solar-das-44268272",
-      "title": "T1 no Empreendimento Solar das Musas",
-      "price": null,
-      "market_estimate": 460800.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t1-no-empreendimento-solar-das-44268272",
-      "zone": "Lisboa Centro",
-      "area_m2": 64.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:18.533336+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "c0e78c1431c1c486"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/oeiras-t2-boa-acessibilidade-45493344?utm_source=li&utm_medium=gallery&utm_content=45493344",
-      "title": "OEIRAS T2 - Boa acessibilidade a 5 minutos da A5",
-      "price": null,
-      "market_estimate": 652800.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/oeiras-t2-boa-acessibilidade-45493344?utm_source=li&utm_medium=gallery&utm_content=45493344",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-totalmente-remodelado-na-al-45373973?utm_source=li&utm_medium=gallery&utm_content=45373973",
       "zone": "Parque das Nações",
-      "area_m2": 102.0,
+      "area_m2": 47.0,
       "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:23.809337+00:00",
+      "scraped_at": "2026-11-19T15:10:34.348597+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1528,29 +1528,7 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "36599f6b9d8c807d"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-novo-na-ajuda--45515110?utm_source=li&utm_medium=gallery&utm_content=45515110",
-      "title": "Apartamento T1 Novo, na Ajuda, Lisboa",
-      "price": null,
-      "market_estimate": 275200.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-novo-na-ajuda--45515110?utm_source=li&utm_medium=gallery&utm_content=45515110",
-      "zone": "Parque das Nações",
-      "area_m2": 43.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-18T15:01:23.809847+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "12cd662f24ee5ec7"
+      "id": "7374ae55843f0ef8"
     }
   ]
 }
