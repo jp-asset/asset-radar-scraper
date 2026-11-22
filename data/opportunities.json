@@ -1,7 +1,7 @@
 {
-  "scanned_at": "2026-11-21T14:07:48.149183+00:00",
-  "duration_seconds": 28.4,
-  "total_opportunities": 65,
+  "scanned_at": "2026-11-22T13:58:34.891822+00:00",
+  "duration_seconds": 28.6,
+  "total_opportunities": 66,
   "source_stats": [
     {
       "portal": "Imovirtual",
@@ -41,7 +41,7 @@
     },
     {
       "portal": "Custo Justo",
-      "found": 21,
+      "found": 22,
       "method": "http_directo"
     },
     {
@@ -103,126 +103,16 @@
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6618701-usado-2025-opel-corsa-edition-100-cv",
-      "title": "Detalhes",
-      "price": 1620.0,
-      "market_estimate": 1862.9999999999998,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6618701-usado-2025-opel-corsa-edition-100-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.038692+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "a129cc390538d6c3"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6625779-usado-2023-opel-mokka-gs-line-130-cv",
-      "title": "Detalhes",
-      "price": 1920.0,
-      "market_estimate": 2208.0,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6625779-usado-2023-opel-mokka-gs-line-130-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.038752+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "200d24c2908bd0c7"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6714094-usado-2023-renault-captur-90-cv",
-      "title": "Detalhes",
-      "price": 2510.0,
-      "market_estimate": 2886.5,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6714094-usado-2023-renault-captur-90-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.038789+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "2c858c02e0453a61"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6714070-usado-2023-renault-captur-90-cv",
-      "title": "Detalhes",
-      "price": 2810.0,
-      "market_estimate": 3231.4999999999995,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6714070-usado-2023-renault-captur-90-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.038828+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "1a25f3bfa8e60a26"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6714121-usado-2023-renault-captur-90-cv",
-      "title": "Detalhes",
-      "price": 2910.0,
-      "market_estimate": 3346.4999999999995,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6714121-usado-2023-renault-captur-90-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.038866+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "da5dea82a98f1063"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6685459-usado-2026-peugeot-e-2008-156-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6630377-usado-2022-seat-leon-115-cv",
       "title": "Detalhes",
       "price": 2110.0,
       "market_estimate": 2426.5,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6685459-usado-2026-peugeot-e-2008-156-cv",
+      "url": "https://www.autouncle.pt/pt/d/6630377-usado-2022-seat-leon-115-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.038904+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141019+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -230,21 +120,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "5d36bcbef0be94eb"
+      "id": "ea1a7db88a514753"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6714097-usado-2023-renault-captur-90-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6542471-usado-2019-renault-megane-grandtour-115-cv",
       "title": "Detalhes",
-      "price": 2510.0,
-      "market_estimate": 2886.5,
+      "price": 1310.0,
+      "market_estimate": 1506.4999999999998,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6714097-usado-2023-renault-captur-90-cv",
+      "url": "https://www.autouncle.pt/pt/d/6542471-usado-2019-renault-megane-grandtour-115-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.038937+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141094+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -252,87 +142,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "34a1bd7717b0fd90"
+      "id": "1d2d6a5945e5b9d1"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6634755-usado-2017-mercedes-cla180-109-cv",
-      "title": "Detalhes",
-      "price": 4630.0,
-      "market_estimate": 5324.5,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6634755-usado-2017-mercedes-cla180-109-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.038972+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "2a7bd3c4ca930d7b"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6685159-usado-2019-ford-fiesta-85-cv",
-      "title": "Detalhes",
-      "price": 1730.0,
-      "market_estimate": 1989.4999999999998,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6685159-usado-2019-ford-fiesta-85-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039003+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "5b7174167f6ee5dc"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6715061-usado-2023-renault-captur-90-cv",
-      "title": "Detalhes",
-      "price": 2610.0,
-      "market_estimate": 3001.4999999999995,
-      "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6715061-usado-2023-renault-captur-90-cv",
-      "zone": null,
-      "area_m2": null,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039037+00:00",
-      "details": {
-        "fonte_raw": "autouncle_http"
-      },
-      "is_real": true,
-      "discount_pct": 13.0,
-      "score": 20,
-      "confidence": 0.85,
-      "id": "1c3512121b765972"
-    },
-    {
-      "portal": "AutoUncle",
-      "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6236194-usado-2024-peugeot-2008-style-102-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6657511-usado-2022-renault-megane-iv-115-cv",
       "title": "Detalhes",
       "price": 1510.0,
       "market_estimate": 1736.4999999999998,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6236194-usado-2024-peugeot-2008-style-102-cv",
+      "url": "https://www.autouncle.pt/pt/d/6657511-usado-2022-renault-megane-iv-115-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039068+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141145+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -340,21 +164,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "8880ba81994353c9"
+      "id": "61e1a4f0a7cc3276"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6553401-usado-2025-opel-corsa-edition-100-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6685054-usado-2020-mercedes-b180-116-cv",
       "title": "Detalhes",
-      "price": 1620.0,
-      "market_estimate": 1862.9999999999998,
+      "price": 3500.0,
+      "market_estimate": 4024.9999999999995,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6553401-usado-2025-opel-corsa-edition-100-cv",
+      "url": "https://www.autouncle.pt/pt/d/6685054-usado-2020-mercedes-b180-116-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039099+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141216+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -362,21 +186,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "68f07ec688450d8d"
+      "id": "8598cb25e9d3eb0d"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6644846-usado-2021-mini-cooper-136-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6213229-usado-2018-renault-kadjar-110-cv",
       "title": "Detalhes",
-      "price": 1630.0,
-      "market_estimate": 1874.4999999999998,
+      "price": 1510.0,
+      "market_estimate": 1736.4999999999998,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6644846-usado-2021-mini-cooper-136-cv",
+      "url": "https://www.autouncle.pt/pt/d/6213229-usado-2018-renault-kadjar-110-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039130+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141270+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -384,21 +208,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "80e895d07c2dfc6f"
+      "id": "fe878aa4806171db"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6695390-usado-2025-skoda-kodiaq-150-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6627559-usado-2021-seat-leon-150-cv",
       "title": "Detalhes",
-      "price": 2300.0,
-      "market_estimate": 2645.0,
+      "price": 1910.0,
+      "market_estimate": 2196.5,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6695390-usado-2025-skoda-kodiaq-150-cv",
+      "url": "https://www.autouncle.pt/pt/d/6627559-usado-2021-seat-leon-150-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039161+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141317+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -406,21 +230,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "adb05981515547f6"
+      "id": "5da062e60342deba"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6697315-usado-2019-peugeot-308-sw-130-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6616778-usado-2023-tesla-model-y-long-range-awd-351-cv",
       "title": "Detalhes",
-      "price": 1110.0,
-      "market_estimate": 1276.5,
+      "price": 2100.0,
+      "market_estimate": 2415.0,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6697315-usado-2019-peugeot-308-sw-130-cv",
+      "url": "https://www.autouncle.pt/pt/d/6616778-usado-2023-tesla-model-y-long-range-awd-351-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039192+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141368+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -428,21 +252,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "0b26b24639157397"
+      "id": "451fcb1a2a35cd09"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6697298-usado-2016-renault-espace-130-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6687225-usado-2024-peugeot-208-active-75-cv",
       "title": "Detalhes",
-      "price": 1810.0,
-      "market_estimate": 2081.5,
+      "price": 1521.0,
+      "market_estimate": 1749.1499999999999,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6697298-usado-2016-renault-espace-130-cv",
+      "url": "https://www.autouncle.pt/pt/d/6687225-usado-2024-peugeot-208-active-75-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039235+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141416+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -450,21 +274,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "b3753cb1c32f8bb9"
+      "id": "697aa683d8832da0"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6584611-usado-2025-opel-corsa-edition-100-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6718084-usado-2025-opel-frontera-113-cv",
       "title": "Detalhes",
-      "price": 1720.0,
-      "market_estimate": 1977.9999999999998,
+      "price": 2820.0,
+      "market_estimate": 3242.9999999999995,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6584611-usado-2025-opel-corsa-edition-100-cv",
+      "url": "https://www.autouncle.pt/pt/d/6718084-usado-2025-opel-frontera-113-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039267+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141461+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -472,21 +296,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "9c0226abfd53a609"
+      "id": "6f3130106b911aff"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6722937-usado-2016-peugeot-2008-120-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6621961-usado-2021-vw-golf-vii-115-cv",
       "title": "Detalhes",
-      "price": 1930.0,
-      "market_estimate": 2219.5,
+      "price": 2110.0,
+      "market_estimate": 2426.5,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6722937-usado-2016-peugeot-2008-120-cv",
+      "url": "https://www.autouncle.pt/pt/d/6621961-usado-2021-vw-golf-vii-115-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039299+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141511+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -494,21 +318,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "50f270a8b082b0d6"
+      "id": "ef469cb55b5e146d"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/5258743-usado-2020-citroen-c4-cactus-shine-120-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6697184-usado-2018-volvo-v40-150-cv",
       "title": "Detalhes",
       "price": 1400.0,
       "market_estimate": 1609.9999999999998,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/5258743-usado-2020-citroen-c4-cactus-shine-120-cv",
+      "url": "https://www.autouncle.pt/pt/d/6697184-usado-2018-volvo-v40-150-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039330+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141564+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -516,21 +340,21 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "19b43e4c84b4ad19"
+      "id": "1ce8861459a25454"
     },
     {
       "portal": "AutoUncle",
       "category": "carro",
-      "external_id": "https://www.autouncle.pt/pt/d/6664129-usado-2024-opel-mokka-gs-line-136-cv",
+      "external_id": "https://www.autouncle.pt/pt/d/6718595-usado-2019-volvo-v60-150-cv",
       "title": "Detalhes",
-      "price": 1620.0,
-      "market_estimate": 1862.9999999999998,
+      "price": 1410.0,
+      "market_estimate": 1621.4999999999998,
       "currency": "EUR",
-      "url": "https://www.autouncle.pt/pt/d/6664129-usado-2024-opel-mokka-gs-line-136-cv",
+      "url": "https://www.autouncle.pt/pt/d/6718595-usado-2019-volvo-v60-150-cv",
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:00.039365+00:00",
+      "scraped_at": "2026-11-22T13:58:47.141612+00:00",
       "details": {
         "fonte_raw": "autouncle_http"
       },
@@ -538,7 +362,183 @@
       "discount_pct": 13.0,
       "score": 20,
       "confidence": 0.85,
-      "id": "9bebfd4026897a9e"
+      "id": "c507d38b33280139"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6691756-usado-2023-seat-leon-115-cv",
+      "title": "Detalhes",
+      "price": 1810.0,
+      "market_estimate": 2081.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6691756-usado-2023-seat-leon-115-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:47.141656+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "9a16ac74bd86105e"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6693642-usado-2024-seat-leon-110-cv",
+      "title": "Detalhes",
+      "price": 1610.0,
+      "market_estimate": 1851.4999999999998,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6693642-usado-2024-seat-leon-110-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:47.141698+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "54d9316c59d7fcd5"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6364424-usado-2019-seat-arona-95-cv",
+      "title": "Detalhes",
+      "price": 1410.0,
+      "market_estimate": 1621.4999999999998,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6364424-usado-2019-seat-arona-95-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:47.141739+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "15f9e14e6732c494"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6571368-usado-2023-nissan-qashqai-140-cv",
+      "title": "Detalhes",
+      "price": 2610.0,
+      "market_estimate": 3001.4999999999995,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6571368-usado-2023-nissan-qashqai-140-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:47.141788+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "2688de7efd6e9866"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6720237-usado-2025-opel-frontera-113-cv",
+      "title": "Detalhes",
+      "price": 4520.0,
+      "market_estimate": 5198.0,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6720237-usado-2025-opel-frontera-113-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:47.141831+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "93c94cf3c554c567"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6720236-usado-2025-renault-5-e-tech-150-cv",
+      "title": "Detalhes",
+      "price": 3820.0,
+      "market_estimate": 4393.0,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6720236-usado-2025-renault-5-e-tech-150-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:47.141873+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "6a475a2fefbb8a43"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6655267-usado-2018-volvo-xc40-150-cv",
+      "title": "Detalhes",
+      "price": 2000.0,
+      "market_estimate": 2300.0,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6655267-usado-2018-volvo-xc40-150-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:47.141916+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "f88e0bcf3772bff0"
+    },
+    {
+      "portal": "AutoUncle",
+      "category": "carro",
+      "external_id": "https://www.autouncle.pt/pt/d/6581380-usado-2020-vw-t-roc-150-cv",
+      "title": "Detalhes",
+      "price": 2210.0,
+      "market_estimate": 2541.5,
+      "currency": "EUR",
+      "url": "https://www.autouncle.pt/pt/d/6581380-usado-2020-vw-t-roc-150-cv",
+      "zone": null,
+      "area_m2": null,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:47.141957+00:00",
+      "details": {
+        "fonte_raw": "autouncle_http"
+      },
+      "is_real": true,
+      "discount_pct": 13.0,
+      "score": 20,
+      "confidence": 0.85,
+      "id": "74c078cb372a56ef"
     },
     {
       "portal": "Watchfinder",
@@ -552,7 +552,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.188694+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997267+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -574,7 +574,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.188722+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997297+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -596,7 +596,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.188733+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997311+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -618,7 +618,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.188741+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997323+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -640,7 +640,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.188750+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997336+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -662,7 +662,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.188758+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997347+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -684,7 +684,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.188855+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997478+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -706,7 +706,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.188888+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997521+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -728,7 +728,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.188921+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997562+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -750,7 +750,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.188956+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997607+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -772,7 +772,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.188987+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997646+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -794,7 +794,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189022+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997690+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -816,7 +816,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189055+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997732+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -838,7 +838,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189087+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997772+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -860,7 +860,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189121+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997814+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -882,7 +882,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189155+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997856+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -904,7 +904,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189189+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997898+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -926,7 +926,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189231+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997939+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -948,7 +948,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189262+00:00",
+      "scraped_at": "2026-11-22T13:58:50.997977+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -970,7 +970,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189293+00:00",
+      "scraped_at": "2026-11-22T13:58:50.998024+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -992,7 +992,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189328+00:00",
+      "scraped_at": "2026-11-22T13:58:50.998068+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1014,7 +1014,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189366+00:00",
+      "scraped_at": "2026-11-22T13:58:50.998113+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1036,7 +1036,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189401+00:00",
+      "scraped_at": "2026-11-22T13:58:50.998153+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1058,7 +1058,7 @@
       "zone": null,
       "area_m2": null,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:08:02.189435+00:00",
+      "scraped_at": "2026-11-22T13:58:50.998212+00:00",
       "details": {
         "fonte_raw": "watchfinder_http"
       },
@@ -1071,16 +1071,16 @@
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45525891?utm_source=li&utm_medium=gallery&utm_content=45525891",
-      "title": "Apartamento T2 Mafra",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-aguas-livres-44835197?utm_source=li&utm_medium=gallery&utm_content=44835197",
+      "title": "Apartamento T2 Em Águas Livres,Amadora, Lisboa, Amadora",
       "price": null,
-      "market_estimate": 705600.0,
+      "market_estimate": 813600.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45525891?utm_source=li&utm_medium=gallery&utm_content=45525891",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-aguas-livres-44835197?utm_source=li&utm_medium=gallery&utm_content=44835197",
       "zone": "Lisboa Centro",
-      "area_m2": 98.0,
+      "area_m2": 113.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.652047+00:00",
+      "scraped_at": "2026-11-22T13:58:41.510811+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1088,21 +1088,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "b186724370d33d22"
+      "id": "88d681f5aeb33c4a"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45526069?utm_source=li&utm_medium=gallery&utm_content=45526069",
-      "title": "Apartamento T2 Mafra",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-totalmente-remodelado-na-al-45373973?utm_source=li&utm_medium=gallery&utm_content=45373973",
+      "title": "T2 Totalmente Remodelado na Alta de Algés",
       "price": null,
-      "market_estimate": 590400.0,
+      "market_estimate": 338400.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45526069?utm_source=li&utm_medium=gallery&utm_content=45526069",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-totalmente-remodelado-na-al-45373973?utm_source=li&utm_medium=gallery&utm_content=45373973",
       "zone": "Lisboa Centro",
-      "area_m2": 82.0,
+      "area_m2": 47.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.652292+00:00",
+      "scraped_at": "2026-11-22T13:58:41.511129+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1110,29 +1110,7 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "108c26836497ec53"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-totalmente-renovado-em-benf-45088426",
-      "title": "T3 Totalmente Renovado Em Benfica",
-      "price": null,
-      "market_estimate": 648000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-totalmente-renovado-em-benf-45088426",
-      "zone": "Lisboa Centro",
-      "area_m2": 90.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.652495+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "40216847a217f30e"
+      "id": "7374ae55843f0ef8"
     },
     {
       "portal": "Custo Justo",
@@ -1146,7 +1124,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 100.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.652687+00:00",
+      "scraped_at": "2026-11-22T13:58:41.511424+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1168,7 +1146,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 82.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.652876+00:00",
+      "scraped_at": "2026-11-22T13:58:41.511687+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1181,16 +1159,16 @@
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-com-garagem-pri-45533347",
-      "title": "Apartamento T4 Com Garagem Privada Em Alcabideche",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-rio-de-mouro-45370468",
+      "title": "Apartamento t2 rio de mouro",
       "price": null,
-      "market_estimate": 1684800.0,
+      "market_estimate": 504000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-com-garagem-pri-45533347",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-rio-de-mouro-45370468",
       "zone": "Lisboa Centro",
-      "area_m2": 234.0,
+      "area_m2": 70.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.653074+00:00",
+      "scraped_at": "2026-11-22T13:58:41.511953+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1198,21 +1176,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "3a4357e194ca5529"
+      "id": "10bba54408d513dd"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-com-estacioname-45450690",
-      "title": "Apartamento t1 com estacionamento - alta de lisboa",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/penthouse-t8-duplex-queluz-45370434",
+      "title": "Penthouse t8 duplex - queluz",
       "price": null,
-      "market_estimate": 374400.0,
+      "market_estimate": 2160000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-com-estacioname-45450690",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/penthouse-t8-duplex-queluz-45370434",
       "zone": "Lisboa Centro",
-      "area_m2": 52.0,
+      "area_m2": 300.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.653314+00:00",
+      "scraped_at": "2026-11-22T13:58:41.512237+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1220,21 +1198,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "b13844a9d3b0248f"
+      "id": "45e19b55854f247d"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-terraco-e-g-45533339",
-      "title": "Apartamento T2 Com Terraço E Garagem Em...",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-totalmente-re-45151252",
+      "title": "Apartamento T3 - Totalmente Remodelado, Em Benfica",
       "price": null,
-      "market_estimate": 813600.0,
+      "market_estimate": 619200.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-terraco-e-g-45533339",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-totalmente-re-45151252",
       "zone": "Lisboa Centro",
-      "area_m2": 113.0,
+      "area_m2": 86.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.653521+00:00",
+      "scraped_at": "2026-11-22T13:58:41.512515+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1242,7 +1220,7 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "68953a71471b2811"
+      "id": "a232507675211428"
     },
     {
       "portal": "Custo Justo",
@@ -1256,7 +1234,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 78.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.653705+00:00",
+      "scraped_at": "2026-11-22T13:58:41.512782+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1278,7 +1256,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 113.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.653894+00:00",
+      "scraped_at": "2026-11-22T13:58:41.513053+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1300,7 +1278,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 55.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.654082+00:00",
+      "scraped_at": "2026-11-22T13:58:41.513343+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1313,16 +1291,16 @@
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-ericeira-a-c-40809521",
-      "title": "Apartamento T2 - Ericeira, A Casa Das Casas",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-varanda-no--45452651",
+      "title": "Apartamento t2 com varanda no estoril",
       "price": null,
-      "market_estimate": 676800.0,
+      "market_estimate": 511200.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-ericeira-a-c-40809521",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-com-varanda-no--45452651",
       "zone": "Lisboa Centro",
-      "area_m2": 94.0,
+      "area_m2": 71.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.654275+00:00",
+      "scraped_at": "2026-11-22T13:58:41.513608+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1330,21 +1308,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "40b02e6890ba7f7c"
+      "id": "e312740045f1ab5c"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-duplex-mafra-45475443",
-      "title": "Apartamento T4 Duplex Mafra",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-miraflores-45370368",
+      "title": "Apartamento T3 em Miraflores",
       "price": null,
-      "market_estimate": 1504800.0,
+      "market_estimate": 849600.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t4-duplex-mafra-45475443",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-miraflores-45370368",
       "zone": "Lisboa Centro",
-      "area_m2": 209.0,
+      "area_m2": 118.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.654453+00:00",
+      "scraped_at": "2026-11-22T13:58:41.513871+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1352,21 +1330,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "f911368b1c221788"
+      "id": "bacb864376ec29fb"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-de-luxo-com-cobertura-priva-45450364",
-      "title": "T3 de Luxo com cobertura privativa de 90 m² e piscina",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-miraflores-c-45370317",
+      "title": "Apartamento T3 em Miraflores com estacionamento",
       "price": null,
-      "market_estimate": 648000.0,
+      "market_estimate": 849600.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t3-de-luxo-com-cobertura-priva-45450364",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-miraflores-c-45370317",
       "zone": "Lisboa Centro",
-      "area_m2": 90.0,
+      "area_m2": 118.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.654626+00:00",
+      "scraped_at": "2026-11-22T13:58:41.514141+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1374,21 +1352,21 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "7665e6999b4507c6"
+      "id": "c84afbb8efa30a4b"
     },
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-monte-abraao--45450259",
-      "title": "Apartamento t2 | monte abraão | arrecadação + varanda",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-olivais-de-8-44914484",
+      "title": "Apartamento T3 em Olivais de 85 m2",
       "price": null,
-      "market_estimate": 633600.0,
+      "market_estimate": 612000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-monte-abraao--45450259",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-em-olivais-de-8-44914484",
       "zone": "Lisboa Centro",
-      "area_m2": 88.0,
+      "area_m2": 85.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.654811+00:00",
+      "scraped_at": "2026-11-22T13:58:41.514392+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1396,7 +1374,117 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "05b63c27f0a4e706"
+      "id": "9abec036ade0abdd"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamentos-novos-conforto--45207692",
+      "title": "Apartamentos novos | conforto, qualidade e design contemporâneo",
+      "price": null,
+      "market_estimate": 540000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamentos-novos-conforto--45207692",
+      "zone": "Lisboa Centro",
+      "area_m2": 75.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:41.514665+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "45a2ba2ea16e85a1"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/duplex-t3-duplex-mafra-44740039",
+      "title": "Duplex T3 Duplex Mafra",
+      "price": null,
+      "market_estimate": 878400.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/duplex-t3-duplex-mafra-44740039",
+      "zone": "Lisboa Centro",
+      "area_m2": 122.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:41.514915+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "f2e01f1d9150344a"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-duplex-mafra-44740015",
+      "title": "Apartamento T3 Duplex Mafra",
+      "price": null,
+      "market_estimate": 878400.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-duplex-mafra-44740015",
+      "zone": "Lisboa Centro",
+      "area_m2": 122.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:41.515163+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "22741849aaf44515"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45422380",
+      "title": "Apartamento T2 Mafra",
+      "price": null,
+      "market_estimate": 691200.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45422380",
+      "zone": "Lisboa Centro",
+      "area_m2": 96.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:41.515440+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "4daa2374641c12ce"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45422378",
+      "title": "Apartamento T2 Mafra",
+      "price": null,
+      "market_estimate": 842400.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-mafra-45422378",
+      "zone": "Lisboa Centro",
+      "area_m2": 117.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:41.515692+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "94c17fe2ed47ef46"
     },
     {
       "portal": "Custo Justo",
@@ -1410,7 +1498,7 @@
       "zone": "Lisboa Centro",
       "area_m2": 50.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.654993+00:00",
+      "scraped_at": "2026-11-22T13:58:41.515938+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1423,104 +1511,16 @@
     {
       "portal": "Custo Justo",
       "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-massama-e-mo-45360016",
-      "title": "Apartamento T2 em Massamá e Monte Abraão de 95,5 m2",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-45235672?utm_source=li&utm_medium=gallery&utm_content=45235672",
+      "title": "Apartamento T3 Mafra",
       "price": null,
-      "market_estimate": 687600.0,
+      "market_estimate": 640000.0,
       "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-massama-e-mo-45360016",
-      "zone": "Lisboa Centro",
-      "area_m2": 95.5,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.655185+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "39f171a325800edc"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-novo-na-quinta-dos-fardos--45449984",
-      "title": "T2 Novo Na Quinta Dos Fardos, Apelação-...",
-      "price": null,
-      "market_estimate": 554400.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-novo-na-quinta-dos-fardos--45449984",
-      "zone": "Lisboa Centro",
-      "area_m2": 77.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.655385+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "59d445008847ea11"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-cascais-e-es-45449890",
-      "title": "Apartamento T2 em Cascais e Estoril de 65,23 m2",
-      "price": null,
-      "market_estimate": 469656.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-cascais-e-es-45449890",
-      "zone": "Lisboa Centro",
-      "area_m2": 65.23,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.655562+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "9655dc98b39f3fed"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-em-sao-vicente--45449889",
-      "title": "Apartamento T1 em São Vicente de 45 m2",
-      "price": null,
-      "market_estimate": 324000.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t1-em-sao-vicente--45449889",
-      "zone": "Lisboa Centro",
-      "area_m2": 45.0,
-      "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:53.655725+00:00",
-      "details": {
-        "fonte_raw": "custojusto_http"
-      },
-      "is_real": true,
-      "discount_pct": 0,
-      "score": 0,
-      "confidence": 0.85,
-      "id": "68c26382b60f99e9"
-    },
-    {
-      "portal": "Custo Justo",
-      "category": "imovel",
-      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-renovado-na-par-45421075?utm_source=li&utm_medium=gallery&utm_content=45421075",
-      "title": "Apartamento T3 Renovado na Parede",
-      "price": null,
-      "market_estimate": 422400.0,
-      "currency": "EUR",
-      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-renovado-na-par-45421075?utm_source=li&utm_medium=gallery&utm_content=45421075",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-mafra-45235672?utm_source=li&utm_medium=gallery&utm_content=45235672",
       "zone": "Parque das Nações",
-      "area_m2": 66.0,
+      "area_m2": 100.0,
       "posted_date": null,
-      "scraped_at": "2026-11-21T14:07:57.475457+00:00",
+      "scraped_at": "2026-11-22T13:58:44.753833+00:00",
       "details": {
         "fonte_raw": "custojusto_http"
       },
@@ -1528,7 +1528,29 @@
       "discount_pct": 0,
       "score": 0,
       "confidence": 0.85,
-      "id": "d945129207629576"
+      "id": "a0dd967c082cf156"
+    },
+    {
+      "portal": "Custo Justo",
+      "category": "imovel",
+      "external_id": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-totalmente-renovado-com-vis-45456876?utm_source=li&utm_medium=gallery&utm_content=45456876",
+      "title": "T2 Totalmente Renovado com Vista sobre o Rio e o Parque Urbano Vale do Silêncio Lisboa",
+      "price": null,
+      "market_estimate": 512000.0,
+      "currency": "EUR",
+      "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/t2-totalmente-renovado-com-vis-45456876?utm_source=li&utm_medium=gallery&utm_content=45456876",
+      "zone": "Parque das Nações",
+      "area_m2": 80.0,
+      "posted_date": null,
+      "scraped_at": "2026-11-22T13:58:44.754139+00:00",
+      "details": {
+        "fonte_raw": "custojusto_http"
+      },
+      "is_real": true,
+      "discount_pct": 0,
+      "score": 0,
+      "confidence": 0.85,
+      "id": "58fa39115b2e3721"
     }
   ]
 }
